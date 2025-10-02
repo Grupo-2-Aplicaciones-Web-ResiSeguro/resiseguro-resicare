@@ -2281,4 +2281,9 @@ Para nuestro proyecto se creo 1 repositorio de nombre **Landing-Page**, el cual 
 
 ## 7. Bibliografía
 
+Insurama. (s. f.). Todos tus dispositivos protegidos. https://insurama.pe/
+Rímac Seguros. (s. f.). Cotiza tu seguro – Vehicular, Salud, Vida, Inversión, Viajes. https://www.rimac.com/
+Pacífico Seguros. (s. f.). Seguros : Pacífico Perú. Recuperado de https://www.pacifico.com.pe/?from=google_-search-2024-
+03_PAC_BRANDTERMS_AON_CON_SEARCH-BRAND-CON_TODOS_CPC_PAL_BRAND_PXCC-_TXT_NULL_SEGURO-
+PAC&ds_rl=1273039&ds_rl=1275782&gad_campaignid=1618912959
 ## 8. Anexos
