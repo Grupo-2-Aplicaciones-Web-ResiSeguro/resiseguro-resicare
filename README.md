@@ -2233,6 +2233,22 @@ El propósito de este segundo sprint es consolidar las mejoras realizadas al rep
 | **Sprint 2 Velocity**          |   Se estimarón un total de 35                                                                                                                                                                                                                                                |
 | **Sum of Story Points**        |      Nuestro equipo puedo alcanzó 35         |
 
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+En este Sprint, el equipo se enfocó en el desarrollo y despliegue de las vistas principales de la aplicación web frontend, así como en la integración con una Fake API para simular la interacción con el backend. Los aspectos principales considerados en este Sprint incluyen el diseño e implementación de componentes del frontend y la integración de las vistas con la Fake API. A continuación, se presenta la matriz Leadership-and-Collaboration Matrix (LACX), que detalla los roles de liderazgo y colaboración asignados a cada miembro del equipo para los aspectos clave del Sprint.
+
+| Team Member (Last Name, First Name)          | GitHub Username | Pantalla principal (Dashboard) | Proceso de nuevo reclamo | Registro de objetos | Visualización de reclamos | Visualización de historial de reclamos | Visualización de recordatorios | Simulador de reembolso | Cita por teleconsulta |
+|----------------------------------------------|-----------------|--------------------------------|--------------------------|---------------------|----------------------------|----------------------------------------|--------------------------------|------------------------|-----------------------|
+| Hermoza Quispe, Jude Alessandro              | JvynnDev        | C                              | L                        |        L             |                            |                                        |                                |                        |                       |
+| Choy Robles, Vanessa May Lang                | VMLCR           |                                | C                        |                    |                            |    L                                    |                                |                        |                       |
+| Ramirez Escalante, Carlo Patricio            | Carlo211        |      L                         |                          |                     |      L                      |                                        |                                |                        |                       |
+| Pariona Lucas, Jose Manuel                   | parionalucasjosemanuel |                                |                          |                     |                           |                                        |     L                           |                        |                       |
+| Rios Pacheco, Hector Javier                  | Khafna09        |                                |                          |                     | C                          |                                       |                                |              L          |    L                   |
+
+
+
+
+En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar una comunicación clara y efectiva dentro del equipo, promoviendo la eficiencia en la ejecución de las tareas relacionadas con el alcance del Sprint.
 
 ## 6. Conclusiones y Recomendaciones
 #### Conclusiones
