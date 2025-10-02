@@ -2286,6 +2286,15 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 #### 5.2.2.5 Execution Evidence for Sprint Review.
 Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas correspondientes a las stories. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindando así una nueva perspectiva del producto que se está desarrollando.
 
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Durante este sprint, se avanzó significativamente en la implementación de los primeros servicios web necesarios para la funcionalidad básica del Front End. Se desarrollaron e integraron operaciones CRUD que permiten la interacción con los datos de manera dinámica. Esta sección resume los logros alcanzados en relación con la documentación técnica de estos servicios, detallando su estructura, endpoints, métodos utilizados y la forma en que se conectan con la interfaz de usuario. Estos avances marcan un paso importante en la transición desde una interfaz estática hacia una aplicación funcional y orientada al usuario.
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
 ## 6. Conclusiones y Recomendaciones
 #### Conclusiones
 - El proyecto demuestra que existe una necesidad real y validable en el segmento objetivo, respaldada por evidencia cualitativa de usuarios y stakeholders.
