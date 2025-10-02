@@ -2246,9 +2246,40 @@ En este Sprint, el equipo se enfocó en el desarrollo y despliegue de las vistas
 | Rios Pacheco, Hector Javier                  | Khafna09        |                                |                          |                     | C                          |                                       |                                |              L          |    L                   |
 
 
-
-
 En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar una comunicación clara y efectiva dentro del equipo, promoviendo la eficiencia en la ejecución de las tareas relacionadas con el alcance del Sprint.
+
+#### 5.2.2.3 Sprint Backlog 2
+
+Esta sección describe de forma resumida el objetivo principal del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. A continuación, se incluye una captura del tablero del sprint gestionado en la herramienta Trello, junto con el enlace público correspondiente. También se presenta una tabla que detalla las User Stories asignadas al sprint, los Work-items o tareas asociadas, y las actividades adicionales requeridas para cumplir con los objetivos establecidos.
+
+Este es nuestro link de invitación a nuestro Trello:
+
+Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15f2851befede5ae8F410C17A/sprint-backlog 
+
+<p align="center">
+  <img src="./assets/sprintBacklog2.png" alt="Sprint Backlog2" width="800">
+</p>
+
+| **User Story** | **Work-Item / Task** |        | **Title**                          | **Description**                                                                 | **Estimation (Hours)** | **Assigned to** | **Status** |
+| -------------- | -------------------- | ------ | ---------------------------------- | ------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| US-08          | Iniciar reclamo por chat (foto + texto) | W-17   | Diseñar interfaz de chat con adjuntos | Crear diseño de UI para chat que permita adjuntar foto y texto.                 | 2                      | Carlo           | Done       |
+| US-09          | Validación de reclamos  | W-19   | Diseñar lógica de validación         | Definir reglas y flujo de validación para reclamos simples.           | 2                      | Jude         | Done       |
+| US-09          | Validación automática de reclamos menores | W-20   | Implementar validación automática    | Programar verificación automática con respuestas predefinidas.                  | 3                      | Jude            | Done       |
+| US-11          | Historial y estado de reclamos           | W-21   | Diseñar UI de historial              | Crear diseño de lista de reclamos con estados y fechas.                         | 1.5                    | Vanessa          | Done       |
+| US-11          | Historial y estado de reclamos           | W-22   | Implementar consulta de historial    | Programar la recuperación y visualización del historial de reclamos.            | 1.5                    | Carlo            | Done       |
+| US-12          | Simulador de devolución (cliente)        | W-23   | Diseñar flujo del simulador          | Diseñar interfaz que muestre valores de reembolso con inputs del cliente.       | 1.5                    | Héctor          | Done       |
+| US-12          | Simulador de devolución (cliente)        | W-24   | Implementar lógica del simulador     | Programar cálculo de montos y mostrar resultado dinámico.                       | 1.5                    | Héctor            | Done       |
+| US-13          | Panel de prevenciones y recordatorios    | W-25   | Diseñar interfaz de recordatorios    | Crear panel para mostrar recordatorios y alertas preventivas.                   | 1.5                    | José         | Done       |
+| US-13          | Panel de prevenciones y recordatorios    | W-26   | Implementar sistema de notificaciones | Programar recordatorios y alertas con persistencia en el sistema.               | 1.5                    | José          | Done       |
+| US-14          | Teleconsulta on-demand                   | W-27   | Diseñar pantalla de teleconsulta     | Crear UI de teleconsulta rápida con botón de acceso inmediato.                  | 2                      | Héctor            | Done       |
+| US-15          | Agenda y registro de teleconsultas       | W-29   | Diseñar agenda de consultas          | Diseñar pantalla con calendario/lista de citas médicas.                         | 1.5                    | Carlo           | Done       |
+| US-15          | Agenda y registro de teleconsultas       | W-30   | Implementar registro de citas        | Programar almacenamiento y visualización de citas.                      | 1.5                    | Jude            | Done       |
+| US-17          | Reporte rápido de pérdida en traslado    | W-31   | Diseñar formulario de reporte rápido | Diseñar UI simple con campos de prueba + ubicación.                             | 1.5                    | Jude           | Done       |
+| US-17          | Reporte rápido de pérdida en traslado    | W-32   | Implementar carga de evidencia       | Programar carga de prueba (foto) y geolocalización aproximada.                  | 1.5                    | Jude            | Done       |
+| US-31          | Compartir evidencia múltiple             | W-33   | Diseñar flujo de adjuntar múltiples archivos | Definir UI/UX para subir varias fotos o archivos.                        | 1.5                    | Jude         | Done       |
+| US-33          | Evaluación al cierre del reclamo         | W-35   | Diseñar encuesta de satisfacción     | Crear interfaz con opciones de calificación y comentarios.                      | 1                      | Vanessa           | Done       |
+| US-33          | Evaluación al cierre del reclamo         | W-36   | Implementar registro de feedback     | Programar almacenamiento de evaluación en la base de datos.                     | 1                      | Carlo          | Done       |
+
 
 ## 6. Conclusiones y Recomendaciones
 #### Conclusiones
