@@ -2217,20 +2217,22 @@ Para nuestro proyecto se creo 1 repositorio de nombre **Landing-Page**, el cual 
   <img src="./assets/insights/landing1.png" alt="insight" width="400">
 </p>
 
-## 6. Conclusiones y Recomendaciones
-#### Conclusiones
-- El proyecto demuestra que existe una necesidad real y validable en el segmento objetivo, respaldada por evidencia cualitativa de usuarios y stakeholders.
+#### 5.2.2. Sprint 2
+##### 5.2.2.1. Sprint Planning 2
+El propósito de este segundo sprint es consolidar las mejoras realizadas al reporte inicial, respondiendo a las observaciones del profesor, y avanzar con la construcción funcional de la aplicación. Nos enfocaremos en ajustar y optimizar la landing page desarrollada en el sprint anterior, así como en implementar la primera versión del Front End, incorporando funcionalidades CRUD básicas. Esto permitirá comenzar a visualizar la interacción del usuario con la propuesta y validar aspectos clave del diseño y la experiencia de uso.
 
-- La metodología aplicada (Lean UX, pruebas con usuarios y definición de hipótesis SMART) permite reducir incertidumbre y enfocar esfuerzos en lo que realmente aporta valor.
+| **Sprint #**                   | Sprint 2                                                                                                                                                                                                                                          |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background** |                                                                                                                                                                                                                                                   |
+| **Date**                       | 02/10/2025                                                                                                                                                                                                                                        |
+| **Location**                   | El desarrollo de la reunión se realizó virtualmente por medio de Discord                                                                                                                                                                          |
+| **Prepared By**                | Héctor Ríos                                                                                                                                                                    |
+| **Sprint 2 Review Summary**    | Se ha mejorado varios puntos con respecto al reporte según las observaciones que mencionó el profesor. Además, se creó la primera versión de nuestra landing page.                                                                                |
+| **Sprint 2 Retrospective Summary** | Hubo un correcto progreso, aunque con algunas correcciones por realizar se avanzó como se esperaba. Consideramos que la landing page realizada cumple con lo esperado, sin embargo, hubieron unos detalles faltantes.                      |
+| **Sprint 2 Goal**              | Nuestra prioridad en este sprint es el mejoramiento de la información del reporte y añadir pequeñas adaptaciones a nuestra landing page. Además, implementar la primera versión de la aplicación Front End mediante el uso de CRUDS. Creemos que esto podrá dar una mejor presentación de las funcionalidades que posee nuestra propuesta y dar una mejor idea del diseño. Esto se confirmará cuando los usuarios destinarios puedan interactuar sin problema con la interfaz y generar una buena opinión. |
+| **Sprint 2 Velocity**          |   Se estimarón un total de 35                                                                                                                                                                                                                                                |
+| **Sum of Story Points**        |      Nuestro equipo puedo alcanzó 35         |
 
-- El éxito depende de un equipo multidisciplinario y colaborativo con ciclos de trabajo iterativos, medición continua y toma de decisiones basada en datos.
-
-#### Recomendaciones
-
-- El trabajo realizado evidencia un buen nivel de análisis y alineación metodológica; recomendamos seguir documentando cada hallazgo y validación de manera estructurada para que sirva como base sólida en las siguientes fases del proyecto.
-<p align="center">
-  <img src="./assets/insights/landing1.png" alt="insight" width="400">
-</p>
 
 ## 6. Conclusiones y Recomendaciones
 #### Conclusiones
