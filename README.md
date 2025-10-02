@@ -2280,6 +2280,11 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 | US-33          | Evaluación al cierre del reclamo         | W-35   | Diseñar encuesta de satisfacción     | Crear interfaz con opciones de calificación y comentarios.                      | 1                      | Vanessa           | Done       |
 | US-33          | Evaluación al cierre del reclamo         | W-36   | Implementar registro de feedback     | Programar almacenamiento de evaluación en la base de datos.                     | 1                      | Carlo          | Done       |
 
+#### 5.2.2.4 Development Evidence for Sprint Review
+
+
+#### 5.2.2.5 Execution Evidence for Sprint Review.
+Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas correspondientes a las stories. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindando así una nueva perspectiva del producto que se está desarrollando.
 
 ## 6. Conclusiones y Recomendaciones
 #### Conclusiones
