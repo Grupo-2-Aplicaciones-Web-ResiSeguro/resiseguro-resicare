@@ -630,41 +630,6 @@ Naim Napuri, de 30 años y residente de Comas, participó en una entrevista diri
 | **Inicio entrevista**| 0:03                                                                            |
 | **Duración**         | 5:01 minutos                                                                    |
 | **Enlace**           | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/EUNKjS80OfhLs6yWCsnoiB4BcRQTANGhn_3YmpcR0mTxsQ?e=PbJavS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D| 
-#### Entrevista 4
-
-
-<p align="center">
-  <img src="./assets/entrevistas/entrevista4.jpg" alt="entrevista1" width="400">
-</p>
-
-Matías Bueno Perales, joven de 19 años de La Perla, compartió su experiencia y percepciones sobre la protección de pertenencias y suscripciones de seguridad. Considera esenciales el celular y la laptop, con un valor de 2000 y 3500 soles, respectivamente. Relató haber sufrido el robo de su celular, lo que le generó un gasto extra de 2000 soles.
-
-| **Detalle**          | **Información**                                                                 |
-|----------------------|---------------------------------------------------------------------------------|
-| **Entrevistador**    | Jude Hermoza Quispe                                                             |
-| **Entrevistado**     | Matías Bueno Perales                                                            |
-| **Edad**             | 19 años                                                                         |
-| **Inicio entrevista**| 0:03                                                                            |
-| **Duración**         | 5:55 minutos                                                                    |
-| **Enlace**           | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/EUaeXiTyj61IjJjyNJ6GsCkBYXe08h3Bc9bhc-3rztYFHQ?e=Pjrhlk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D| 
-
-#### Entrevista 5
-
-
-<p align="center">
-  <img src="./assets/entrevistas/entrevista5.jpg" alt="entrevista1" width="400">
-</p>
-
-Naim Napuri, de 30 años y residente de Comas, participó en una entrevista dirigida por Jude Hermoza para validar soluciones de protección de pertenencias de estudiantes. Compartió la importancia de resguardar objetos valiosos (como laptop y celular), su disposición a pagar por un servicio de seguridad y sus expectativas sobre la atención y transparencia de las startups que ofrecen estos planes.
-
-| **Detalle**          | **Información**                                                                 |
-|----------------------|---------------------------------------------------------------------------------|
-| **Entrevistador**    | Jude Hermoza Quispe                                                             |
-| **Entrevistado**     | Naim Napuri                                                                     |
-| **Edad**             | 30 años                                                                         |
-| **Inicio entrevista**| 0:03                                                                            |
-| **Duración**         | 5:01 minutos                                                                    |
-| **Enlace**           | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/EUNKjS80OfhLs6yWCsnoiB4BcRQTANGhn_3YmpcR0mTxsQ?e=PbJavS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D| 
 
 
 #### Entrevista 6
