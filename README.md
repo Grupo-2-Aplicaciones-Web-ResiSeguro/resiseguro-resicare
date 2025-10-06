@@ -2282,8 +2282,8 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 | US-31          | Compartir evidencia múltiple             | W-33   | Diseñar flujo de adjuntar múltiples archivos | Definir UI/UX para subir varias fotos o archivos.                        | 1.5                    | Jude         | Done       |
 | US-33          | Evaluación al cierre del reclamo         | W-35   | Diseñar encuesta de satisfacción     | Crear interfaz con opciones de calificación y comentarios.                      | 1                      | Vanessa           | Done       |
 | US-33          | Evaluación al cierre del reclamo         | W-36   | Implementar registro de feedback     | Programar almacenamiento de evaluación en la base de datos.                     | 1                      | Carlo          | Done       |
-| US-34 | Registro de objeto para ser asegurado|W-37|Implementar el registro del objeto asegurado |1|Jude|Done|
-| US-34 | Registro de objeto para ser asegurado|W-37| Vincular el registro del objeto a un nuevo reclamo realizado |1|Jude|Done|
+| US-34 | Registro de objeto para ser asegurado|W-37|Implementar el registro del objeto asegurado  |Programar un formulario para registrar el objeto que se desea asegurar |1|Jude|Done|
+| US-34 | Registro de objeto para ser asegurado|W-37| Vincular el registro del objeto a un nuevo reclamo realizado |Vincular un boton que permita redirigir a la opciónde registro del objeto|1|Jude|Done|
 
 #### 5.2.2.4 Development Evidence for Sprint Review
 
