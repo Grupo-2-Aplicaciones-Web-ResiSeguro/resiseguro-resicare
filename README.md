@@ -2270,6 +2270,21 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 | US-34 | Registro de objeto para ser asegurado|W-37| Vincular el registro del objeto a un nuevo reclamo realizado |Vincular un boton que permita redirigir a la opciónde registro del objeto|1|Jude|Done|
 
 #### 5.2.2.4 Development Evidence for Sprint Review
+| Repository | Branch             | Commit ID | Commit Message                                                                                                                 |
+| ---------- | ------------------ | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| ResiCare   | develop            | e4027c6   | feat: enhance server middleware for CORS support and add logout functionality                                                  |
+| ResiCare   | develop            | b461779   | fix: updating route                                                                                                            |
+| ResiCare   | develop            | b637b81   | fix: import of teleconsultations                                                                                               |
+| ResiCare   | develop            | 8c9b553   | feat: add realistic mock data for reminders                                                                                    |
+| ResiCare   | develop            | 2e8fad0   | feat: add mock realistic data for register object                                                                              |
+| ResiCare   | develop            | 9b71e71   | fix: improve user ID extraction from localStorage and token                                                                    |
+| ResiCare   | develop            | 4aec45a   | refactor(claims): unify claims contexts and components, remove legacy code, and update routes                                  |
+| ResiCare   | RemindersAndAlerts | 95c6594   | feat(reminders): add i18n support and translation for reminder types                                                           |
+| ResiCare   | feature/myclaims   | e0890c2   | Merge branch 'develop' into feature/myclaims                                                                                   |
+| ResiCare   | feature/NewClaim   | c2ccd3c   | feat: add claim and registered object forms with related components and API integration; fix routes, i18n, and UI registration |
+| ResiCare   | feature/simulator  | 821c551   | feat: add reimbursement-simulator                                                                                              |
+| ResiCare   | teleconsultations  | a0c4904   | feat: add list of consultations list                                                                                           |
+| ResiCare   | profiles           | 5625dff   | fix: reorder of db.json                                                                                                        |
 
 
 #### 5.2.2.5 Execution Evidence for Sprint Review.
