@@ -2440,15 +2440,28 @@ Front-End:
 
 ## 6. Conclusiones y Recomendaciones
 #### Conclusiones
-- El proyecto demuestra que existe una necesidad real y validable en el segmento objetivo, respaldada por evidencia cualitativa de usuarios y stakeholders.
+- El desarrollo de ResiCare confirma la existencia de una necesidad real en el segmento universitario, donde los estudiantes y sus familias buscan soluciones de protección simples, digitales y accesibles. Las pruebas con usuarios, encuestas y prototipos permitieron validar la hipótesis inicial y refinar la propuesta de valor de manera iterativa.
 
 - La metodología aplicada (Lean UX, pruebas con usuarios y definición de hipótesis SMART) permite reducir incertidumbre y enfocar esfuerzos en lo que realmente aporta valor.
 
+- La aplicación disciplinada del marco ágil SCRUM facilitó la planificación y seguimiento de avances en cada sprint, logrando una evolución constante del producto. El uso de herramientas colaborativas (GitHub, Trello, Figma, Render) permitió mantener trazabilidad, sincronización entre tareas y revisión continua del código.
+
+- La adopción de una arquitectura basada en Domain-Driven Design y el uso del modelo C4 posibilitaron un diseño técnico modular, mantenible y alineado con los procesos del dominio del seguro.
+Esta estructura permitirá escalar los bounded contexts de forma independiente (Claims, Policies, Users, Payments) sin afectar la integridad del sistema.
+
 - El éxito depende de un equipo multidisciplinario y colaborativo con ciclos de trabajo iterativos, medición continua y toma de decisiones basada en datos.
+
+- La adopción de buenas prácticas de versionado, estilos de código, integración continua y despliegue en Render garantiza mantenibilidad, control de versiones y reducción de errores en producción.
+
+- El proyecto no solo aporta una solución tecnológica, sino también un modelo replicable de innovación universitaria aplicada, que combina investigación, diseño centrado en el usuario y desarrollo ágil de software con propósito social.
 
 #### Recomendaciones
 
 - El trabajo realizado evidencia un buen nivel de análisis y alineación metodológica; recomendamos seguir documentando cada hallazgo y validación de manera estructurada para que sirva como base sólida en las siguientes fases del proyecto.
+
+- Mejorar la carga inicial de la Single Page Application mediante lazy loading y compresión de recursos, con el fin de optimizar la experiencia y reducir el tiempo de respuesta.
+
+- Adoptar buenas prácticas de accesibilidad (contraste de colores, etiquetas, navegación con teclado). Añadir feedback visual en acciones críticas (confirmaciones, loaders, toasts).
 
 ## 7. Bibliografía
 
@@ -2457,4 +2470,5 @@ Rímac Seguros. (s. f.). Cotiza tu seguro – Vehicular, Salud, Vida, Inversión
 Pacífico Seguros. (s. f.). Seguros : Pacífico Perú. Recuperado de https://www.pacifico.com.pe/?from=google_-search-2024-
 03_PAC_BRANDTERMS_AON_CON_SEARCH-BRAND-CON_TODOS_CPC_PAL_BRAND_PXCC-_TXT_NULL_SEGURO-
 PAC&ds_rl=1273039&ds_rl=1275782&gad_campaignid=1618912959
+
 ## 8. Anexos
