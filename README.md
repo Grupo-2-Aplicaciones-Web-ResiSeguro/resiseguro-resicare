@@ -2317,14 +2317,15 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 | ResiCare   | feature/simulator  | 821c551   | feat: add reimbursement-simulator                                                                                              |
 | ResiCare   | teleconsultations  | a0c4904   | feat: add list of consultations list                                                                                           |
 | ResiCare   | profiles           | 5625dff   | fix: reorder of db.json                                                                                                        |
-| ResiCare   | historyclaimsdetails          | 
-07805a7   | feat: add list of history claims and details more download list                                                                                                       |
+| ResiCare   | historyclaimsdetails          | 07805a7   | feat: add list of history claims and details more download list                                                     |
 
 
 #### 5.2.2.5 Execution Evidence for Sprint Review.
 Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas correspondientes a las stories. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindando así una nueva perspectiva del producto que se está desarrollando. En este Sprint, nuestro equipo ha conseguido completar y desplegar la Landing Page y el Front End. A continuación, se mostrará los screens sacasdos desde la web: 
 Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/ 
+<br>
 Link del Front End desplegada: 
+<br>
 **Landing  Page:**
 <p align="center">
   <img src="./assets/landing/landingPage1.jpg" alt="landingPage1" width="800">
@@ -2412,7 +2413,9 @@ Durante este sprint, se avanzó significativamente en la implementación de los 
 
 
 Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/ 
+<br>
 Link del Front End desplegada: 
+<br>
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 Durante el Sprint 2, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave de la nueva Landing Page y la primera version del Front End. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo.
 
