@@ -63,7 +63,7 @@
 
 
 ## Project Report Collaboration Insights  
-
+**TB1**
 Todas las actividades asignadas para la entrega de la TB1 han sido completadas y se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro . En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro/Informe-ResiCare
 Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el trabajo colaborativo.
 
@@ -81,6 +81,40 @@ Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el traba
 <p align="center">
   <img src="./assets/network1.png" alt="insights" width="400">
       <img src="./assets/network2.png" alt="insights" width="400">
+</p>
+
+**TP1**
+Todas las actividades asignadas para la entrega de la TP1 han sido completadas tanto mejoras del informe, nueva version de Landing Page, Primera Vesion de Front End  y se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro . En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro/Informe-ResiCare
+Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el trabajo colaborativo.
+
+
+**Insights Readme**
+Front End: 
+<p align="center">
+  <img src="./assets/insights2/contributorsfrontend.png" alt="contributorsfrontend" width="800">
+</p>
+Informe: 
+<p align="center">
+  <img src="./assets/insights2/contributorsinforme.png" alt="contributorsinforme" width="800">
+</p>
+Landing Page: 
+<p align="center">
+  <img src="./assets/insights2/contributorslandingpage.png" alt="contributorslandingpage" width="800">
+</p>
+**Network Readme**
+
+Front  End:
+
+<p align="center">
+  <img src="./assets/insights2/networksfrontend.png" alt="networksfrontend" width="800">
+</p>
+Informe: 
+<p align="center">
+  <img src="./assets/insights2/networksinforme.png" alt="networksinforme" width="800">
+</p>
+Landing Page: 
+<p align="center">
+  <img src="./assets/insights2/networkslandingpage.png" alt="networkslandingpage" width="800">
 </p>
 # Tabla de Contenidos
 
@@ -2070,7 +2104,7 @@ En el Sprint 1, el equipo se enfocó en establecer las bases de nuestra presenci
 | **Date**                              | 08-09-2025                                                                                                                                                                                   |
 | **Time**                              | 12:00 PM                                                                                                                                                                                     |
 | **Location**                          | Virtual – Discord                                                                                                                                                                            |
-| **Prepared By**                       | Héctor Ríos                                                                                                                                                                            |
+| **Prepared By**                       |  Carlo Ramirez , José Pariona, Vanessa Choy, Héctor Ríos, Jude Hermoza                                                                                                                                                                            | 
 | **Attendees (to planning meeting)**   | Carlo Ramirez , José Pariona, Vanessa Choy, Héctor Ríos, Jude Hermoza                                                                                     |
 | **Sprint n-1 Review Summary**         | Este es el primer Sprint, por lo que este campo aún no es aplicable                                                                                                                         |
 | **Sprint n-1 Retrospective Summary**  | Este es el primer Sprint, por lo que este campo aún no es aplicable                                                                                                                         |
@@ -2173,8 +2207,6 @@ En este Sprint, nuestro equipo ha conseguido completar y desplegar la Landing Pa
 
 Durante el Sprint no se integraron servicios a través de APIs, por lo que no fue necesaria la generación de documentación técnica relacionada a este aspecto.
 
-Link de la Landing Page desplegada: 
-
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 **Design**
 Para realizar el diseño de los wireframes y mockups de la Landing Page de ResiSeguro, se hizo uso de la plataforma Figma. Para utilizar la plataforma seguimos los siguientes pasos:
@@ -2197,7 +2229,7 @@ Para crear la Organización en Github seguimos los siguientes pasos:
   <img src = "./assets/github5.png" width = "500">
 
 Para nuestro proyecto se creo 1 repositorio de nombre **Landing-Page**, el cual usamos para subir la landing page y desarrollar continuamente el informe del proyecto.
-
+Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 <p align="center">
@@ -2213,9 +2245,9 @@ El propósito de este segundo sprint es consolidar las mejoras realizadas al rep
 | **Sprint Planning Background** |                                                                                                                                                                                                                                                   |
 | **Date**                       | 02/10/2025                                                                                                                                                                                                                                        |
 | **Location**                   | El desarrollo de la reunión se realizó virtualmente por medio de Discord                                                                                                                                                                          |
-| **Prepared By**                | Héctor Ríos                                                                                                                                                                    |
-| **Sprint 2 Review Summary**    | Se ha mejorado varios puntos con respecto al reporte según las observaciones que mencionó el profesor. Además, se creó la primera versión de nuestra landing page.                                                                                |
-| **Sprint 2 Retrospective Summary** | Hubo un correcto progreso, aunque con algunas correcciones por realizar se avanzó como se esperaba. Consideramos que la landing page realizada cumple con lo esperado, sin embargo, hubieron unos detalles faltantes.                      |
+| **Prepared By**                |  Carlo Ramirez , José Pariona, Vanessa Choy, Héctor Ríos, Jude Hermoza                                                                                                                                                                  |
+| **Sprint 2 Review Summary**    | Se ha mejorado varios puntos con respecto al reporte según las observaciones que mencionó el profesor. Además, se creó la nueva versión de nuestra landing page y la primera version de Front End.                                                                                 |
+| **Sprint 2 Retrospective Summary** | Hubo un correcto progreso, aunque con algunas correcciones por realizar se avanzó como se esperaba. Consideramos que la landing page realizada y la primera version de Front End cumple con lo esperado.                      |
 | **Sprint 2 Goal**              | Nuestra prioridad en este sprint es el mejoramiento de la información del reporte y añadir pequeñas adaptaciones a nuestra landing page. Además, implementar la primera versión de la aplicación Front End mediante el uso de CRUDS. Creemos que esto podrá dar una mejor presentación de las funcionalidades que posee nuestra propuesta y dar una mejor idea del diseño. Esto se confirmará cuando los usuarios destinarios puedan interactuar sin problema con la interfaz y generar una buena opinión. |
 | **Sprint 2 Velocity**          |   Se estimarón un total de 38                                                                                                                                                                                                                                                |
 | **Sum of Story Points**        |      Nuestro equipo puedo alcanzó 38         |
@@ -2229,7 +2261,7 @@ En este Sprint, el equipo se enfocó en el desarrollo y despliegue de las vistas
 | Hermoza Quispe, Jude Alessandro              | JvynnDev        | C                              | L                        |        L             |                            |                                        |                                |                        |                       |
 | Choy Robles, Vanessa May Lang                | VMLCR           |                                | C                        |                    |                            |    L                                    |                                |                        |                       |
 | Ramirez Escalante, Carlo Patricio            | Carlo211        |      L                         |                          |                     |      L                      |                                        |                                |                        |                       |
-| Pariona Lucas, Jose Manuel                   | parionalucasjosemanuel |                                |                          |                     |                           |                                        |     L                           |                        |                       |
+| Pariona Lucas, Jose Manuel                   | parionalucasjosemanuel |                                |                          |                     |               C            |          L                              |     C                           |                        |                       |
 | Rios Pacheco, Hector Javier                  | Khafna09        |                                |                          |                     | C                          |                                       |                                |              L          |    L                   |
 
 
@@ -2252,8 +2284,8 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 | US-08          | Iniciar reclamo por chat (foto + texto) | W-17   | Diseñar interfaz de chat con adjuntos | Crear diseño de UI para chat que permita adjuntar foto y texto.                 | 2                      | Carlo           | Done       |
 | US-09          | Validación de reclamos  | W-19   | Diseñar lógica de validación         | Definir reglas y flujo de validación para reclamos simples.           | 2                      | Jude         | Done       |
 | US-09          | Validación automática de reclamos menores | W-20   | Implementar validación automática    | Programar verificación automática con respuestas predefinidas.                  | 3                      | Jude            | Done       |
-| US-11          | Historial y estado de reclamos           | W-21   | Diseñar UI de historial              | Crear diseño de lista de reclamos con estados y fechas.                         | 1.5                    | Vanessa          | Done       |
-| US-11          | Historial y estado de reclamos           | W-22   | Implementar consulta de historial    | Programar la recuperación y visualización del historial de reclamos.            | 1.5                    | Carlo            | Done       |
+| US-11          | Historial y estado de reclamos           | W-21   | Diseñar UI de historial              | Crear diseño de lista de reclamos con estados y fechas.                         | 1.5                    | José         | Done       |
+| US-11          | Historial y estado de reclamos           | W-22   | Implementar consulta de historial    | Programar la recuperación y visualización del historial de reclamos.            | 1.5                    | José            | Done       |
 | US-12          | Simulador de devolución (cliente)        | W-23   | Diseñar flujo del simulador          | Diseñar interfaz que muestre valores de reembolso con inputs del cliente.       | 1.5                    | Héctor          | Done       |
 | US-12          | Simulador de devolución (cliente)        | W-24   | Implementar lógica del simulador     | Programar cálculo de montos y mostrar resultado dinámico.                       | 1.5                    | Héctor            | Done       |
 | US-13          | Panel de prevenciones y recordatorios    | W-25   | Diseñar interfaz de recordatorios    | Crear panel para mostrar recordatorios y alertas preventivas.                   | 1.5                    | José         | Done       |
@@ -2285,10 +2317,93 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 | ResiCare   | feature/simulator  | 821c551   | feat: add reimbursement-simulator                                                                                              |
 | ResiCare   | teleconsultations  | a0c4904   | feat: add list of consultations list                                                                                           |
 | ResiCare   | profiles           | 5625dff   | fix: reorder of db.json                                                                                                        |
+| ResiCare   | historyclaimsdetails          | 
+07805a7   | feat: add list of history claims and details more download list                                                                                                       |
 
 
 #### 5.2.2.5 Execution Evidence for Sprint Review.
-Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas correspondientes a las stories. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindando así una nueva perspectiva del producto que se está desarrollando.
+Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas correspondientes a las stories. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindando así una nueva perspectiva del producto que se está desarrollando. En este Sprint, nuestro equipo ha conseguido completar y desplegar la Landing Page y el Front End. A continuación, se mostrará los screens sacasdos desde la web: 
+Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/ 
+Link del Front End desplegada: 
+**Landing  Page:**
+<p align="center">
+  <img src="./assets/landing/landingPage1.jpg" alt="landingPage1" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/landing/landingPage2.jpg" alt="landingPage2" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/landing/landingPage3.jpg" alt="landingPage3" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/landing/landingPage4.jpg" alt="landingPage4" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/landing/landingPage5.jpg" alt="landingPage5" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/landing/landingPage6.jpg" alt="landingPage6" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/landing/landingPage7.jpg" alt="landingPage7" width="800">
+</p>
+
+**Front End:**
+<p align="center">
+  <img src="./assets/frontend/historyclaims.jpg" alt="historyclaims" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/historyclaims1.jpg" alt="historyclaims1" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/historyclaims2.jpg" alt="historyclaims2" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/historyclaims3.jpg" alt="historyclaims3" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/home.png" alt="home" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/login.png" alt="login" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/newclaim.png" alt="newclaim" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/register.png" alt="register" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/registerobject.png" alt="registerobject" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/remindersandalerts.png" alt="remindersandalerts" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/simulator.png" alt="simulator" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontend/teleconsultations.png" alt="teleconsultations" width="800">
+</p>
+
+
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 Durante este sprint, se avanzó significativamente en la implementación de los primeros servicios web necesarios para la funcionalidad básica del Front End. Se desarrollaron e integraron operaciones CRUD que permiten la interacción con los datos de manera dinámica. Esta sección resume los logros alcanzados en relación con la documentación técnica de estos servicios, detallando su estructura, endpoints, métodos utilizados y la forma en que se conectan con la interfaz de usuario. Estos avances marcan un paso importante en la transición desde una interfaz estática hacia una aplicación funcional y orientada al usuario.
@@ -2296,8 +2411,27 @@ Durante este sprint, se avanzó significativamente en la implementación de los 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
 
+Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/ 
+Link del Front End desplegada: 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
+Durante el Sprint 2, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave de la nueva Landing Page y la primera version del Front End. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo.
 
+Informe:
+<p align="center">
+  <img src="./assets/insights2/contributorsinforme.png" alt="contributorsinforme" width="800">
+</p>
+
+Landing Page:
+
+<p align="center">
+  <img src="./assets/insights2/contributorslandingpage.png" alt="contributorslandingpage" width="800">
+</p>
+
+Front-End: 
+
+<p align="center">
+  <img src="./assets/insights2/contributorsfrontend.png" alt="contributorsfrontend" width="800">
+</p>
 
 ## 6. Conclusiones y Recomendaciones
 #### Conclusiones
