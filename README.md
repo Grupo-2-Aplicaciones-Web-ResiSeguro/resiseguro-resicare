@@ -1723,23 +1723,7 @@ La arquitectura interna sigue principios de arquitectura hexagonal (Adaptadores 
 Esto asegura una separación clara de responsabilidades, fomenta la reutilización y permite la sustitución de proveedores externos con bajo impacto en la lógica central.
 
 <p align="center">
-  <img src="./assets/diagramResiCarecartComponent.png" alt="Diagram ResiCare cartComponent" width="500">
-</p>
-
-<p align="center">
-  <img src="./assets/diagramResiCareclaimsComponent.png" alt="Diagram ResiCare claimsComponent" width="500">
-</p>
-
-<p align="center">
-  <img src="./assets/diagramResiCarenotificationComponent.png" alt="Diagram ResiCare notificationComponent" width="500">
-</p>
-
-<p align="center">
-  <img src="./assets/diagramResiCarepaymentComponent.png" alt="Diagram ResiCare paymentComponent" width="500">
-</p>
-
-<p align="center">
-  <img src="./assets/diagramResiCareuserComponent.png" alt="Diagram ResiCare userComponent" width="500">
+  <img src="./assets/diagramResiCareComponent.png" alt="Diagram ResiCareComponent" width="500">
 </p>
 
 ### 4.7. Software Object-Oriented Design
