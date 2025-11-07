@@ -206,6 +206,28 @@ Landing Page:
       - [5.2.1.6 Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7 Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8 Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2 Sprint 2](#522-sprint-2)
+      - [5.2.2.1 Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3 Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+
+    - [5.2.3 Sprint 3](#522-sprint-3)
+      - [5.2.3.1 Sprint Planning 3](#5221-sprint-planning-3)
+      - [5.2.3.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.3.3 Sprint Backlog 3](#5223-sprint-backlog-3)
+      - [5.2.3.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.3.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+      
+      
+      
   - [6. Conclusiones](#conclusiones)
   - [7. Bibliografía](#bibliografia)
   - [8. Anexos](#anexos)
@@ -2331,7 +2353,7 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas correspondientes a las stories. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindando así una nueva perspectiva del producto que se está desarrollando. En este Sprint, nuestro equipo ha conseguido completar y desplegar la Landing Page y el Front End. A continuación, se mostrará los screens sacasdos desde la web: 
 Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/ 
 <br>
-Link del Front End desplegada: https://resicare-fronte.vercel.app
+Link del Front End desplegada: https://resicare-frontend.vercel.app/
 <br>
 **Landing  Page:**
 <p align="center">
@@ -2438,7 +2460,7 @@ Durante este sprint, se avanzó significativamente en la implementación de los 
 
 Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/ 
 <br>
-Link del Front End desplegada: https://resicare-fronte.vercel.app
+Link del Front End desplegada: https://resicare-frontend.vercel.app/
 <br>
 
 <p align="center">
@@ -2473,7 +2495,7 @@ Link del Front End desplegada: https://resicare-fronte.vercel.app
   <img src="./assets/frontendD/8.JPG" alt="contributorsinforme" width="800">
 </p>
 
-##### 5.2.1.8. Team Collaboration Insights during Sprint
+##### 5.2.2.8. Team Collaboration Insights during Sprint
 Durante el Sprint 2, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave de la nueva Landing Page y la primera version del Front End. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo.
 
 Informe:
