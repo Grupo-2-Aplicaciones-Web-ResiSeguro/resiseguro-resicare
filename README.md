@@ -2589,10 +2589,117 @@ En este Sprint, el equipo se enfocó en desarrollar los módulos clave del siste
 
 
 #### 5.2.3.5 Execution Evidence for Sprint Review.
+En la realización de este sprint se logró la implementación de la base de datos del backend y su deploy; lo cual incluye el desarrollo de varios endponts e ingreso de datos.
+### Auth – Gestión de usuarios
+| Método | Endpoint             | Descripción                          |
+|-------|-----------------------|--------------------------------------|
+| GET   | `/api/users`         | Listar usuarios (general/paginado).  |
+| POST  | `/api/users`         | Crear un nuevo usuario.              |
+| GET   | `/api/users/{id}`    | Obtener un usuario por ID.           |
+| GET   | `/api/users/all`     | Listar **todos** los usuarios.       |
 
+---
+
+### Claim – Gestión de reclamos
+| Método | Endpoint                         | Descripción                         |
+|-------|-----------------------------------|-------------------------------------|
+| GET   | `/api/claims`                     | Listar reclamos.                    |
+| POST  | `/api/claims`                     | Crear un reclamo.                   |
+| GET   | `/api/claims/user/{userId}`       | Reclamos de un usuario.             |
+| GET   | `/api/claims/{id}`                | Obtener un reclamo por ID.          |
+| PATCH | `/api/claims/{id}`                | Actualizar parcialmente un reclamo. |
+| DELETE| `/api/claims/{id}`                | Eliminar un reclamo.                |
+
+---
+
+### Profile – Gestión de perfiles
+| Método | Endpoint              | Descripción                             |
+|-------|------------------------|-----------------------------------------|
+| GET   | `/api/profiles`       | Listar perfiles.                        |
+| POST  | `/api/profiles`       | Crear un perfil.                        |
+| GET   | `/api/profiles/{id}`  | Obtener un perfil por ID.               |
+| PATCH | `/api/profiles/{id}`  | Actualización parcial de un perfil.     |
+| DELETE| `/api/profiles/{id}`  | Eliminar un perfil.                     |
+
+---
+
+### RegisteredObject – Objetos registrados
+| Método | Endpoint                               | Descripción                               |
+|-------|-----------------------------------------|-------------------------------------------|
+| GET   | `/api/registered-objects`               | Listar objetos registrados.               |
+| POST  | `/api/registered-objects`               | Registrar un nuevo objeto.                |
+| GET   | `/api/registered-objects/user/{userId}` | Objetos registrados por un usuario.       |
+| GET   | `/api/registered-objects/{id}`          | Obtener un objeto por ID.                 |
+| PATCH | `/api/registered-objects/{id}`          | Actualización parcial de un objeto.       |
+| DELETE| `/api/registered-objects/{id}`          | Eliminar un objeto registrado.            |
+
+---
+
+### Reminder – Recordatorios
+| Método | Endpoint                   | Descripción                                  |
+|-------|-----------------------------|----------------------------------------------|
+| GET   | `/api/reminders`           | Listar recordatorios.                        |
+| POST  | `/api/reminders`           | Crear un recordatorio.                       |
+| GET   | `/api/reminders/{id}`      | Obtener un recordatorio por ID.              |
+| PATCH | `/api/reminders/{id}`      | Actualización parcial de un recordatorio.    |
+| DELETE| `/api/reminders/{id}`      | Eliminar un recordatorio.                    |
+| GET   | `/api/reminders/upcoming`  | Próximos recordatorios (filtro por fecha).   |
+
+---
+
+### Teleconsultation – Teleconsultas
+| Método | Endpoint                                   | Descripción                             |
+|-------|---------------------------------------------|-----------------------------------------|
+| GET   | `/api/teleconsultations`                    | Listar teleconsultas.                   |
+| POST  | `/api/teleconsultations`                    | Crear una teleconsulta.                 |
+| GET   | `/api/teleconsultations/{id}`               | Obtener una teleconsulta por ID.        |
+| PUT   | `/api/teleconsultations/{id}`               | Actualizar una teleconsulta (reemplazo).|
+| DELETE| `/api/teleconsultations/{id}`               | Eliminar una teleconsulta.              |
+| GET   | `/api/teleconsultations/service/{service}`  | Filtrar por tipo/servicio.              |
+
+<p align="center">
+  <img src="./assets/swagger.png" alt="swagerendpoints" width="800">
+</p>
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+Se ha desarrollado una API RESTful para el Backend de la aplicación. A continuación se muestra la documentación de los servicios implementados.
+
+| Endpoint            | Action                               | HTTP Method | Call Syntax                                       |
+|---------------------|--------------------------------------|-------------|---------------------------------------------------|
+| **Auth**            | Get all users                        | GET         | `/api/users`                                      |
+|                     | Create user                          | POST        | `/api/users`                                      |
+|                     | Get user by ID                       | GET         | `/api/users/{id}`                                 |
+|                     | Get all users (no paging)            | GET         | `/api/users/all`                                  |
+| **Claim**           | List claims                          | GET         | `/api/claims`                                     |
+|                     | Create claim                         | POST        | `/api/claims`                                     |
+|                     | Get claims by user                   | GET         | `/api/claims/user/{userId}`                       |
+|                     | Get claim by ID                      | GET         | `/api/claims/{id}`                                |
+|                     | Update claim (partial)               | PATCH       | `/api/claims/{id}`                                |
+|                     | Delete claim                         | DELETE      | `/api/claims/{id}`                                |
+| **Profile**         | List profiles                        | GET         | `/api/profiles`                                   |
+|                     | Create profile                       | POST        | `/api/profiles`                                   |
+|                     | Get profile by ID                    | GET         | `/api/profiles/{id}`                              |
+|                     | Update profile (partial)             | PATCH       | `/api/profiles/{id}`                              |
+|                     | Delete profile                       | DELETE      | `/api/profiles/{id}`                              |
+| **RegisteredObject**| List registered objects              | GET         | `/api/registered-objects`                         |
+|                     | Create registered object             | POST        | `/api/registered-objects`                         |
+|                     | Get objects by user                  | GET         | `/api/registered-objects/user/{userId}`           |
+|                     | Get object by ID                     | GET         | `/api/registered-objects/{id}`                    |
+|                     | Update registered object (partial)   | PATCH       | `/api/registered-objects/{id}`                    |
+|                     | Delete registered object             | DELETE      | `/api/registered-objects/{id}`                    |
+| **Reminder**        | List reminders                       | GET         | `/api/reminders`                                  |
+|                     | Create reminder                      | POST        | `/api/reminders`                                  |
+|                     | Get reminder by ID                   | GET         | `/api/reminders/{id}`                             |
+|                     | Update reminder (partial)            | PATCH       | `/api/reminders/{id}`                             |
+|                     | Delete reminder                      | DELETE      | `/api/reminders/{id}`                             |
+|                     | Upcoming reminders                   | GET         | `/api/reminders/upcoming`                         |
+| **Teleconsultation**| List teleconsultations               | GET         | `/api/teleconsultations`                          |
+|                     | Create teleconsultation              | POST        | `/api/teleconsultations`                          |
+|                     | Get teleconsultation by ID           | GET         | `/api/teleconsultations/{id}`                     |
+|                     | Update teleconsultation (replace)    | PUT         | `/api/teleconsultations/{id}`                     |
+|                     | Delete teleconsultation              | DELETE      | `/api/teleconsultations/{id}`                     |
+|                     | Get by service                       | GET         | `/api/teleconsultations/service/{service}`        |
 
 #### 5.2.3.7 Software Deployment Evidence for Sprint Review
 
