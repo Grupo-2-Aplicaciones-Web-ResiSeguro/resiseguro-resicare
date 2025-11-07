@@ -2286,7 +2286,7 @@ El propósito de este segundo sprint es consolidar las mejoras realizadas al rep
 
 En este Sprint, el equipo se enfocó en el desarrollo y despliegue de las vistas principales de la aplicación web frontend, así como en la integración con una Fake API para simular la interacción con el backend. Los aspectos principales considerados en este Sprint incluyen el diseño e implementación de componentes del frontend y la integración de las vistas con la Fake API. A continuación, se presenta la matriz Leadership-and-Collaboration Matrix (LACX), que detalla los roles de liderazgo y colaboración asignados a cada miembro del equipo para los aspectos clave del Sprint.
 
-| Team Member (Last Name, First Name)          | GitHub Username | Pantalla principal (Dashboard) | Proceso de nuevo reclamo | Registro de objetos | Visualización de reclamos | Visualización de historial de reclamos | Visualización de recordatorios | Simulador de reembolso | Cita por teleconsulta |
+| Team Member (Ríos Pacheco, Héctor)          | GitHub Username | Pantalla principal (Dashboard) | Proceso de nuevo reclamo | Registro de objetos | Visualización de reclamos | Visualización de historial de reclamos | Visualización de recordatorios | Simulador de reembolso | Cita por teleconsulta |
 |----------------------------------------------|-----------------|--------------------------------|--------------------------|---------------------|----------------------------|----------------------------------------|--------------------------------|------------------------|-----------------------|
 | Hermoza Quispe, Jude Alessandro              | JvynnDev        | C                              | L                        |        L             |                            |                                        |                                |                        |                       |
 | Choy Robles, Vanessa May Lang                | VMLCR           |                                | C                        |                    |                            |    L                                    |                                |                        |                       |
@@ -2537,11 +2537,23 @@ En el Sprint 3, el equipo se centró en refinar y optimizar el frontend según
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 
 
+
+En este Sprint, el equipo se enfocó en desarrollar los módulos clave del sistema ResiCare, abordando funcionalidades centrales como gestión de perfiles, reclamos, recordatorios, teleconsultas y simulación por calculadora. Para asegurar una asignación eficiente y una ejecución organizada, cada módulo fue liderado por un miembro del equipo, acompañado por uno o dos colaboradores, distribuidos según los análisis de participación reflejados en los commits.
+
+
+| Team Member (Ríos Pacheco, Héctor) | GitHub Username        | Proceso de nuevo reclamo | Registro de objetos | Visualización de reclamos | Visualización de historial de reclamos | Visualización de recordatorios | Simulador de reembolso | Cita por teleconsulta |
+| ---------------------------------- | ---------------------- | ------------------------ | ------------------- | ------------------------- | -------------------------------------- | ------------------------------ | ---------------------- | --------------------- |
+| Hermoza Quispe, Jude Alessandro    | JvynnDev               | L                        | L                   |                           |                                        |                                |                        |                       |
+| Ramirez Escalante, Carlo Patricio  | Carlo211               |                          |                     | L                         |                    C                    |           L                     |                        |                       |
+| Pariona Lucas, Jose Manuel         | parionalucasjosemanuel |                          |                     | C                         | L                                      | C                              |                        |                       |
+| Rios Pacheco, Hector Javier        | Khafna09               |                          |                     | C                         |                                        |                                | L                      | L                     |
+
+
+
 #### 5.2.3.3 Sprint Backlog 3
 
 
 #### 5.2.3.4 Development Evidence for Sprint Review
-
 
 
 #### 5.2.3.5 Execution Evidence for Sprint Review.
@@ -2554,6 +2566,16 @@ En el Sprint 3, el equipo se centró en refinar y optimizar el frontend según
 
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+## 5.3 Validation interviews
+
+### 5.3.1 Diseño de Entrevistas
+
+### 5.3.2 Registro de Entrevistas
+
+### 5.3.3 Evaluaciones según heurísticas
+
+## 5.4 Video About-the-Product
 
 
 ## 6. Conclusiones y Recomendaciones
