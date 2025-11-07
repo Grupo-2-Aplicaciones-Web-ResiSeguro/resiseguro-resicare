@@ -2515,6 +2515,47 @@ Front-End:
   <img src="./assets/insights2/contributorsfrontend.png" alt="contributorsfrontend" width="800">
 </p>
 
+#### 5.2.3. Sprint 3
+##### 5.2.3.1. Sprint Planning 3
+
+En el Sprint 3, el equipo se centró en refinar y optimizar el frontend según el feedback recibido, actualizar la landing page, producir los videos “About the Team” y “About the Product” y desplegar el backend en un entorno operativo, asegurando así una experiencia más sólida y completa para los usuarios.
+
+| Campo                               | Detalle                                                                                                                                                                                                                                                      |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                        | Sprint 3                                                                                                                                                                                                                                                     |
+| **Fecha**                           | 06/11/2025                                                                                                                                                                                                                                                  |
+| **Hora**                            | 19:00                                                                                                                                                                                                                                                        |
+| **Location**                   | El desarrollo de la reunión se realizó virtualmente por medio de Discord                                                                                                                                                                          |
+| **Prepared By**                |  Carlo Ramirez , José Pariona, Héctor Ríos, Jude Hermoza                                                                                                                                                                  |
+| **Asistentes (planning meeting)**   | Carlo Ramirez , José Pariona, Héctor Ríos, Jude Hermoza                                                                                                                                                                         |
+| **Sprint n-1 Review Summary**       | En el Sprint 2 corregimos y validamos el reporte original, implementamos los CRUDs de los bounded contexts y desplegamos la estructura navegable básica del frontend con contenidos iniciales.                                                               |
+| **Sprint n-1 Retrospective Summary**| En el Sprint 2 resolvimos los problemas de despliegue del frontend que quedaron pendientes; estas tareas pasaron a este sprint donde ya fueron completamente solucionadas e implementadas.                                                                   |
+| **Sprint Goal**             | Nuestro enfoque es refinar y optimizar el frontend según el feedback recibido, ajustar la landing page, producir y presentar los videos “About the Team” y “About the Product” y crear y desplegar nuestro backend en un entorno operativo. Creemos que esto permitirá una correcta aceptación y difusión de nuestro producto, así como una buena gestión de datos, proporcionando comodidad y funcionalidad a los usuarios.Esto se confirmará cuando los usuarios vean los videos y se sientan atraídos a probar nuestro producto. |
+| **Sprint Velocity**                 |                                                                                                                                                                                                        |
+| **Sum of Story Points**             |                                                                                                                                                                                                              |
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+
+
+#### 5.2.3.3 Sprint Backlog 3
+
+
+#### 5.2.3.4 Development Evidence for Sprint Review
+
+
+
+#### 5.2.3.5 Execution Evidence for Sprint Review.
+
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+#### 5.2.3.7 Software Deployment Evidence for Sprint Review
+
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+
 ## 6. Conclusiones y Recomendaciones
 #### Conclusiones
 - El desarrollo de ResiCare confirma la existencia de una necesidad real en el segmento universitario, donde los estudiantes y sus familias buscan soluciones de protección simples, digitales y accesibles. Las pruebas con usuarios, encuestas y prototipos permitieron validar la hipótesis inicial y refinar la propuesta de valor de manera iterativa.
