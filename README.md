@@ -128,7 +128,7 @@ Landing Page:
 
 **TB2**
 Todas las actividades asignadas para la entrega de la TB2 han sido completadas tanto mejoras del informe, nueva version de Landing Page, Nueva version de Front End y Primera version del Backend  y se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro . En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro/Informe-ResiCare
-Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el trabajo colaborativo.
+Aqui se pueden aprecion todos los commits hechos en la TB2 evidenciando el trabajo colaborativo.
 
 **Insights Readme**
 
