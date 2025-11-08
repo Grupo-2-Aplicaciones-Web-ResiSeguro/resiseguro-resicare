@@ -125,6 +125,50 @@ Landing Page:
 <p align="center">
   <img src="./assets/insights2/networkslandingpage.png" alt="networkslandingpage" width="800">
 </p>
+
+**TB2**
+Todas las actividades asignadas para la entrega de la TB2 han sido completadas tanto mejoras del informe, nueva version de Landing Page, Nueva version de Front End y Primera version del Backend  y se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro . En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro/Informe-ResiCare
+Aqui se pueden aprecion todos los commits hechos en la TB1 evidenciando el trabajo colaborativo.
+
+**Insights Readme**
+
+Front End: 
+<p align="center">
+  <img src="./assets/insight3/contributorstb2frontend.png" alt="contributorsfrontend" width="800">
+</p>
+Informe: 
+<p align="center">
+  <img src="./assets/insights2/contributorsinforme.png" alt="contributorsinforme" width="800">
+</p>
+Landing Page: 
+<p align="center">
+  <img src="./assets/insights2/contributorslandingpage.png" alt="contributorslandingpage" width="800">
+</p>
+Backend:
+<p align="center">
+  <img src="./assets/insight3/contributorstb2backend.png" alt="contributorsfrontend" width="800">
+</p>
+
+**Network Readme**
+
+Front  End:
+
+<p align="center">
+  <img src="./assets/insights3/networktb2frontend.png" alt="networksfrontend" width="800">
+</p>
+Informe: 
+<p align="center">
+  <img src="./assets/insights2/networksinforme.png" alt="networksinforme" width="800">
+</p>
+Landing Page: 
+<p align="center">
+  <img src="./assets/insights2/networkslandingpage.png" alt="networkslandingpage" width="800">
+</p>
+Backend: 
+<p align="center">
+  <img src="./assets/insights3/networktb2backend.png" alt="networksfrontend" width="800">
+</p>
+
 # Tabla de Contenidos
 
 - Capítulo I: Introducción
@@ -2725,6 +2769,23 @@ Se ha desarrollado una API RESTful para el Backend de la aplicación. A continua
 
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
+Durante el Sprint 3, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave de la nueva Landing Page y la primera version nueva version del Front End ademas de la primera version del Backend. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo.
+Front End: 
+<p align="center">
+  <img src="./assets/insight3/contributorstb2frontend.png" alt="contributorsfrontend" width="800">
+</p>
+Informe: 
+<p align="center">
+  <img src="./assets/insights2/contributorsinforme.png" alt="contributorsinforme" width="800">
+</p>
+Landing Page: 
+<p align="center">
+  <img src="./assets/insights2/contributorslandingpage.png" alt="contributorslandingpage" width="800">
+</p>
+Backend:
+<p align="center">
+  <img src="./assets/insight3/contributorstb2backend.png" alt="contributorsfrontend" width="800">
+</p>
 
 ## 5.3 Validation interviews
 
