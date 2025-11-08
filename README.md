@@ -154,7 +154,7 @@ Backend:
 Front  End:
 
 <p align="center">
-  <img src="./assets/insights3/networktb2frontend.png" alt="networksfrontend" width="800">
+  <img src="./assets/insight3/networktb2frontend.png" alt="networksfrontend" width="800">
 </p>
 Informe: 
 <p align="center">
@@ -166,7 +166,7 @@ Landing Page:
 </p>
 Backend: 
 <p align="center">
-  <img src="./assets/insights3/networktb2backend.png" alt="networksfrontend" width="800">
+  <img src="./assets/insight3/networktb2backend.png" alt="networksfrontend" width="800">
 </p>
 
 # Tabla de Contenidos
