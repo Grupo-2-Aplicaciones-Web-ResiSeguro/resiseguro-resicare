@@ -2531,8 +2531,8 @@ En el Sprint 3, el equipo se centró en refinar y optimizar el frontend según
 | **Sprint n-1 Review Summary**       | En el Sprint 2 corregimos y validamos el reporte original, implementamos los CRUDs de los bounded contexts y desplegamos la estructura navegable básica del frontend con contenidos iniciales.                                                               |
 | **Sprint n-1 Retrospective Summary**| En el Sprint 2 resolvimos los problemas de despliegue del frontend que quedaron pendientes; estas tareas pasaron a este sprint donde ya fueron completamente solucionadas e implementadas.                                                                   |
 | **Sprint Goal**             | Nuestro enfoque es refinar y optimizar el frontend según el feedback recibido, ajustar la landing page, producir y presentar los videos “About the Team” y “About the Product” y crear y desplegar nuestro backend en un entorno operativo. Creemos que esto permitirá una correcta aceptación y difusión de nuestro producto, así como una buena gestión de datos, proporcionando comodidad y funcionalidad a los usuarios.Esto se confirmará cuando los usuarios vean los videos y se sientan atraídos a probar nuestro producto. |
-| **Sprint Velocity**                 |                                                                                                                                                                                                        |
-| **Sum of Story Points**             |                                                                                                                                                                                                              |
+| **Sprint Velocity**                 |     Para este sprint velocity se han estimado 48  story points                                                                                                                                                                                                   |
+| **Sum of Story Points**             |        La suma de history points a llevar a cabo es 48 story points                                                                                                                                                                                                      |
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 
@@ -2551,6 +2551,25 @@ En este Sprint, el equipo se enfocó en desarrollar los módulos clave del siste
 
 
 #### 5.2.3.3 Sprint Backlog 3
+
+En este sprint estamos encargardos y propuestos de realizar un API Restful mediante la implementación del backend en C# & .Net.
+A continuación se listara la tabla con las stories relacionadas y llevadas a cabo para completar en este tercer sprint.
+
+| Story ID   | Story Title                                       | Task ID | Task Title                                   | Description                                                                                           | Estimation (Hrs) | Assigned To                  | Status      |
+| ---------- | ------------------------------------------------- | ------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------- | ---------------------------- | ----------- |
+| **US-01**  | Registro con validación universitaria             | T34     | Implementar endpoint de registro de usuarios | Desarrollo del endpoint POST `/api/users` para registro de usuarios con validaciones de correo y rol. | 4.5              | Héctor Ríos                  | Done        |
+| **US-02**  | Inicio de sesión seguro                           | T35     | Autenticación e inicio de sesión JWT         | Creación de endpoints de login/logout con token JWT y middleware de autorización.                     | 4                | Héctor Ríos                  | Done        |
+| **US-08**  | Iniciar reclamo por chat (foto + texto)           | T36     | Endpoint de reclamos con adjuntos            | Implementación de `/api/claims` para crear y consultar reclamos con adjuntos.                         | 5                | Jude Hermoza                 | Done        |
+| **US-09**  | Validación automática de reclamos menores         | T37     | Reglas de validación automática              | Programación de lógica para responder automáticamente a reclamos simples.                             | 4                | Jude Hermoza                 | Done        |
+| **US-11**  | Historial y estado de reclamos                    | T38     | Consulta de historial de reclamos            | Endpoint GET `/api/claims/user/{id}` y vistas en frontend para mostrar historial.                     | 3.5              | José Pariona / Jude Hermoza  | Done        |
+| **US-14**  | Teleconsulta on-demand                            | T39     | Módulo de teleconsultas                      | Implementación de endpoints CRUD `/api/teleconsultations` para registro y gestión de citas virtuales. | 5                | Carlo Ramírez                | Done        |
+| **US-15**  | Agenda y registro de teleconsultas                | T40     | Programación de agenda de teleconsultas      | Funcionalidad para agendar y consultar teleconsultas con persistencia en BD.                          | 4.5              | Carlo Ramírez                | Done        |
+| **US-20**  | Ver resumen de beneficios (Landing)               | T41     | Actualización de sección About / Benefits    | Actualización del contenido de la landing page con videos y textos institucionales.                   | 3                | José Pariona                 | Done        |
+| **US-21**  | Visualizar testimonios (Landing)                  | T42     | Agregar testimonios y elementos multimedia   | Incorporación de bloques de testimonios y mejoras responsive en landing.                              | 2.5              | Vanessa Choy / José Pariona  | Done        |
+| **US-22**  | Acceder desde distintos dispositivos (responsive) | T43     | Refinamiento UI responsive                   | Optimización visual y de navegación en vistas principales según feedback.                             | 4                | Vanessa Choy                 | In-Progress |
+| **US-26**  | Acceder al registro o inicio desde landing        | T44     | Integrar CTA de registro desde landing       | Implementar botones CTA que redirigen al registro/login del frontend.                                 | 2.5              | José Pariona / Jude Hermoza  | Done        |
+| **US-34**  | Registro de objetos asegurados                    | T45     | Endpoint y UI de objetos                     | Desarrollo del endpoint y vista para registrar objetos asegurados.                                    | 3.5              | José Pariona / Carlo Ramírez | Done        |
+
 
 
 #### 5.2.3.4 Development Evidence for Sprint Review
