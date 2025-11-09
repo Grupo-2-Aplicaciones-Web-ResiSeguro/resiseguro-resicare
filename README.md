@@ -2807,6 +2807,7 @@ Durante el proceso, Render compiló la imagen Docker y ejecutó el contenedor de
 **Verificación del Despliegue**
 Finalmente, una vez completado el proceso, el sistema generó un enlace público de acceso al servicio web:
 https://resicare-backend.onrender.com
+https://resicare-backend.onrender.com/swagger/index.html
 <br>
 A través de esta URL se puede verificar el correcto funcionamiento del backend y su disponibilidad para el consumo desde el frontend o pruebas con herramientas externas (como Postman).
 <br>
