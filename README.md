@@ -2767,7 +2767,56 @@ Se ha desarrollado una API RESTful para el Backend de la aplicación. A continua
 
 #### 5.2.3.7 Software Deployment Evidence for Sprint Review
 
+**Backend Deployment**
+<br>
+Para el despliegue del backend de nuestro proyecto ResiCare, realizamos el proceso mediante la plataforma Render, configurando un servicio web con Docker. A continuación, se detalla el procedimiento seguido:
+<br>
+**1)Acceso y Configuración del Servicio**
+<br>
+Iniciamos sesión en Render y accedimos a nuestro panel principal. Desde allí, creamos un nuevo Web Service denominado resicare-backend, asociado a nuestro repositorio de GitHub:
+https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro/resicare-backend.
+<br>
+**2)Configuración General del Servicio**
+<br>
+En la sección Settings, verificamos y establecimos los siguientes parámetros:
 
+Name: resicare-backend
+
+Region: Oregon (US West), para asegurar una comunicación óptima dentro de la red privada.
+
+Instance Type: Plan Free, con una asignación de 0.1 CPU y 512 MB de RAM, suficientes para entornos de desarrollo y pruebas iniciales.
+<br>
+**3)Configuración del Repositorio y Rama**
+<br>
+En el apartado Build & Deploy, vinculamos correctamente el repositorio de GitHub del grupo, seleccionando la rama develop como fuente de construcción y despliegue automático.
+Esto garantiza que cualquier cambio realizado y confirmado en dicha rama pueda ser actualizado mediante un despliegue manual o automatizado.
+<br>
+**4)Configuración del Docker y Entorno**
+Previamente, incluimos en el repositorio el archivo Dockerfile, necesario para que Render pueda construir el entorno del contenedor y ejecutar la aplicación de backend correctamente.
+Además, configuramos las variables de entorno necesarias para la conexión con la base de datos, asegurando que las credenciales y direcciones fueran compatibles con el servicio externo utilizado.
+<br>
+
+**5)Conexión con la Base de Datos**
+Creamos una base de datos en FreeSQLDatabase.com, donde generamos el host, puerto, usuario, contraseña y nombre de base de datos.
+Estos datos fueron integrados en las variables de entorno de Render para establecer la conexión directa entre el backend y la base de datos remota.
+<br>
+**6)Despliegue del Servicio Web**
+Tras completar la configuración, realizamos el despliegue seleccionando la opción Manual Deploy → Deploy Web Service.
+Durante el proceso, Render compiló la imagen Docker y ejecutó el contenedor de manera automática, habilitando así el backend.
+<br>
+**Verificación del Despliegue**
+Finalmente, una vez completado el proceso, el sistema generó un enlace público de acceso al servicio web:
+https://resicare-backend.onrender.com
+<br>
+A través de esta URL se puede verificar el correcto funcionamiento del backend y su disponibilidad para el consumo desde el frontend o pruebas con herramientas externas (como Postman).
+<br>
+Backend:
+<p align="center">
+  <img src="./assets/deploymentevidence1.jpg" alt="contributorsfrontend" width="800">
+</p>
+<p align="center">
+  <img src="./assets/deploymentevidence2.jpg" alt="contributorsfrontend" width="800">
+</p>
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 Durante el Sprint 3, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave de la nueva Landing Page y la primera version nueva version del Front End ademas de la primera version del Backend. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo.
 Front End: 
