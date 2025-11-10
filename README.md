@@ -2872,6 +2872,21 @@ Con el objetivo de validar la interfaz desarrollada hasta el momento, se realiza
 
 10. ¿Hubo algún momento en que te sentiste confundido o no sabías qué hacer a continuación?
 ### 5.3.2 Registro de Entrevistas
+### Entrevista #1
+<p align="center">
+  <img src="./assets/entrevistas/entrevista7.jpg" alt="Entrevista 7" width="400">
+</p>
+
+Gabriel Gordon (21 años) prueba una aplicación web para estudiantes y comparte una opinión muy positiva. Le gustó el diseño visual, destacando la armonía de los colores y la buena organización de los elementos. Mencionó que la navegación es clara y sencilla, y que los textos, botones e íconos son fácilmente comprensibles. Consideró que la interfaz es intuitiva, ya que pudo usarla sin ayuda, y valoró su adaptabilidad a diferentes dispositivos. Como mejora, sugirió añadir imágenes o pequeños elementos interactivos para hacer la experiencia más dinámica. En general, calificó la aplicación como simple, funcional y agradable de usar, sin presentar dificultades ni confusiones.
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Héctor Javier Rios Pacheco            |
+| **Entrevistado**  | Gabriel Fernando Gordon                |
+| **Edad**          | 21 años                                    |
+| **Duración**      | 3:52 minutos                               |
+| **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c540_upc_edu_pe/EWqBfSsPg39ItbHrGTRtuosB0cUUe7XD_hzZ-rARqQ8_qQ?e=pVhdAb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
 
 ### 5.3.3 Evaluaciones según heurísticas
 
