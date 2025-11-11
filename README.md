@@ -2984,6 +2984,18 @@ Usar un color o marcador activo, título de sección visible y breadcrumbs simpl
 
 ## 5.4 Video About-the-Product
 
+<p align="center">
+  <img src="./assets/videoabouttheproduct.png" alt="contributorsfrontend" width="800">
+</p>
+**Link del Video About-the-Product:**
+<br>
+https://upcedupe-my.sharepoint.com/:v:/r/personal/u202119257_upc_edu_pe/Documents/2025-11-10%2020-15-06.mkv?csf=1&web=1&e=Q6NW9t&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<br>
+**Link de Youtube incrustado en la Landing Page:**
+<br>
+https://youtu.be/GFTJlxqyARo
+Duracion: 7 minutos con 4 segundos 
 
 ## 6. Conclusiones y Recomendaciones
 #### Conclusiones
