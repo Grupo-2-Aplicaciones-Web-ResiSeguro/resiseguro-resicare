@@ -270,6 +270,12 @@ Backend:
       - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.3 Validation Interviews](#53-validation-interviews)
+      - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
+      - [5.3.3 Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.4 Video About-the-Product](#54-video-about-the-product)
+
       
       
       
@@ -2946,7 +2952,7 @@ Gabriel Gordon (21 años) prueba una aplicación web para estudiantes y comparte
 
 ## Análisis Heurístico Detallado
 
-### 🟧 Problema #01: Falta de orientación en formularios (Claims y Teleconsultas)
+###  Problema #01: Falta de orientación en formularios (Claims y Teleconsultas)
 **Severidad:** 3  
 **Heurística violada:** Coincidencia con el mundo real / Ayuda y documentación
 
@@ -2958,7 +2964,7 @@ Agregar placeholders con ejemplos (“Describe el incidente…”), marcar campo
 
 ---
 
-### 🟦 Problema #02: Interfaz poco dinámica e interacción limitada
+### Problema #02: Interfaz poco dinámica e interacción limitada
 **Severidad:** 2  
 **Heurística violada:** Estética y diseño minimalista / Flexibilidad y eficiencia de uso
 
@@ -2970,7 +2976,7 @@ Incluir **pequeñas animaciones o microinteracciones** (feedback visual en boton
 
 ---
 
-### 🟩 Problema #03: Dificultad para reconocer la sección activa
+###  Problema #03: Dificultad para reconocer la sección activa
 **Severidad:** 2  
 **Heurística violada:** Visibilidad del estado del sistema
 
