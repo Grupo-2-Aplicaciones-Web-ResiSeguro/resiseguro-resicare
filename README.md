@@ -2908,6 +2908,80 @@ Gabriel Gordon (21 años) prueba una aplicación web para estudiantes y comparte
 
 ### 5.3.3 Evaluaciones según heurísticas
 
+## Site o App a Evaluar
+
+**Nombre:** ResiCare  
+**Objetivo:** Identificar problemas de usabilidad en el sistema web de gestión residencial usando la **Lista Heurística de Nielsen**.
+
+---
+
+## Tareas a Evaluar
+
+1. Inicio de sesión y navegación general.
+2. Creación de reclamos (Claims) y teleconsultas.
+3. Visualización y edición de perfiles, objetos y recordatorios.
+
+---
+
+## Problemas Detectados (Versión Reducida)
+
+| # | Problema Detectado | Heurística Violada | Severidad |
+|---|---|---|---|
+| 1 | **Falta de orientación en formularios** (Claims, Teleconsultas): no se indica qué información se espera ni qué sucede al enviarlos. | **Coincidencia con el mundo real / Ayuda y documentación** | **3** |
+| 2 | **Interfaz poco dinámica y sin elementos interactivos** que mantengan el interés del usuario. | **Estética y diseño minimalista / Flexibilidad y eficiencia de uso** | **2** |
+| 3 | **Dificultad para reconocer la sección activa** en el panel lateral, lo que genera desorientación. | **Visibilidad del estado del sistema** | **2** |
+
+---
+
+## Escala de Severidad
+
+| Nivel | Descripción |
+|---|---|
+| **1** | Problema superficial, poco frecuente. No prioritario. |
+| **2** | Problema menor; confuso o frecuente. Resolver en próxima versión. |
+| **3** | Problema mayor; afecta el uso normal. **Alta prioridad.** |
+| **4** | Muy grave; impide el uso del sistema. Corregir antes del lanzamiento. |
+
+---
+
+## Análisis Heurístico Detallado
+
+### 🟧 Problema #01: Falta de orientación en formularios (Claims y Teleconsultas)
+**Severidad:** 3  
+**Heurística violada:** Coincidencia con el mundo real / Ayuda y documentación
+
+**Descripción:**  
+Los formularios no brindan ejemplos ni aclaraciones sobre el tipo de información esperada, ni muestran mensajes claros al completar o enviar. Esto puede generar incertidumbre y errores de ingreso.
+
+**Recomendación:**  
+Agregar placeholders con ejemplos (“Describe el incidente…”), marcar campos obligatorios, mostrar validaciones en tiempo real y mensajes claros tras el envío.
+
+---
+
+### 🟦 Problema #02: Interfaz poco dinámica e interacción limitada
+**Severidad:** 2  
+**Heurística violada:** Estética y diseño minimalista / Flexibilidad y eficiencia de uso
+
+**Descripción:**  
+El entrevistado destacó que la interfaz es clara y funcional, pero **sugirió incorporar elementos visuales o interactivos** que hagan la experiencia más dinámica (por ejemplo, animaciones suaves o imágenes complementarias). Esto indica que la aplicación cumple con la funcionalidad, pero carece de estímulos visuales que mejoren la percepción de modernidad y fluidez.
+
+**Recomendación:**  
+Incluir **pequeñas animaciones o microinteracciones** (feedback visual en botones, transiciones suaves), así como **imágenes o íconos ilustrativos** que acompañen las acciones principales sin sobrecargar la interfaz. Esto mantiene la claridad visual mientras aumenta el compromiso del usuario.
+
+---
+
+### 🟩 Problema #03: Dificultad para reconocer la sección activa
+**Severidad:** 2  
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Descripción:**  
+El menú lateral no resalta con suficiente contraste la sección donde se encuentra el usuario, lo que genera confusión durante la navegación.
+
+**Recomendación:**  
+Usar un color o marcador activo, título de sección visible y breadcrumbs simples para orientar al usuario.
+
+
+
 ## 5.4 Video About-the-Product
 
 
