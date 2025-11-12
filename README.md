@@ -2310,7 +2310,7 @@ Para crear la Organización en Github seguimos los siguientes pasos:
   <img src = "./assets/github5.png" width = "500">
 
 Para nuestro proyecto se creo 1 repositorio de nombre **Landing-Page**, el cual usamos para subir la landing page y desarrollar continuamente el informe del proyecto.
-Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/
+Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/resicare-landing-page/
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 <p align="center">
@@ -2402,7 +2402,7 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 
 #### 5.2.2.5 Execution Evidence for Sprint Review.
 Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas correspondientes a las stories. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindando así una nueva perspectiva del producto que se está desarrollando. En este Sprint, nuestro equipo ha conseguido completar y desplegar la Landing Page y el Front End. A continuación, se mostrará los screens sacasdos desde la web: 
-Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/ 
+Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/resicare-landing-page/
 <br>
 Link del Front End desplegada: https://resicare-frontend.vercel.app/
 <br>
@@ -2509,7 +2509,7 @@ Durante este sprint, se avanzó significativamente en la implementación de los 
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
-Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/Landing-Page/ 
+Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/resicare-landing-page/ 
 <br>
 Link del Front End desplegada: https://resicare-frontend.vercel.app/
 <br>
