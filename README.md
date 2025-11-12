@@ -2912,6 +2912,38 @@ Gabriel Gordon (21 años) prueba una aplicación web para estudiantes y comparte
 | **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c540_upc_edu_pe/EWqBfSsPg39ItbHrGTRtuosB0cUUe7XD_hzZ-rARqQ8_qQ?e=pVhdAb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 
+
+### Entrevista #2
+<p align="center">
+  <img src="./assets/entrevistas/entrevista8.jpg" alt="Entrevista 7" width="400">
+</p>
+
+Leonardo Prieto, quien evalúa una plataforma web para estudiantes enfocada en seguros o ayuda estudiantil. Leonardo considera que el diseño es limpio, profesional y bien organizado, con una navegación clara e intuitiva. Destaca que los textos, íconos y botones son comprensibles, y que la interfaz funciona correctamente tanto en computadora como en dispositivos móviles. Sugiere mejorar el aprovechamiento del espacio y propone incorporar notificaciones, contrastes más marcados en botones principales y pequeñas animaciones para hacer la experiencia más dinámica. Aunque no encontró dificultades al usar la aplicación, recomienda clarificar la diferencia entre “My Claims” y “CL History”. En general, califica la plataforma como funcional, accesible y centrada en el usuario.
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Héctor Javier Rios Pacheco            |
+| **Entrevistado**  | Leonardo Prieto Mantari                |
+| **Edad**          | 20 años                                    |
+| **Duración**      | 3:31 minutos                               |
+| **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c540_upc_edu_pe/IQB0rfAKo5zRQagP6OHtOdK8AeLx9LSG3RIVv09uy5jvAiw?e=FCjbQe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
+### Entrevista #3
+<p align="center">
+  <img src="./assets/entrevistas/entrevista9.jpg" alt="Entrevista 7" width="400">
+</p>
+
+Marcia Melgarejo comparte una evaluación positiva de su experiencia. Aunque no tenía experiencia previa con aplicaciones similares, considera que la plataforma es clara, intuitiva e innovadora, destacando que el diseño es limpio y fácil de usar. Valoró especialmente la claridad de los botones, textos e íconos, así como la facilidad de navegación sin necesidad de ayuda externa, lo que confirma una buena usabilidad. Además, resaltó la adaptabilidad del diseño a distintos dispositivos, manteniendo su funcionalidad y estabilidad visual. Como sugerencias, propuso incorporar notificaciones sobre el estado de las solicitudes, más opciones de color y pequeñas animaciones que brinden retroalimentación visual y mejoren la interactividad. En conclusión, describió la aplicación como intuitiva, funcional y bien desarrollada, con espacio para añadir elementos que hagan la experiencia más dinámica y personalizada.
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Héctor Javier Rios Pacheco            |
+| **Entrevistado**  | Marcial Melgarejo Gomez                |
+| **Edad**          | 20 años                                    |
+| **Duración**      | 4:10 minutos                               |
+| **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c540_upc_edu_pe/IQA5xX5hqCnbR5hb3_EbDRxPAez-gFAVGms2bD33fBgqg9I?e=F9QHkg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
+
 ### 5.3.3 Evaluaciones según heurísticas
 
 ## Site o App a Evaluar
