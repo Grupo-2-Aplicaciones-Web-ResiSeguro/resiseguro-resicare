@@ -3043,7 +3043,7 @@ Usar un color o marcador activo, título de sección visible y breadcrumbs simpl
 
 **Link del Video About-the-Product:**
 <br>
-https://upcedupe-my.sharepoint.com/:v:/r/personal/u202119257_upc_edu_pe/Documents/2025-11-10%2020-15-06.mkv?csf=1&web=1&e=Q6NW9t&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119257_upc_edu_pe/IQCWWAU44HdDTb1oefYNjzKDAW3eLLM37EQ4Y3zP0X1mp1Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ut4FgR
 
 <br>
 
