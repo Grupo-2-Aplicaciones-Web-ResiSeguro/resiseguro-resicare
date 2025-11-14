@@ -2956,7 +2956,7 @@ Nataly Sandoval Sulca comparte su experiencia evaluando la plataforma web ResiCa
 | **Entrevistado**  | Nataly Sandoval Sulca                     |
 | **Edad**          | 19 años                                    |
 | **Duración**      | 4:51 minutos                               |
-| **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/IQDwC0gyYC7SQqdqu3GDIKgzAUmuICQYFnTWy4evBKV3PhE?e=0FaAwz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/IQDwC0gyYC7SQqdqu3GDIKgzAc_1PRj56e3PTUq8IGjqVuo?e=tmlJOK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 ### Entrevista #5
 <p align="center">
@@ -2971,7 +2971,7 @@ Victor William Gabi Berrospe ofrece una evaluación detallada de la plataforma w
 | **Entrevistado**  | Victor William Gabi Berrospe              |
 | **Edad**          | 25 años                                    |
 | **Duración**      | 6:04 minutos                               |
-| **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/IQBZwIXxPzcDToNciGMUDrdHAfAtPrzcMO6IEFYY30ktSHc?e=caNDa5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/IQBZwIXxPzcDToNciGMUDrdHAYYQsW7Y4nMAP87Rs8DtSvo?e=rJhHDK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 
 ### 5.3.3 Evaluaciones según heurísticas
