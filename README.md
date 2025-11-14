@@ -2958,6 +2958,21 @@ Nataly Sandoval Sulca comparte su experiencia evaluando la plataforma web ResiCa
 | **Duración**      | 4:51 minutos                               |
 | **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/IQDwC0gyYC7SQqdqu3GDIKgzAUmuICQYFnTWy4evBKV3PhE?e=0FaAwz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
+### Entrevista #5
+<p align="center">
+  <img src="./assets/entrevistas/entrevista11.png" alt="Entrevista 11" width="400">
+</p>
+
+Victor William Gabi Berrospe ofrece una evaluación detallada de la plataforma web ResiCare. Destaca que el diseño general es profesional y ordenado, con una estructura visual que facilita la comprensión de las diferentes funcionalidades del sistema. Considera que la navegación es fluida y bien organizada, permitiéndole acceder a las distintas secciones sin dificultad. Los elementos de la interfaz como textos, botones e íconos le parecieron claros y descriptivos, cumpliendo eficazmente su función comunicativa. Victor señala que la plataforma demuestra un buen nivel de intuitividad, ya que pudo explorar y utilizar las funcionalidades principales sin requerir instrucciones adicionales. Además, observó que el diseño responsive funciona correctamente, adaptándose de manera eficiente tanto a pantallas grandes como a dispositivos móviles. Como recomendaciones de mejora, sugiere implementar un sistema de notificaciones más robusto que mantenga a los usuarios informados sobre actualizaciones importantes en tiempo real. También propone mejorar el contraste visual en algunos elementos secundarios para facilitar su identificación, incorporar micro-interacciones y animaciones sutiles que proporcionen feedback inmediato al usuario, y considerar la adición de tutoriales contextuales o tooltips para usuarios nuevos. Menciona que sería beneficioso incluir más opciones de personalización en la interfaz y expandir la sección de ayuda con ejemplos prácticos. En conclusión, valora positivamente la aplicación como una herramienta bien concebida y funcional, con un gran potencial para satisfacer las necesidades de estudiantes que requieren gestionar seguros y reclamos de manera digital y eficiente.
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Jude Hermoza Quispe                       |
+| **Entrevistado**  | Victor William Gabi Berrospe              |
+| **Edad**          | 25 años                                    |
+| **Duración**      | 6:04 minutos                               |
+| **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/IQBZwIXxPzcDToNciGMUDrdHAfAtPrzcMO6IEFYY30ktSHc?e=caNDa5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
 
 ### 5.3.3 Evaluaciones según heurísticas
 
