@@ -2973,6 +2973,21 @@ Victor William Gabi Berrospe ofrece una evaluación detallada de la plataforma w
 | **Duración**      | 6:04 minutos                               |
 | **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/IQBZwIXxPzcDToNciGMUDrdHAYYQsW7Y4nMAP87Rs8DtSvo?e=rJhHDK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
+### Entrevista #6
+<p align="center">
+  <img src="./assets/entrevistas/entrevista12.png" alt="Entrevista 12" width="400">
+</p>
+
+Arleth Alessandra Pantoja brinda su perspectiva sobre la plataforma web ResiCare. Considera que el diseño es atractivo, limpio y profesional, con una presentación visual que facilita la comprensión de las funcionalidades disponibles. Destaca que la navegación entre secciones es clara y bien estructurada, permitiéndole acceder fácilmente a las diferentes opciones del sistema mediante el menú lateral. Los textos, botones e íconos le parecieron claros y funcionales, cumpliendo efectivamente su propósito comunicativo dentro de la interfaz. Arleth señala que la plataforma es intuitiva y pudo explorar las funcionalidades sin necesitar instrucciones adicionales, lo que evidencia una buena experiencia de usuario. Además, observó que el diseño responsive funciona correctamente, adaptándose de manera eficiente a diferentes dispositivos, tanto móviles como de escritorio. Como sugerencias de mejora, propone implementar notificaciones más prominentes que mantengan a los usuarios informados sobre el estado de sus reclamos y actualizaciones importantes. También recomienda agregar animaciones sutiles y confirmaciones visuales al completar acciones clave, lo que haría la experiencia más dinámica e interactiva. Sugiere mejorar el contraste en algunos elementos para facilitar su identificación visual y considera que sería beneficioso incluir más opciones de ayuda contextual para usuarios nuevos. En conclusión, valora positivamente la aplicación como una herramienta bien diseñada, funcional y con gran potencial para ayudar a estudiantes en la gestión de seguros y reclamos de manera eficiente y accesible.
+
+| Detalle          | Información                                |
+|------------------|--------------------------------------------|
+| **Entrevistador** | Jude Hermoza Quispe                       |
+| **Entrevistado**  | Arleth Alessandra Pantoja                 |
+| **Edad**          | 19 años                                    |
+| **Duración**      | 3:58 minutos                               |
+| **Enlace**        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318220_upc_edu_pe/IQBhz_Z6bX4kQYCrTbvZ8E47AQUiOOzQL44eXVR8xLavv3k?e=8wTCxp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
 
 ### 5.3.3 Evaluaciones según heurísticas
 
