@@ -2912,6 +2912,204 @@ Durante este Sprint, el equipo se centró en consolidar las observaciones realiz
 
 ##### 5.2.4.6 Services Documentation Evidence for Sprint Review
 
+### Auth / Users
+
+| Endpoint            | Acción                                | Método HTTP | Sintaxis de llamada    | Parámetros                                                                 |
+|---------------------|----------------------------------------|------------|------------------------|----------------------------------------------------------------------------|
+| `/api/users`        | Autenticar usuario (login)            | GET        | `/api/users`           | `email` (query, string), `password` (query, string)                        |
+| `/api/users`        | Crear nuevo usuario                   | POST       | `/api/users`           | **Body (JSON):** `name`, `email`, `password`, `rol`                        |
+| `/api/users/{id}`   | Obtener usuario por ID                | GET        | `/api/users/{id}`      | `id` (path, int)                                                           |
+| `/api/users/all`    | Obtener todos los usuarios            | GET        | `/api/users/all`       | Ninguno                                                                    |
+
+<p align="center">
+  <img src="./assets/swaggerAuth2.png" alt="SwaggerAuth" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerAuth3.png" alt="SwaggerAuth" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerAuth4.png" alt="SwaggerAuth" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerAuth1.png" alt="SwaggerAuth" width="600">
+</p>
+
+
+### Claims
+
+| Endpoint                         | Acción                                           | Método HTTP | Sintaxis de llamada              | Parámetros                                                                                                       |
+|----------------------------------|--------------------------------------------------|------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| `/api/claims`                    | Listar reclamos (con filtros opcionales)        | GET        | `/api/claims`                    | `status` (query, string), `userId` (query, int)                                                                  |
+| `/api/claims`                    | Crear un nuevo reclamo                          | POST       | `/api/claims`                    | **Body (JSON):** `type`, `incidentDate`, `description`, `registeredObjectId`, `documents[]`, `userId`           |
+| `/api/claims/user/{userId}`      | Listar reclamos de un usuario                   | GET        | `/api/claims/user/{userId}`      | `userId` (path, int)                                                                                             |
+| `/api/claims/{id}`               | Obtener un reclamo por ID                       | GET        | `/api/claims/{id}`               | `id` (path, int)                                                                                                 |
+| `/api/claims/{id}`               | Actualizar un reclamo por ID                    | PATCH      | `/api/claims/{id}`               | `id` (path, int). **Body (JSON):** `status`, `description`, `registeredObjectId`, `rating`                      |
+| `/api/claims/{id}`               | Eliminar un reclamo por ID                      | DELETE     | `/api/claims/{id}`               | `id` (path, int)                                                                                                 |
+
+<p align="center">
+  <img src="./assets/swaggerClaims5.png" alt="SwaggerClaims" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerClaims2.png" alt="SwaggerClaims" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerClaims6.png" alt="SwaggerClaims" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerClaims3.png" alt="SwaggerClaims" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerClaims4.png" alt="SwaggerClaims" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerClaims1.png" alt="SwaggerClaims" width="600">
+</p>
+
+### Profiles
+
+| Endpoint               | Acción                                      | Método HTTP | Sintaxis de llamada       | Parámetros                                                                                                                                    |
+|------------------------|---------------------------------------------|------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| `/api/profiles`        | Obtener perfil por ID de usuario            | GET        | `/api/profiles`           | `userId` (query, int)                                                                                                                         |
+| `/api/profiles`        | Crear un nuevo perfil                       | POST       | `/api/profiles`           | **Body (JSON):** `userId`, `nombre`, `correo`, `edad`, `residencia`, `telefono`, `genero`, `nivelInstruccion`, `photoDni`, `photoCredential`, `bio` |
+| `/api/profiles/{id}`   | Obtener un perfil por ID de perfil          | GET        | `/api/profiles/{id}`      | `id` (path, int)                                                                                                                              |
+| `/api/profiles/{id}`   | Actualizar un perfil por ID                 | PATCH      | `/api/profiles/{id}`      | `id` (path, int). **Body (JSON):** `nombre`, `correo`, `edad`, `residencia`, `telefono`, `genero`, `nivelInstruccion`, `photoDni`, `photoCredential`, `bio` |
+| `/api/profiles/{id}`   | Eliminar un perfil por ID                   | DELETE     | `/api/profiles/{id}`      | `id` (path, int)                                                                                                                              |
+
+<p align="center">
+  <img src="./assets/swaggerProfile4.png" alt="SwaggerProfile" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerProfile2.png" alt="SwaggerProfile" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerProfile3.png" alt="SwaggerProfile" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerProfile5.png" alt="SwaggerProfile" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerProfile1.png" alt="SwaggerProfile" width="600">
+</p>
+
+### Registered Objects
+
+| Endpoint                                  | Acción                                              | Método HTTP | Sintaxis de llamada                        | Parámetros                                                                                                           |
+|-------------------------------------------|-----------------------------------------------------|------------|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| `/api/registered-objects`                 | Listar objetos registrados (con búsqueda/filtros)   | GET        | `/api/registered-objects`                 | `q` (query, string), `userId` (query, int)                                                                           |
+| `/api/registered-objects`                 | Registrar un nuevo objeto                           | POST       | `/api/registered-objects`                 | **Body (JSON):** `tipo`, `nombre`, `descripcionBreve`, `precio`, `numeroSerie`, `foto`, `fechaRegistro`, `userId`   |
+| `/api/registered-objects/user/{userId}`   | Listar objetos registrados de un usuario            | GET        | `/api/registered-objects/user/{userId}`   | `userId` (path, int)                                                                                                 |
+| `/api/registered-objects/{id}`            | Obtener un objeto registrado por ID                 | GET        | `/api/registered-objects/{id}`            | `id` (path, int)                                                                                                     |
+| `/api/registered-objects/{id}`            | Actualizar un objeto registrado por ID              | PATCH      | `/api/registered-objects/{id}`            | `id` (path, int). **Body (JSON):** `tipo`, `nombre`, `descripcionBreve`, `precio`, `numeroSerie`, `foto`, `fechaRegistro` |
+| `/api/registered-objects/{id}`            | Eliminar un objeto registrado por ID                | DELETE     | `/api/registered-objects/{id}`            | `id` (path, int)                                                                                                     |
+
+<p align="center">
+  <img src="./assets/swaggerRegisteredobject2.png" alt="SwaggerRegisteredObjects" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerRegisteredobject3.png" alt="SwaggerRegisteredObjects" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerRegisteredobject5.png" alt="SwaggerRegisteredObjects" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerRegisteredobject6.png" alt="SwaggerRegisteredObjects" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerRegisteredobject4.png" alt="SwaggerRegisteredObjects" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerRegisteredobject1.png" alt="SwaggerRegisteredObjects" width="600">
+</p>
+
+### Reminders
+
+| Endpoint                      | Acción                                          | Método HTTP | Sintaxis de llamada              | Parámetros                                                                                   |
+|-------------------------------|-------------------------------------------------|------------|----------------------------------|----------------------------------------------------------------------------------------------|
+| `/api/reminders`              | Listar recordatorios de un usuario              | GET        | `/api/reminders`                 | `userId` (query, int)                                                                        |
+| `/api/reminders`              | Crear un nuevo recordatorio                     | POST       | `/api/reminders`                 | **Body (JSON):** `userId`, `title`, `type`, `date`, `time`, `notes`                          |
+| `/api/reminders/{id}`         | Obtener un recordatorio por ID                  | GET        | `/api/reminders/{id}`            | `id` (path, int)                                                                             |
+| `/api/reminders/{id}`         | Actualizar un recordatorio por ID               | PATCH      | `/api/reminders/{id}`            | `id` (path, int). **Body (JSON):** `title`, `type`, `date`, `time`, `notes`                 |
+| `/api/reminders/{id}`         | Eliminar un recordatorio por ID                 | DELETE     | `/api/reminders/{id}`            | `id` (path, int)                                                                             |
+| `/api/reminders/upcoming`     | Listar próximos recordatorios de un usuario     | GET        | `/api/reminders/upcoming`        | `userId` (query, int)                                                                        |
+
+<p align="center">
+  <img src="./assets/swaggerReminders3.png" alt="SwaggerReminders" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerReminders5.png" alt="SwaggerReminders" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerReminders2.png" alt="SwaggerReminders" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerReminders4.png" alt="SwaggerReminders" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerReminders6.png" alt="SwaggerReminders" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerReminders1.png" alt="SwaggerReminders" width="600">
+</p>
+
+
+### Teleconsultations
+
+| Endpoint                                        | Acción                                         | Método HTTP | Sintaxis de llamada                           | Parámetros                                                                                  |
+|------------------------------------------------|-----------------------------------------------|------------|-----------------------------------------------|---------------------------------------------------------------------------------------------|
+| `/api/teleconsultations`                       | Obtener las teleconsultas de un usuario       | GET        | `/api/teleconsultations`                      | `userId` (query, int)                                                                       |
+| `/api/teleconsultations`                       | Crear una nueva teleconsulta                  | POST       | `/api/teleconsultations`                      | **Body (JSON):** `service`, `date`, `time`, `description`, `userId`                         |
+| `/api/teleconsultations/{id}`                  | Obtener una teleconsulta por ID               | GET        | `/api/teleconsultations/{id}`                 | `id` (path, int)                                                                            |
+| `/api/teleconsultations/{id}`                  | Actualizar una teleconsulta por ID            | PUT        | `/api/teleconsultations/{id}`                 | `id` (path, int). **Body (JSON):** `service`, `date`, `time`, `description`                |
+| `/api/teleconsultations/{id}`                  | Eliminar una teleconsulta por ID              | DELETE     | `/api/teleconsultations/{id}`                 | `id` (path, int)                                                                            |
+| `/api/teleconsultations/service/{service}`     | Obtener teleconsultas por tipo de servicio    | GET        | `/api/teleconsultations/service/{service}`    | `service` (path, string)                                                                    |
+
+<p align="center">
+  <img src="./assets/swaggerTeleconsultation3.png" alt="SwaggerTeleconsultations" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerTeleconsultation5.png" alt="SwaggerTeleconsultations" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerTeleconsultation4.png" alt="SwaggerTeleconsultations" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerTeleconsultation6.png" alt="SwaggerTeleconsultations" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerTeleconsultation2.png" alt="SwaggerTeleconsultations" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/swaggerTeleconsultation1.png" alt="SwaggerTeleconsultations" width="600">
+</p>
+
+
 ##### 5.2.4.7 Software Deployment Evidence for Sprint Review
 
 ##### 5.2.4.8 Team Collaboration Insights during Sprint
