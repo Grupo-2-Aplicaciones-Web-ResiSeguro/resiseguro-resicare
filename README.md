@@ -261,15 +261,26 @@ Backend:
       - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 
-    - [5.2.3 Sprint 3](#522-sprint-3)
-      - [5.2.3.1 Sprint Planning 3](#5221-sprint-planning-3)
-      - [5.2.3.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.3.3 Sprint Backlog 3](#5223-sprint-backlog-3)
-      - [5.2.3.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      - [5.2.3.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3 Sprint 3](#523-sprint-3)
+      - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3 Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    
+    - [5.2.4 Sprint 4](#524-sprint-4)
+      - [5.2.4.1 Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2 Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3 Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4 Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5 Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6 Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7 Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8 Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+    
     - [5.3 Validation Interviews](#53-validation-interviews)
       - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2348,7 +2359,7 @@ En este Sprint, el equipo se enfocó en el desarrollo y despliegue de las vistas
 
 En esta matriz, se asignaron roles de liderazgo y colaboración para garantizar una comunicación clara y efectiva dentro del equipo, promoviendo la eficiencia en la ejecución de las tareas relacionadas con el alcance del Sprint.
 
-#### 5.2.2.3 Sprint Backlog 2
+##### 5.2.2.3 Sprint Backlog 2
 
 Esta sección describe de forma resumida el objetivo principal del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. A continuación, se incluye una captura del tablero del sprint gestionado en la herramienta Trello, junto con el enlace público correspondiente. También se presenta una tabla que detalla las User Stories asignadas al sprint, los Work-items o tareas asociadas, y las actividades adicionales requeridas para cumplir con los objetivos establecidos.
 
@@ -2382,7 +2393,7 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 | US-34 | Registro de objeto para ser asegurado|W-37|Implementar el registro del objeto asegurado  |Programar un formulario para registrar el objeto que se desea asegurar |1|Jude|Done|
 | US-34 | Registro de objeto para ser asegurado|W-37| Vincular el registro del objeto a un nuevo reclamo realizado |Vincular un boton que permita redirigir a la opciónde registro del objeto|1|Jude|Done|
 
-#### 5.2.2.4 Development Evidence for Sprint Review
+##### 5.2.2.4 Development Evidence for Sprint Review
 | Repository | Branch                | Commit ID                                | Commit Message                                                                                                                 | Commit Message Body      | Committed on (Date) |
 | ---------- | --------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------ | ------------------- |
 | ResiSeguro | feature/myclaims      | 09884fb87628591a8288a28019b4f96f5d373105 | Merge branch 'develop' into feature/myclaims                                                                                   | No description provided. | 2025-10-07          |
@@ -2400,7 +2411,7 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 | ResiSeguro | main                  | bc0e944f5c7ba1ecaa5c00a759b93b6f073aa3e8 | Initial commit: setup Vue project with Vite, PrimeVue, i18n and general components                                             | No description provided. | 2025-10-03          |
 
 
-#### 5.2.2.5 Execution Evidence for Sprint Review.
+##### 5.2.2.5 Execution Evidence for Sprint Review.
 Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas correspondientes a las stories. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindando así una nueva perspectiva del producto que se está desarrollando. En este Sprint, nuestro equipo ha conseguido completar y desplegar la Landing Page y el Front End. A continuación, se mostrará los screens sacasdos desde la web: 
 Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/resicare-landing-page/
 <br>
@@ -2507,7 +2518,7 @@ Durante este sprint, se avanzó significativamente en la implementación de los 
 | **/public/info**           | Obtener información pública de la app    | `GET`             | `/public/info`            | Ninguno                                        | `{ "appName":"ResiCare","version":"1.0.0" }`                 | `/src/contexts/public`                                                                         |
 
 
-#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+##### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
 Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/resicare-landing-page/ 
 <br>
@@ -2601,7 +2612,7 @@ En este Sprint, el equipo se enfocó en desarrollar los módulos clave del siste
 
 
 
-#### 5.2.3.3 Sprint Backlog 3
+##### 5.2.3.3 Sprint Backlog 3
 
 En este sprint estamos encargardos y propuestos de realizar un API Restful mediante la implementación del backend en C# & .Net.
 A continuación se listara la tabla con las stories relacionadas y llevadas a cabo para completar en este tercer sprint.
@@ -2641,7 +2652,7 @@ A continuación se listara la tabla con las stories relacionadas y llevadas a ca
 
 
 
-#### 5.2.3.4 Development Evidence for Sprint Review
+##### 5.2.3.4 Development Evidence for Sprint Review
 | Repository       | Branch                     | Commit ID                                | Commit Message                                    | Commit Message Body     | Committed on (Date) |
 | ---------------- | -------------------------- | ---------------------------------------- | ------------------------------------------------- | ----------------------- | ------------------- |
 | resicare-backend | develop                    | 9118bb2280d54a5802abd4cb11c915fe87eacbe8 | feat: adding configurations                       | No description provided | 2025-11-06          |
@@ -2676,7 +2687,7 @@ A continuación se listara la tabla con las stories relacionadas y llevadas a ca
 | resicare-backend | main                       | 82e0a2b987a2dd4f72e04ce4aa927c547bd7c431 | Initial commit                                    | No description provided | 2025-11-06          |
 
 
-#### 5.2.3.5 Execution Evidence for Sprint Review.
+##### 5.2.3.5 Execution Evidence for Sprint Review.
 En la realización de este sprint se logró la implementación de la base de datos del backend y su deploy; lo cual incluye el desarrollo de varios endponts e ingreso de datos.
 ### Auth – Gestión de usuarios
 | Método | Endpoint             | Descripción                          |
@@ -2749,7 +2760,7 @@ En la realización de este sprint se logró la implementación de la base de dat
   <img src="./assets/swagger.png" alt="swagerendpoints" width="800">
 </p>
 
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Se ha desarrollado una API RESTful para el Backend de la aplicación. A continuación se muestra la documentación de los servicios implementados.
 
@@ -2789,7 +2800,7 @@ Se ha desarrollado una API RESTful para el Backend de la aplicación. A continua
 |                     | Delete teleconsultation              | DELETE      | `/api/teleconsultations/{id}`                     |
 |                     | Get by service                       | GET         | `/api/teleconsultations/service/{service}`        |
 
-#### 5.2.3.7 Software Deployment Evidence for Sprint Review
+##### 5.2.3.7 Software Deployment Evidence for Sprint Review
 
 **Backend Deployment**
 <br>
@@ -2842,6 +2853,7 @@ Backend:
 <p align="center">
   <img src="./assets/deploymentevidence2.jpg" alt="contributorsfrontend" width="800">
 </p>
+
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 Durante el Sprint 3, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave de la nueva Landing Page y la primera version nueva version del Front End ademas de la primera version del Backend. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo.
 Front End: 
@@ -2860,6 +2872,26 @@ Backend:
 <p align="center">
   <img src="./assets/insight3/contributorstb2backend.png" alt="contributorsfrontend" width="800">
 </p>
+
+#### 5.2.4 Sprint 4
+
+##### 5.2.4.1 Sprint Planning 4
+
+##### 5.2.4.2 Aspect Leaders and Collaborators
+
+##### 5.2.4.3 Sprint Backlog 4
+
+##### 5.2.4.4 Development Evidence for Sprint Review
+
+##### 5.2.4.5 Execution Evidence for Sprint Review
+
+##### 5.2.4.6 Services Documentation Evidence for Sprint Review
+
+##### 5.2.4.7 Software Deployment Evidence for Sprint Review
+
+##### 5.2.4.8 Team Collaboration Insights during Sprint
+
+
 
 ## 5.3 Validation interviews
 
