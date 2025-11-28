@@ -170,6 +170,15 @@ Backend:
   <img src="./assets/insight3/networktb2backend.png" alt="networksfrontend" width="800">
 </p>
 
+
+**TF1**
+Todas las actividades asignadas para la entrega de la TF1 han sido completadas tanto mejoras del informe, versiones finales  de Landing Page,  Front End y de Backend  y se encuentran documentadas en el repositorio de GitHub de la organización del equipo, accesible en: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro . En cuanto al informe, cada miembro del equipo participó redactando y elaborando gráficos en formato Markdown de acuerdo con los temas asignados, registrando su progreso mediante commits en el repositorio correspondiente, encontrándose en el siguiente enlace: https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro/Informe-ResiCare
+Aqui se pueden aprecion todos los commits hechos en la TB2 evidenciando el trabajo colaborativo.
+
+**Insights Readme**
+
+**Network Readme**
+
 # Tabla de Contenidos
 
 - Capítulo I: Introducción
@@ -3152,6 +3161,131 @@ A continuación se detalla la tabla con las User Stories y Technical Stories com
 
 
 ##### 5.2.4.7 Software Deployment Evidence for Sprint Review
+
+**Deployment**
+**LANDING PAGE**
+<br>
+Para despegar la landing page, se utiliza GitHub Pages:
+  <img src = "/assets/hostweb.png" width = "450">
+  <br>
+Para crear la Organización en Github seguimos los siguientes pasos:
+  <img src = "./assets/github1.png" width = "500">
+  <img src = "./assets/github2.png" width = "500">
+  <img src = "./assets/github3.png" width = "500">
+  <img src = "./assets/github4.png" width = "500">
+  <img src = "./assets/github5.png" width = "500">
+
+  <p align="center">
+  <img src="./assets/landing/landingPage1.jpg" alt="landingPage1" width="800">
+</p>
+
+Para nuestro proyecto se creo 1 repositorio de nombre **Landing-Page**, el cual usamos para subir la landing page y desarrollar continuamente el informe del proyecto.
+Link de la Landing Page desplegada: 
+
+<br>
+
+**FRONTEND**
+<br>
+Link del Front End desplegada: https://resicare-frontend.vercel.app/
+<br>
+
+<p align="center">
+  <img src="./assets/frontendD/1.jpg" alt="contributorsinforme" width="800">
+</p>
+<p align="center">
+  <img src="./assets/frontendD/2.jpg" alt="contributorsinforme" width="800">
+</p>
+
+
+<p align="center">
+  <img src="./assets/frontendD/3.jpg" alt="contributorsinforme" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontendD/4.jpg" alt="contributorsinforme" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontendD/5.jpg" alt="contributorsinforme" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontendD/6.jpg" alt="contributorsinforme" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontendD/7.jpg" alt="contributorsinforme" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/frontendD/8.jpg" alt="contributorsinforme" width="800">
+</p>
+<br>
+
+<p align="center">
+  <img src="./assets/frontend/home.png" alt="home" width="800">
+</p>
+
+
+**BACKEND**
+<br>
+**Backend Deployment**
+<br>
+Para el despliegue del backend de nuestro proyecto ResiCare, realizamos el proceso mediante la plataforma Render, configurando un servicio web con Docker. A continuación, se detalla el procedimiento seguido:
+<br>
+**1)Acceso y Configuración del Servicio**
+<br>
+Iniciamos sesión en Render y accedimos a nuestro panel principal. Desde allí, creamos un nuevo Web Service denominado resicare-backend, asociado a nuestro repositorio de GitHub:
+https://github.com/Grupo-2-Aplicaciones-Web-ResiSeguro/resicare-backend.
+<br>
+**2)Configuración General del Servicio**
+<br>
+En la sección Settings, verificamos y establecimos los siguientes parámetros:
+
+Name: resicare-backend
+
+Region: Oregon (US West), para asegurar una comunicación óptima dentro de la red privada.
+
+Instance Type: Plan Free, con una asignación de 0.1 CPU y 512 MB de RAM, suficientes para entornos de desarrollo y pruebas iniciales.
+<br>
+**3)Configuración del Repositorio y Rama**
+<br>
+En el apartado Build & Deploy, vinculamos correctamente el repositorio de GitHub del grupo, seleccionando la rama develop como fuente de construcción y despliegue automático.
+Esto garantiza que cualquier cambio realizado y confirmado en dicha rama pueda ser actualizado mediante un despliegue manual o automatizado.
+<br>
+**4)Configuración del Docker y Entorno**
+Previamente, incluimos en el repositorio el archivo Dockerfile, necesario para que Render pueda construir el entorno del contenedor y ejecutar la aplicación de backend correctamente.
+Además, configuramos las variables de entorno necesarias para la conexión con la base de datos, asegurando que las credenciales y direcciones fueran compatibles con el servicio externo utilizado.
+<br>
+
+**5)Conexión con la Base de Datos**
+Creamos una base de datos en FreeSQLDatabase.com, donde generamos el host, puerto, usuario, contraseña y nombre de base de datos.
+Estos datos fueron integrados en las variables de entorno de Render para establecer la conexión directa entre el backend y la base de datos remota.
+<br>
+**6)Despliegue del Servicio Web**
+Tras completar la configuración, realizamos el despliegue seleccionando la opción Manual Deploy → Deploy Web Service.
+Durante el proceso, Render compiló la imagen Docker y ejecutó el contenedor de manera automática, habilitando así el backend.
+<br>
+**Verificación del Despliegue**
+Finalmente, una vez completado el proceso, el sistema generó un enlace público de acceso al servicio web:
+https://resicare-backend.onrender.com
+<br>
+https://resicare-backend.onrender.com/swagger/index.html
+<br>
+A través de esta URL se puede verificar el correcto funcionamiento del backend y su disponibilidad para el consumo desde el frontend o pruebas con herramientas externas (como Postman).
+<br>
+Backend:
+<p align="center">
+  <img src="./assets/deploymentevidence1.jpg" alt="contributorsfrontend" width="800">
+</p>
+<p align="center">
+  <img src="./assets/deploymentevidence2.jpg" alt="contributorsfrontend" width="800">
+</p>
+
+<p align="center">
+  <img src="./assets/swagger.png" alt="swagerendpoints" width="800">
+</p>
+
 
 ##### 5.2.4.8 Team Collaboration Insights during Sprint
 
