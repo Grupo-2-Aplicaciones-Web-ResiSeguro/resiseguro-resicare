@@ -2976,6 +2976,22 @@ A continuación se detalla la tabla con las User Stories y Technical Stories com
 
 ##### 5.2.4.4 Development Evidence for Sprint Review
 
+| Repository          | Branch                       | Commit ID                                | Commit Message                                                                  | Commit Message Body (Interpretado)                                  | Committed on |
+| ------------------- | ---------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------ |
+| resiseguro-resicare | feature/rios                 | cce96aa2b95e797c079a51e1ed8379f6196e790c | feat: adding outcome TF1                                                        | Se registra TF1 dentro de la documentación del sprint               | 2025-11-30   |
+| resiseguro-resicare | feature/rios                 | c1e3c305d11358d22b55eaba3c8f3205c527ee0c | fix: sprint planning story points                                               | Ajuste de estimaciones del Sprint Planning 4                        | 2025-11-30   |
+| resiseguro-resicare | feature/rios                 | 5df6ddc7723010a9dcaf6b25af7a840d654f5277 | fix: sprint backlog 4                                                           | Corrección de histórico y Story Points                              | 2025-11-30   |
+| resiseguro-resicare | feature/pariona              | 4cdeeb672d3abd9d87eed19deea5fae1c99f7148 | docs: add Software Deployment Evidence for Sprint Review 5.2.4.7                | Evidencia de despliegue para revisión del Sprint                    | 2025-11-28   |
+| resiseguro-resicare | feature/pariona              | e07133cb10a0f94086b5f55a276e2f302aaa91fe | docs: update README.md → (Reasignado: 5.2.4.4 Development Evidence)             | Se agrega evidencia de avance en desarrollo Sprint 4                | 2025-11-27   |
+| resiseguro-resicare | feature/hermoza *(asignado)* | ed18c70d6f82627925a700d9bc2029def833ad9f | docs: update README.md → (Reasignado: 5.2.4.5 Execution Evidence)               | Evidencia de ejecución de tareas implementadas                      | 2025-11-27   |
+| resiseguro-resicare | feature/pariona              | 192662700d6d84b798db45eb950c47dcb5ce5542 | Add files via upload                                                            | Se añaden documentos del Sprint 4                                   | 2025-11-27   |
+| resiseguro-resicare | feature/pariona              | 351729ca08395262d394895a223277c46449dc5a | docs: update README.md → (Reasignado: 5.2.4.6 Services Documentation)           | Documentación técnica de servicios Sprint 4                         | 2025-11-27   |
+| resiseguro-resicare | feature/ramirez              | 473364af0569b754dd39dc7fec7d85c8f1b85531 | Merge pull request #28 from Grupo-2-Aplicaciones-Web-ResiSeguro/feature/Ramirez | Merge de documentación de servicios (Sprint Review)                 | 2025-11-27   |
+| resiseguro-resicare | feature/ramirez              | 4706f29d81f2c1d36505cad70ae32a7ad1eeac57 | feat: add services documentation evidence for sprint 4 review                   | Evidencia de documentación de servicios para la revisión del sprint | 2025-11-27   |
+| resiseguro-resicare | feature/rios                 | 06505250c69a4b23d3a9d5a14b3e9af52878ae65 | feat: adding sprint planning 4, aspect leaders and collaborators                | Sprint Planning 4 + Líderes y colaboradores definidos               | 2025-11-26   |
+| resiseguro-resicare | feature/rios                 | c051983f4bd17abe548ce5f63aec1a5d4ebbd4f7 | docs: updating index for sprint 4                                               | Actualización de índice Sprint 4 (Sprint Backlog 5.2.4.3)           | 2025-11-26   |
+
+
 ##### 5.2.4.5 Execution Evidence for Sprint Review
 
 ##### 5.2.4.6 Services Documentation Evidence for Sprint Review
