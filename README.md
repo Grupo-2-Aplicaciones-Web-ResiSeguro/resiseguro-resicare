@@ -998,153 +998,160 @@ A continuación se muestra el To-Be Scenario Mapping para María (estudiante) y 
 </p>
 
 
+
 ### 3.2. User Stories
 
-| Epic / Story ID | Título                                            | Descripción                                                                                                                    | Criterios de Aceptación                                                                                                                                                                                                                                                                                                             | Relacionado con (Epic ID) |
-| :-------------- | :------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------ |
-| US-01           | Registro con validación universitaria             | Como estudiante quiero registrarme usando mi documento y correo universitario para que mi afiliación sea validada rápidamente. | Escenario 1: **Given** correo universitario válido y DNI legible, **When** completo el formulario y subo documentos, **Then** la cuenta se activa con verificación. <br><br> Escenario 2: **Given** correo no universitario o documento ilegible, **When** intento finalizar registro, **Then** muestro error y guía para corregir. | EP-01                     |
-| US-02           | Inicio de sesión seguro                           | Como usuario quiero iniciar sesión de forma segura para acceder a mi panel.                                                    | Escenario 1: **Given** credenciales correctas, **When** inicio sesión, **Then** accedo al dashboard. <br><br> Escenario 2: **Given** varios intentos fallidos, **When** supero el umbral, **Then** bloqueo temporal y ofrezco recuperación por OTP.                                                                                 | EP-01                     |
-| US-03           | Recuperación de contraseña                        | Como usuario quiero recuperar mi contraseña vía correo/OTP para restaurar acceso.                                              | Escenario 1: **Given** que olvidé la contraseña, **When** solicito recuperación, **Then** recibo OTP por correo y puedo crear nueva contraseña. <br><br> Escenario 2: **Given** OTP caducado, **When** intento usarlo, **Then** muestro mensaje de caducidad y opción de reenviar.                                                  | EP-01                     |
-| US-04           | Ver y descargar póliza                            | Como usuario quiero ver y descargar mi póliza en PDF para compartirla o archivarla.                                            | Escenario 1: **Given** póliza activa, **When** accedo a "Mi póliza", **Then** puedo descargar PDF con detalles y firma digital. <br><br> Escenario 2: **Given** póliza caducada, **When** intento descargar, **Then** muestro mensaje con opción de renovación.                                                                     | EP-02                     |
-| US-05           | Selección y compra de plan                        | Como estudiante quiero elegir entre plan Básico y Premium y pagar en línea para activar cobertura.                             | Escenario 1: **Given** que selecciono Básico, **When** proceso pago válido, **Then** cobertura se activa inmediatamente. <br><br> Escenario 2: **Given** que pago falla, **When** la pasarela responde error, **Then** muestro estado pendiente y guía.                                                                             | EP-02                     |
-| US-06           | Upgrade/downgrade de plan                         | Como usuario quiero cambiar entre planes para ajustar mi cobertura.                                                            | Escenario 1: **Given** soy Básico y pago upgrade, **When** transacción es exitosa, **Then** mi cuenta refleja Premium y beneficios. <br><br> Escenario 2: **Given** intento downgrade, **When** realizo cambio, **Then** aplican restricciones y nuevo monto se prorratea.                                                          | EP-02                     |
-| US-07           | Contratación digital con documentos               | Como usuario quiero subir mi DNI y constancia universitaria para validar afiliación automáticamente.                           | Escenario 1: **Given** documentos legibles, **When** los subo, **Then** sistema valida y aprueba afiliación. <br><br> Escenario 2: **Given** imágenes borrosas, **When** subo, **Then** solicito reenvío con guía de captura.                                                                                                       | EP-02                     |
-| US-08           | Iniciar reclamo por chat (foto + texto)           | Como usuario quiero abrir un reclamo desde el chat subiendo foto y descripción para rapidez.                                   | Escenario 1: **Given** siniestro menor, **When** subo foto + texto, **Then** motor de reglas evalúa y contesta con resultado. <br><br> Escenario 2: **Given** falta información obligatoria, **When** envío, **Then** chat solicita campos faltantes antes de procesar.                                                             | EP-03                     |
-| US-09           | Validación automática de reclamos menores         | Como usuario quiero que reclamos sencillos sean evaluados automáticamente para respuesta rápida.                               | Escenario 1: **Given** foto válida y metadatos coherentes, **When** pasa reglas, **Then** reclamo es aprobado automáticamente. <br><br> Escenario 2: **Given** inconsistencias (fecha, manipulación), **When** regla falla, **Then** reclamo se marca para revisión humana.                                                         | EP-03                     |
-| US-10           | Escalamiento y comunicación con ajustador         | Como usuario quiero que reclamos complejos se escalen a un ajustador y tenga comunicación clara.                               | Escenario 1: **Given** reclamo complejo, **When** se escala, **Then** usuario recibe notificación y plazo estimado. <br><br> Escenario 2: **Given** ajustador solicita más evidencias, **When** usuario sube doc, **Then** ajustador actualiza estado y decisión.                                                                   | EP-03                     |
-| US-11           | Historial y estado de reclamos                    | Como usuario quiero ver el historial y estado de mis reclamos para seguimiento.                                                | Escenario 1: **Given** que realicé reclamos, **When** entro a historial, **Then** veo lista con estados, fechas y comunicaciones. <br><br> Escenario 2: **Given** reclamo cerrado, **When** solicito detalles, **Then** puedo ver resolución, monto y adjuntos.                                                                     | EP-03                     |
-| US-12           | Simulador de devolución (cliente)                 | Como usuario quiero simular cuánto recibiría en caso de reclamo para tomar decisiones.                                         | Escenario 1: **Given** monto estimado y tipo de siniestro, **When** ejecuto simulador, **Then** muestro monto neto, deducible y tiempo estimado. <br><br> Escenario 2: **Given** valores inválidos, **When** ejecuto simulación, **Then** muestro validaciones y ejemplos.                                                          | EP-07                     |
-| US-13           | Panel de prevenciones y recordatorios             | Como usuario quiero recibir alertas de prevención y recordatorios para reducir riesgos.                                        | Escenario 1: **Given** notificaciones activas, **When** hay aviso importante, **Then** recibo push/email con consejo. <br><br> Escenario 2: **Given** desactivo recordatorios, **When** ocurren eventos, **Then** aparecen en panel pero no envío push.                                                                             | EP-06                     |
-| US-14           | Teleconsulta on-demand                            | Como usuario quiero solicitar una teleconsulta rápida para atención médica menor.                                              | Escenario 1: **Given** tengo cobertura, **When** solicito teleconsulta, **Then** me asignan profesional y agendan llamada. <br><br> Escenario 2: **Given** falta de profesionales, **When** intento agendar, **Then** muestro tiempos alternativos o lista de espera.                                                               | EP-04                     |
-| US-15           | Agenda y registro de teleconsultas                | Como usuario quiero ver mis citas y registro de consultas para historial médico básico.                                        | Escenario 1: **Given** teleconsulta agendada, **When** entro a calendario, **Then** veo fecha/hora y enlace para entrar. <br><br> Escenario 2: **Given** consulta finalizada, **When** la visualizo, **Then** puedo ver resumen y recomendaciones.                                                                                  | EP-04                     |
-| US-16           | Cobertura de viaje corto (activar/confirmar)      | Como usuario quiero activar protección para viajes interurbanos antes de partir.                                               | Escenario 1: **Given** activo cobertura, **When** viaje ocurre, **Then** reclamos de equipaje o cancelación se aceptan según reglas. <br><br> Escenario 2: **Given** no activé cobertura, **When** ocurre siniestro, **Then** reclamo es inválido y explico motivo.                                                                 | EP-05                     |
-| US-17           | Reporte rápido de pérdida en traslado             | Como usuario quiero reportar pérdida de equipaje en traslado con prueba y ubicación aproximada.                                | Escenario 1: **Given** pérdida menor, **When** subo foto/recibo y ubicación, **Then** se genera reclamo con prioridad estándar. <br><br> Escenario 2: **Given** falta comprobante de viaje, **When** intento reclamar, **Then** solicito datos de transporte y ticket.                                                              | EP-05                     |
-| US-18           | Notificaciones push y correo                      | Como usuario quiero recibir notificaciones sobre estados de reclamos, pagos y consultas.                                       | Escenario 1: **Given** notificaciones habilitadas, **When** reclamo cambia de estado, **Then** recibo push y mail. <br><br> Escenario 2: **Given** las deshabilito, **When** cambia el estado, **Then** sólo registra el historial en la app.                                                                                       | EP-06                     |
-| US-19           | Compartir póliza con padres/tutores               | Como usuario quiero compartir mi póliza con mi padre/tutor para que estén informados.                                          | Escenario 1: **Given** deseo compartir, **When** ingreso email y permiso, **Then** tutor recibe enlace seguro con acceso de solo lectura. <br><br> Escenario 2: **Given** revoco permiso, **When** lo confirmo, **Then** el tutor pierde acceso y se registra la acción.                                                            | EP-01                     |
-| US-20           | Ver resumen de beneficios (Landing)               | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar.                                | Escenario 1: **Given** accedo landing, **When** hago scroll a beneficios, **Then** visualizo tarjetas con puntos destacados. <br><br> Escenario 2: **Given** ancho reducido, **When** veo sección, **Then** tarjetas se apilan y siguen legibles.                                                                                   | EP-11                     |
-| US-21           | Visualizar testimonios (Landing)                  | Como visitante, quiero leer testimonios de usuarios para confiar en la app.                                                    | Escenario 1: **Given** llego a testimonios, **When** visualizo citas, **Then** veo nombre, foto y experiencia. <br><br> Escenario 2: **Given** no hay testimonios, **When** navego la sección, **Then** muestro testimonios de ejemplo y CTA "Enviar testimonio".                                                                   | EP-11                     |
-| US-22           | Acceder desde distintos dispositivos (responsive) | Como visitante, quiero que la landing se vea bien en cualquier dispositivo para explorarla cómodamente.                        | Escenario 1: **Given** acceso desde móvil, **When** cargo landing, **Then** diseño se adapta. <br><br> Escenario 2: **Given** acceso desde desktop, **When** navego, **Then** elementos se ajustan y menú es visible.                                                                                                               | EP-12                     |
-| US-23           | Conocer la propuesta de valor (Hero)              | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia.                                               | Escenario 1: **Given** ingreso landing, **When** veo hero, **Then** título y subtítulo claros. <br><br> Escenario 2: **Given** vengo desde campaña con UTM, **When** llego al hero, **Then** muestro mensaje o oferta personalizada.                                                                                                | EP-11                     |
-| US-24           | Navegar por beneficios (scroll y accesibilidad)   | Como visitante, quiero navegar por la sección de beneficios para conocer ventajas.                                             | Escenario 1: **Given** hago scroll, **When** paso por bloques, **Then** veo texto e imágenes explicativas. <br><br> Escenario 2: **Given** uso teclado, **When** navego con TAB, **Then** foco recorre correctamente los bloques.                                                                                                   | EP-11                     |
-| US-25           | Barra de navegación con anclas                    | Como visitante, quiero usar la barra superior para moverme a secciones de la landing rápidamente.                              | Escenario 1: **Given** clic en link del menú, **When** apunta a sección interna, **Then** hago scroll hacia ella. <br><br> Escenario 2: **Given** link externo, **When** clic, **Then** se abre en nueva pestaña si corresponde.                                                                                                    | EP-11                     |
-| US-26           | Acceder al registro o inicio desde landing        | Como visitante, quiero iniciar sesión o registrarme desde la barra superior.                                                   | Escenario 1: **Given** hago clic "Iniciar sesión", **When** clic, **Then** redirige a login. <br><br> Escenario 2: **Given** clic en "Registrarse", **When** clic, **Then** redirige a formulario de registro.                                                                                                                      | EP-12                     |
-| US-27           | Navegar desde el footer                           | Como visitante, quiero que los enlaces del pie de página funcionen para acceder a info adicional.                              | Escenario 1: **Given** clic en enlace de footer, **When** está configurado, **Then** redirige a sección/página correcta. <br><br> Escenario 2: **Given** enlace externo, **When** clic, **Then** abre en nueva pestaña y registra evento.                                                                                           | EP-11                     |
-| US-28           | Selector de idioma en landing                     | Como visitante internacional, quiero cambiar idioma de la landing para entender la información.                                | Escenario 1: **Given** en landing, **When** uso selector de idioma, **Then** contenido se traduce. <br><br> Escenario 2: **Given** cadena sin traducción, **When** cambio idioma, **Then** muestro fallback y registro la cadena faltante.                                                                                          | EP-11                     |
-| US-29           | FAQ y centro de ayuda                             | Como usuario quiero acceso rápido a preguntas frecuentes y tutoriales para usar la app.                                        | Escenario 1: **Given** busco cómo presentar reclamo, **When** voy a FAQ, **Then** encuentro guía paso a paso. <br><br> Escenario 2: **Given** no encuentro respuesta, **When** envío consulta, **Then** recibo acuse y tiempo estimado de respuesta.                                                                                | EP-08                     |
-| US-30           | Descargar certificado de cobertura                | Como usuario quiero descargar un certificado de cobertura para trámites o acreditación.                                        | Escenario 1: **Given** póliza activa, **When** solicito certificado, **Then** puedo descargar PDF con vigencia y cobertura. <br><br> Escenario 2: **Given** póliza inactiva, **When** intento descargar, **Then** muestro motivo y opción de renovación.                                                                            | EP-02                     |
-| US-31           | Compartir evidencia múltiple                      | Como usuario quiero subir varias fotos o archivos en un reclamo para respaldar mi caso.                                        | Escenario 1: **Given** tengo 3 fotos, **When** las subo, **Then** todas se asocian al reclamo y se muestran en galería. <br><br> Escenario 2: **Given** archivo excede límite, **When** intento subir, **Then** muestro error y guío a reducir tamaño.                                                                              | EP-03                     |
-| US-32           | Chat histórico por reclamo                        | Como usuario quiero ver el historial de mensajes relacionados a cada reclamo.                                                  | Escenario 1: **Given** reclamo en curso, **When** abro conversación, **Then** veo todos los mensajes y timestamps. <br><br> Escenario 2: **Given** reclamo cerrado, **When** reviso chat, **Then** sigue disponible en modo lectura.                                                                                                | EP-03                     |
-| US-33           | Evaluación al cierre del reclamo                  | Como usuario quiero calificar la resolución del reclamo para retroalimentación.                                                | Escenario 1: **Given** reclamo cerrado, **When** recibo encuesta, **Then** puedo calificar y dejar comentario. <br><br> Escenario 2: **Given** no respondo, **When** pasan X días, **Then** envío recordatorio opcional.                                                                                                            | EP-03                     |
-| US-34 | Registro de objetos asegurados | Como usuario quiero registrar los objetos que aseguro en la plataforma para que queden vinculados a mi póliza. | Escenario 1: Given usuario autenticado, When registra objeto con datos y foto, Then se guarda y asocia a la póliza. | EP-03 |
-| TS-01           | Arquitectura backend modular y simple             | Definir arquitectura backend modular (monolito modular o microservicios ligeros) para usuarios, reclamos y pagos.              | Escenario 1: **Given** inicio de proyecto, **When** implementamos módulos, **Then** cada módulo expone API y tests básicos. <br><br> Escenario 2: **Given** necesidad de ampliar, **When** se añade módulo, **Then** integraciones están desacopladas y documentadas.                                                               | EP-09                     |
-| TS-02           | Modelado de base de datos relacional (Postgres)   | Diseñar esquema de BD para usuarios, pólizas, reclamos, evidencias y auditoría con migraciones.                                | Escenario 1: **Given** nuevo reclamo, **When** lo guardo, **Then** se crean registros con referencias y fecha. <br><br> Escenario 2: **Given** cambio en esquema, **When** ejecuto migración, **Then** datos previos permanecen íntegros.                                                                                           | EP-09                     |
-| TS-03           | API REST documentada y protegida (OpenAPI)        | Desarrollar endpoints REST para auth, póliza, reclamos y evidencias con documentación mínima.                                  | Escenario 1: **Given** petición autenticada, **When** solicito póliza, **Then** API responde con datos. <br><br> Escenario 2: **Given** petición sin token, **When** intento acceso, **Then** retorno 401.                                                                                                                          | EP-09                     |
-| TS-04           | Integración SSO universitario (opcional)          | Implementar opción para autenticación con credenciales universitarias (SSO) si la universidad lo permite.                      | Escenario 1: **Given** universidad soporta SSO, **When** usuario elige SSO, **Then** login se realiza vía proveedor y datos se importan. <br><br> Escenario 2: **Given** universidad no soporta SSO, **When** usuario intenta, **Then** muestro fallback a registro normal.                                                         | EP-01                     |
-| TS-05           | Pipeline CI básico (lint + tests)                 | Configurar pipeline en GitHub Actions/GitLab CI que corra lint y tests unitarios antes de merge.                               | Escenario 1: **Given** PR abierto, **When** pipeline corre, **Then** reporta resultados y bloquea merge si falla. <br><br> Escenario 2: **Given** tests fallan intermitentemente, **When** detecto flakiness, **Then** añado retries o analizo causas.                                                                              | EP-10                     |
-| TS-06           | Almacenamiento de imágenes con URLs firmadas      | Implementar almacenamiento (S3/MinIO) con URLs firmadas y expiración para evidencias.                                          | Escenario 1: **Given** usuario sube foto, **When** proceso subida, **Then** guardo con metadata y devuelvo URL firmada. <br><br> Escenario 2: **Given** URL expirada, **When** intento acceder, **Then** acceso denegado y opción de re-subida.                                                                                     | EP-09                     |
-| TS-07           | Motor de reglas liviano (JSON)                    | Implementar motor de reglas JSON para validaciones automáticas (fecha, tamaño imagen, metadatos).                              | Escenario 1: **Given** regla en JSON, **When** llega reclamo, **Then** evalúo y guardo resultado. <br><br> Escenario 2: **Given** modifico regla en admin, **When** la guardo, **Then** aplica a nuevos reclamos sin deploy.                                                                                                        | EP-03                     |
-| TS-08           | Sistema de notificaciones básico                  | Implementar servicio para push/email con templates que se conecte a eventos de la app.                                         | Escenario 1: **Given** evento de cambio de estado en reclamo, **When** ocurre, **Then** envío notificación al usuario. <br><br> Escenario 2: **Given** usuario deshabilita notificaciones, **When** evento ocurre, **Then** sólo registro en panel.                                                                                 | EP-06                     |
-| TS-09           | Pagos: integración simple y seguras (webhooks)    | Integrar pasarela de pagos con tokenización y manejo de webhooks básicos.                                                      | Escenario 1: **Given** pago exitoso, **When** recibo webhook firmado, **Then** actualizo estado de suscripción. <br><br> Escenario 2: **Given** webhook inválido/fraudulento, **When** firma no coincide, **Then** rechazo y logueo evento.                                                                                         | EP-02                     |
-| TS-10           | Logs y monitoreo accesible                        | Implementar logging estructurado y métricas básicas (errores, latencia) con dashboard simple.                                  | Escenario 1: **Given** error 500, **When** ocurre, **Then** logueo y alerta al equipo. <br><br> Escenario 2: **Given** latencia mayor umbral, **When** detecto, **Then** alerta y registro para post-mortem.                                                                                                                        | EP-10                     |
-
-#### EP-01 — Autenticación y Perfil
-| Story ID | Título                                   |
-| :------: | :--------------------------------------- |
-|   US-01  | Registro con validación universitaria    |
-|   US-02  | Inicio de sesión seguro                  |
-|   US-03  | Recuperación de contraseña               |
-|   US-19  | Compartir póliza con padres/tutores      |
-|   TS-04  | Integración SSO universitario (opcional) |
-
-#### EP-02 — Pólizas, Planes y Pagos
-| Story ID | Título                                         |
-| :------: | :--------------------------------------------- |
-|   US-04  | Ver y descargar póliza                         |
-|   US-05  | Selección y compra de plan                     |
-|   US-06  | Upgrade/downgrade de plan                      |
-|   US-07  | Contratación digital con documentos            |
-|   US-30  | Descargar certificado de cobertura             |
-|   TS-09  | Pagos: integración simple y seguras (webhooks) |
-
-#### EP-03 — Reclamos y Motor de Reglas
-| Story ID | Título                                    |
-| :------: | :---------------------------------------- |
-|   US-08  | Iniciar reclamo por chat (foto + texto)   |
-|   US-09  | Validación automática de reclamos menores |
-|   US-10  | Escalamiento y comunicación con ajustador |
-|   US-11  | Historial y estado de reclamos            |
-|   US-31  | Compartir evidencia múltiple              |
-|   US-32  | Chat histórico por reclamo                |
-|   US-33  | Evaluación al cierre del reclamo          |
-|   US-34  | Registro de objeto para ser asegurado     |
-|   TS-07  | Motor de reglas liviano (JSON)            |
-
-#### EP-04 — Teleconsulta / Salud
-| Story ID | Título                             |
-| :------: | :--------------------------------- |
-|   US-14  | Teleconsulta on-demand             |
-|   US-15  | Agenda y registro de teleconsultas |
-
-#### EP-05 — Viajes cortos / Protecciones en traslado
-| Story ID | Título                                       |
-| :------: | :------------------------------------------- |
-|   US-16  | Cobertura de viaje corto (activar/confirmar) |
-|   US-17  | Reporte rápido de pérdida en traslado        |
-
-#### EP-06 — Notificaciones, Panel y Prevenciones
-| Story ID | Título                                |
-| :------: | :------------------------------------ |
-|   US-13  | Panel de prevenciones y recordatorios |
-|   US-18  | Notificaciones push y correo          |
-|   TS-08  | Sistema de notificaciones básico      |
+| Epic / Story ID | Título                                            | Descripción                                                                                                     | Criterios de Aceptación (2 escenarios)                                                                                                                                                                                                                                                                                              | Relacionado con (Epic ID) |
+| --------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| US-01           | Registro con validación universitaria             | Registro de usuario con validación de correo institucional y subida/validación de documentos (DNI, constancia). | **Escenario 1:** Given correo universitario válido y DNI legible, When completo formulario y subo docs, Then la cuenta queda activada y notificación de bienvenida. <br> **Escenario 2:** Given correo no universitario o documento ilegible, When intento finalizar registro, Then muestro error con guía y bloqueo de activación. | EP-01                     |
+| US-02           | Inicio de sesión seguro                           | Autenticación con JWT, refresh tokens y bloqueo por intentos fallidos.                                          | **Escenario 1:** Given credenciales correctas, When inicio sesión, Then recibo access + refresh token y acceso al dashboard. <br> **Escenario 2:** Given varios intentos fallidos, When supero umbral, Then bloqueo temporal de cuenta y envío OTP/recuperación.                                                                    | EP-01                     |
+| US-03           | Recuperación de contraseña                        | Flujo de recuperación mediante OTP por correo y cambio seguro de contraseña.                                    | **Escenario 1:** Given olvidé contraseña, When solicito recuperación, Then recibo OTP y puedo establecer nueva contraseña. <br> **Escenario 2:** Given OTP caducado, When intento usarlo, Then muestro caducidad y opción de reenviar OTP.                                                                                          | EP-01                     |
+| US-04           | CRUD Users API                                    | Endpoints de Users (GET, POST, GET/{id}, GET all) con validaciones y DTOs.                                      | **Escenario 1:** Given petición GET /api/users/{id} válida, When id existe, Then retorna usuario con 200. <br> **Escenario 2:** Given intento crear usuario con email duplicado, When POST /api/users, Then retorna 409 Conflict y mensaje.                                                                                         | EP-02                     |
+| US-05           | CRUD Claims (Reclamos)                            | Endpoints de reclamos (POST, GET, LIST, PATCH, DELETE) con soporte de documentos.                               | **Escenario 1:** Given envío de reclamo con foto válida, When POST /api/claims, Then crea reclamo y retorna 201 con id. <br> **Escenario 2:** Given falta de campos obligatorios, When POST /api/claims, Then retorna 400 Bad Request con detalle de validación.                                                                    | EP-03                     |
+| US-06           | CRUD Profiles                                     | Endpoints para perfilar usuario (bio, foto DNI, credencial, teléfono, residencia).                              | **Escenario 1:** Given perfil completo válido, When POST /api/profiles, Then crea perfil y retorna 200. <br> **Escenario 2:** Given intento actualizar con formato inválido, When PATCH /api/profiles/{id}, Then retorna 400 con errores.                                                                                           | EP-03                     |
+| US-07           | CRUD Registered Objects                           | Registro de objetos asegurados (tipo, precio, número de serie, foto, fechaRegistro).                            | **Escenario 1:** Given objeto con númeroSerie único, When POST /api/registered-objects, Then crea registro y retorna 201. <br> **Escenario 2:** Given númeroSerie duplicado, When POST, Then retorna 409 Conflict.                                                                                                                  | EP-03                     |
+| US-08           | CRUD Reminders (Recordatorios)                    | Endpoints para recordatorios: crear, listar, editar, borrar, y obtener próximos.                                | **Escenario 1:** Given recordatorio con fecha futura, When POST /api/reminders, Then queda guardado y aparece en GET /api/reminders/upcoming. <br> **Escenario 2:** Given intento crear con formato de fecha inválido, When POST, Then retorna 400 con campo erróneo.                                                               | EP-06                     |
+| US-09           | CRUD Teleconsultas                                | Endpoints para manejar teleconsultas (POST, GET, PUT, DELETE, GET by service).                                  | **Escenario 1:** Given teleconsulta con servicio y slot disponible, When POST /api/teleconsultations, Then retorna 201 y confirma cita. <br> **Escenario 2:** Given intento reservar slot ocupado, When POST, Then retorna 409 y sugiere alternativas.                                                                              | EP-04                     |
+| US-10           | Deploy Backend + Swagger público                  | Deploy del backend (container + hosting) y exposición de Swagger OAS 3.0.                                       | **Escenario 1:** Given deploy completado, When accedo /swagger/v1/swagger.json, Then obtengo documentación y TryItOut funcional. <br> **Escenario 2:** Given variable de entorno faltante, When arranca contenedor, Then falla y pipeline notifica error.                                                                           | EP-10                     |
+| US-11           | Historial y estado de reclamos                    | UI/Endpoints para listar reclamos del usuario y ver detalle/estado.                                             | **Escenario 1:** Given reclamos existentes, When solicito historial, Then obtengo lista con estados y fechas. <br> **Escenario 2:** Given reclamo cerrado, When pido detalles, Then obtengo resolución, monto y adjuntos.                                                                                                           | EP-03                     |
+| US-12           | Simulador de devolución (cliente)                 | Simulador UI y lógica para estimar reembolso neto según plan y deducibles.                                      | **Escenario 1:** Given datos válidos, When ejecuto simulador, Then muestra monto neto y deducible. <br> **Escenario 2:** Given inputs inválidos, When ejecuto, Then muestra validaciones y ejemplos.                                                                                                                                | EP-07                     |
+| US-13           | Panel de prevenciones y recordatorios             | UI y backend para recomendaciones preventivas y recordatorios.                                                  | **Escenario 1:** Given notificaciones activas, When ocurre aviso, Then recibe push/email con consejo. <br> **Escenario 2:** Given usuario desactiva recordatorios, When evento sucede, Then sólo aparece en panel sin push.                                                                                                         | EP-06                     |
+| US-14           | Teleconsulta on-demand                            | UI para solicitar teleconsulta rápida y agendar profesional.                                                    | **Escenario 1:** Given cobertura y disponibilidad, When solicito teleconsulta, Then se asigna profesional y programan llamada. <br> **Escenario 2:** Given falta de profesionales, When intento agendar, Then muestro lista de espera o tiempos alternativos.                                                                       | EP-04                     |
+| US-15           | Agenda y registro de teleconsultas                | Calendario y registro de citas con resumen post-consulta.                                                       | **Escenario 1:** Given teleconsulta agendada, When abro calendario, Then veo fecha/hora y enlace. <br> **Escenario 2:** Given consulta finalizada, When la visualizo, Then muestro resumen y recomendaciones.                                                                                                                       | EP-04                     |
+| US-16           | Cobertura de viaje corto (activar)                | Servicio para activar cobertura por viaje interurbano antes de salida.                                          | **Escenario 1:** Given activo cobertura antes del viaje, When ocurre siniestro, Then reclamo aceptado según reglas. <br> **Escenario 2:** Given no activé cobertura, When sucede siniestro, Then reclamo inválido y explico motivo.                                                                                                 | EP-05                     |
+| US-17           | Reporte rápido de pérdida en traslado             | Formulario de reclamo por pérdida de equipaje con fotos y ubicación.                                            | **Escenario 1:** Given pérdida menor con recibo y foto, When subo, Then genera reclamo con prioridad estándar. <br> **Escenario 2:** Given falta comprobante, When intento reclamar, Then solicito ticket de transporte.                                                                                                            | EP-05                     |
+| US-18           | Notificaciones push y correo                      | Servicio de notificaciones push/email para eventos clave.                                                       | **Escenario 1:** Given notificaciones habilitadas, When cambia estado de reclamo, Then recibo push y mail. <br> **Escenario 2:** Given usuario deshabilita, When cambia estado, Then sólo registro interno en historial.                                                                                                            | EP-06                     |
+| US-19           | Compartir póliza con padres/tutores               | Endpoint UI para compartir acceso read-only a tutores por email.                                                | **Escenario 1:** Given ingreso email tutor válido, When comparto, Then tutor recibe enlace seguro con read-only. <br> **Escenario 2:** Given revoco permiso, When confirmo, Then tutor pierde acceso y quedan logs.                                                                                                                 | EP-01                     |
+| US-20           | Ver resumen de beneficios (Landing)               | Sección landing que muestra beneficios en tarjetas.                                                             | **Escenario 1:** Given visito landing, When hago scroll a beneficios, Then veo tarjetas con puntos clave. <br> **Escenario 2:** Given ancho reducido, When visualizo, Then tarjetas se apilan y siguen legibles.                                                                                                                    | EP-11                     |
+| US-21           | Visualizar testimonios (Landing)                  | Mostrar testimonios con foto, nombre y cita.                                                                    | **Escenario 1:** Given testimonios disponibles, When entro a sección, Then se muestran con foto y texto. <br> **Escenario 2:** Given no hay testimonios, When navego, Then muestro ejemplos y CTA para enviar.                                                                                                                      | EP-11                     |
+| US-22           | Acceder desde distintos dispositivos (responsive) | Asegurar responsive en landing (mobile/tablet/desktop).                                                         | **Escenario 1:** Given acceso desde móvil, When cargo landing, Then diseño se adapta y menú funciona. <br> **Escenario 2:** Given desktop, When navego, Then elementos ajustan y menú visible.                                                                                                                                      | EP-12                     |
+| US-23           | Conocer la propuesta de valor (Hero)              | Hero con título/subtítulo claro y CTA; soporte UTM personalizado.                                               | **Escenario 1:** Given ingreso, When veo hero, Then título y subtítulo claros. <br> **Escenario 2:** Given vengo con UTM, When llego, Then muestro mensaje/oferta personalizada.                                                                                                                                                    | EP-11                     |
+| US-24           | Navegar por beneficios (scroll y accesibilidad)   | Mejora de navegación en sección beneficios: scroll fluido y accesibilidad WCAG.                                 | **Escenario 1:** Given hago scroll, When paso por bloques, Then el foco y el contenido son accesibles. <br> **Escenario 2:** Given navego con teclado, When uso TAB, Then foco recorre correctamente.                                                                                                                               | EP-11                     |
+| US-25           | Barra de navegación con anclas                    | Navbar con anclas a secciones y comportamiento responsive/sticky.                                               | **Escenario 1:** Given clic en link ancla, When clic, Then hago scroll a sección. <br> **Escenario 2:** Given link externo, When clic, Then abre en nueva pestaña.                                                                                                                                                                  | EP-11                     |
+| US-26           | Acceder al registro o inicio desde landing        | Botones en navbar que llevan a login/registro o abren modal.                                                    | **Escenario 1:** Given clic "Iniciar sesión", When clic, Then redirige o abre modal de login. <br> **Escenario 2:** Given clic "Registrarse", When clic, Then redirige a formulario de registro.                                                                                                                                    | EP-12                     |
+| US-27           | Navegar desde el footer                           | Enlaces en footer que redirigen a secciones o externos con tracking.                                            | **Escenario 1:** Given clic en footer interno, When clic, Then redirige a sección correcta. <br> **Escenario 2:** Given clic en link externo, When clic, Then abre en nueva pestaña y registra evento.                                                                                                                              | EP-11                     |
+| US-28           | Selector de idioma en landing                     | Selector UI para cambiar idioma de la landing (i18n).                                                           | **Escenario 1:** Given cambio a EN, When selecciono idioma, Then texto se traduce. <br> **Escenario 2:** Given cadena sin traducción, When cambio idioma, Then muestro fallback y registro.                                                                                                                                         | EP-11                     |
+| US-29           | FAQ y centro de ayuda                             | FAQs dinámicas y formulario de contacto con acuse.                                                              | **Escenario 1:** Given busco guía, When voy a FAQ, Then encuentro pasos y ejemplos. <br> **Escenario 2:** Given no encuentro respuesta, When envío consulta, Then recibo acuse y tiempo estimado.                                                                                                                                   | EP-08                     |
+| US-30           | Descargar certificado de cobertura                | Endpoint + UI para generar y descargar certificado PDF con vigencia.                                            | **Escenario 1:** Given póliza activa, When solicito certificado, Then recibe PDF con vigencia y firma. <br> **Escenario 2:** Given póliza inactiva, When intento descargar, Then muestro motivo y opción de renovación.                                                                                                             | EP-02                     |
+| US-31           | Compartir evidencia múltiple / Consumo Users UI   | UI/flow para subir múltiples evidencias y consumir Users API desde frontend.                                    | **Escenario 1:** Given 3 fotos, When las subo, Then se asocian y se muestran en galería. <br> **Escenario 2:** Given archivo excede límite, When subo, Then muestro error y guía.                                                                                                                                                   | EP-03                     |
+| US-32           | Chat histórico por reclamo / Profiles UI          | Endpoint + UI para ver historial de chat por reclamo y consumo Profiles API.                                    | **Escenario 1:** Given reclamo con mensajes, When abro chat, Then veo todos los mensajes y timestamps. <br> **Escenario 2:** Given reclamo cerrado, When reviso, Then está disponible en modo lectura.                                                                                                                              | EP-03                     |
+| US-33           | Evaluación al cierre del reclamo                  | Encuesta y almacenamiento de feedback tras cierre de reclamo.                                                   | **Escenario 1:** Given reclamo cerrado, When recibo encuesta, Then puedo calificar y dejar comentario. <br> **Escenario 2:** Given no respondo, When pasan X días, Then envío recordatorio opcional.                                                                                                                                | EP-03                     |
+| US-34           | Registro de objetos asegurados                    | Formulario UI + API para registrar objetos vinculados a póliza.                                                 | **Escenario 1:** Given usuario autenticado, When registra objeto con foto, Then se guarda y asocia. <br> **Escenario 2:** Given intento sin autenticación, When envio formulario, Then redirige a login.                                                                                                                            | EP-03                     |
+| US-35           | UI de Recordatorios conectada a backend           | Interfaz que consume endpoints de reminders y muestra próximos recordatorios.                                   | **Escenario 1:** Given reminders creados, When abro panel, Then veo próximos y acciones. <br> **Escenario 2:** Given no reminders, When accedo, Then muestro CTA para crear.                                                                                                                                                        | EP-06                     |
+| US-36           | UI de Teleconsultas conectada a backend           | Formularios y listados que consumen teleconsultations API.                                                      | **Escenario 1:** Given hay teleconsultas agendadas, When accedo, Then veo calendario/listado. <br> **Escenario 2:** Given intento crear con slot no disponible, When envio, Then muestro conflicto.                                                                                                                                 | EP-04                     |
+| TS-01           | Arquitectura backend modular y simple             | Definir arquitectura modular (módulos usuarios, reclamos, pagos) y patterns.                                    | **Escenario 1:** Given inicio del proyecto, When se crean módulos, Then cada módulo expone API y tests básicos. <br> **Escenario 2:** Given necesidad de ampliar, When añado módulo, Then integraciones permanecen desacopladas.                                                                                                    | EP-09                     |
+| TS-02           | Modelado de base de datos relacional (Postgres)   | Esquema relacional para usuarios, pólizas, reclamos, evidencias y auditoría con migraciones.                    | **Escenario 1:** Given nuevo reclamo, When lo guardo, Then se crean registros con FK y fechas. <br> **Escenario 2:** Given cambio de esquema, When ejecuto migración, Then datos previos preservados.                                                                                                                               | EP-09                     |
+| TS-03           | API REST documentada y protegida (OpenAPI)        | Endpoints REST con documentación mínima y control de acceso.                                                    | **Escenario 1:** Given petición autenticada, When solicito recurso, Then API responde 200. <br> **Escenario 2:** Given petición sin token, When intento acceder, Then retorno 401.                                                                                                                                                  | EP-09                     |
+| TS-04           | Integración SSO universitario (opcional)          | Opción para autenticación vía SSO si la universidad lo soporta (fallback a registro normal).                    | **Escenario 1:** Given universidad soporta SSO, When usuario elige SSO, Then login se realiza vía proveedor. <br> **Escenario 2:** Given universidad no soporta, When usuario intenta SSO, Then muestro fallback registro.                                                                                                          | EP-01                     |
+| TS-05           | Pipeline CI básico (lint + tests)                 | Pipeline que corre lint y tests unitarios antes de merge (GitHub Actions/GitLab CI).                            | **Escenario 1:** Given PR abierto, When pipeline corre, Then reporta y bloquea merge si falla. <br> **Escenario 2:** Given tests flakey, When detecto fallos intermitentes, Then añado retries o investigo.                                                                                                                         | EP-10                     |
+| TS-06           | Almacenamiento de imágenes con URLs firmadas      | Store (S3/MinIO) con URLs firmadas y expiración para evidencias.                                                | **Escenario 1:** Given foto subida, When proceso, Then devuelvo URL firmada con expiración. <br> **Escenario 2:** Given URL expirada, When intento acceder, Then deniego y ofrezco re-subida.                                                                                                                                       | EP-09                     |
+| TS-07           | Motor de reglas liviano (JSON)                    | Motor de reglas JSON para validaciones automáticas sobre reclamos.                                              | **Escenario 1:** Given regla en JSON, When llega reclamo, Then evalúo y guardo resultado. <br> **Escenario 2:** Given modifico regla en admin, When la guardo, Then aplica a nuevos reclamos sin deploy.                                                                                                                            | EP-03                     |
+| TS-08           | Sistema de notificaciones básico                  | Servicio push/email templated conectado a eventos de la app.                                                    | **Escenario 1:** Given evento de cambio de estado, When sucede, Then envío notificación al usuario. <br> **Escenario 2:** Given usuario deshabilita notifs, When evento ocurre, Then solo registro en app.                                                                                                                          | EP-06                     |
+| TS-09           | Pagos: integración simple y seguras (webhooks)    | Integración de pasarela con webhooks y manejo de estados de pago.                                               | **Escenario 1:** Given pago exitoso y webhook firmado, When recibo webhook, Then actualizo estado de suscripción. <br> **Escenario 2:** Given webhook inválido, When firma no coincide, Then rechazo y log.                                                                                                                         | EP-02                     |
+| TS-10           | Logs y monitoreo accesible                        | Logging estructurado y métricas básicas con dashboard sencillo.                                                 | **Escenario 1:** Given error 500, When ocurre, Then logueo y alerto al equipo. <br> **Escenario 2:** Given latencia > umbral, When detecto, Then creo alerta y registro para post-mortem.                                                                                                                                           | EP-10                     |
 
 
-#### EP-07 — Simulador y Finanzas del Reclamo
-| Story ID | Título                            |
-| :------: | :-------------------------------- |
-|   US-12  | Simulador de devolución (cliente) |
+EP-01 — Autenticación y Usuarios
+
+| ID        | Título                                     |
+| --------- | ------------------------------------------ |
+| **US-01** | Registro con validación universitaria      |
+| **US-02** | Inicio de sesión seguro                    |
+| **US-03** | Recuperación de contraseña                 |
+| **US-19** | Compartir póliza con padres/tutores        |
+| **TS-04** | Integración SSO universitario *(opcional)* |
+
+EP-02 — Pólizas y Pagos
+| ID        | Título                                         |
+| --------- | ---------------------------------------------- |
+| **US-04** | CRUD Users API (relación con pólizas)          |
+| **US-30** | Descargar certificado de cobertura             |
+| **TS-09** | Pagos — integración simple/segura con webhooks |
+
+EP-03 — Reclamos y Evidencias
+
+| ID        | Título                                          |
+| --------- | ----------------------------------------------- |
+| **US-05** | CRUD Claims (Reclamos)                          |
+| **US-11** | Historial y estado de reclamos                  |
+| **US-31** | Compartir evidencia múltiple / Consumo Users UI |
+| **US-32** | Chat histórico por reclamo / Profiles UI        |
+| **US-33** | Evaluación al cierre del reclamo                |
+| **US-34** | Registro de objetos asegurados                  |
+| **TS-07** | Motor de reglas liviano JSON                    |
+
+EP-04 — Telemedicina / Teleconsultas
+
+| ID        | Título                               |
+| --------- | ------------------------------------ |
+| **US-09** | CRUD Teleconsultas                   |
+| **US-14** | Teleconsulta on-demand               |
+| **US-15** | Agenda y registro de teleconsultas   |
+| **US-36** | UI Teleconsultas conectada a Backend |
+
+EP-05 — Coberturas de Viaje / Transporte
+
+| ID        | Título                         |
+| --------- | ------------------------------ |
+| **US-16** | Cobertura de viaje corto       |
+| **US-17** | Reporte de pérdida en traslado |
+
+EP-06 — Notificaciones y Prevenciones
+
+| ID        | Título                                |
+| --------- | ------------------------------------- |
+| **US-08** | CRUD Recordatorios                    |
+| **US-13** | Panel de prevenciones y recordatorios |
+| **US-18** | Notificaciones push y correo          |
+| **US-35** | UI Recordatorios conectada backend    |
+| **TS-08** | Sistema base de notificaciones        |
+
+EP-07 — Simulador y Reembolsos
+
+| ID        | Título                  |
+| --------- | ----------------------- |
+| **US-12** | Simulador de devolución |
+
+EP-08 — Soporte / Centro de Ayuda
+
+| ID        | Título                |
+| --------- | --------------------- |
+| **US-29** | FAQ + Centro de ayuda |
+
+EP-09 — Infraestructura / DB / API / Storage
+
+| ID        | Título                                     |
+| --------- | ------------------------------------------ |
+| **TS-01** | Arquitectura backend modular               |
+| **TS-02** | Modelado DB relacional — Postgres          |
+| **TS-03** | API REST documentada + protegida (OpenAPI) |
+| **TS-06** | Storage con URLs firmadas                  |
+| **US-06** | CRUD Profiles (datos + multimedia)         |
+
+EP-10 — CI / Deploy / Observabilidad
+
+| ID        | Título                            |
+| --------- | --------------------------------- |
+| **US-10** | Deploy Backend + Swagger público  |
+| **TS-05** | Pipeline CI básico (lint + tests) |
+| **TS-10** | Logs y monitoreo accesible        |
+
+EP-11 — Landing / Marketing / UX
+
+| ID        | Título                           |
+| --------- | -------------------------------- |
+| **US-20** | Ver resumen de beneficios        |
+| **US-21** | Visualizar testimonios           |
+| **US-22** | Responsive multipantalla         |
+| **US-23** | Hero + propuesta de valor clara  |
+| **US-24** | Scroll con interacción accesible |
+| **US-25** | Barra de navegación con anclas   |
+| **US-27** | Navegación desde footer          |
+| **US-28** | Selector de idioma en landing    |
 
 
-#### EP-08 — FAQ / Centro de ayuda
-
-| Story ID | Título                |
-| :------: | :-------------------- |
-|   US-29  | FAQ y centro de ayuda |
 
 
-#### EP-09 — Infraestructura Backend y Datos
-| Story ID | Título                                          |
-| :------: | :---------------------------------------------- |
-|   TS-01  | Arquitectura backend modular y simple           |
-|   TS-02  | Modelado de base de datos relacional (Postgres) |
-|   TS-06  | Almacenamiento de imágenes con URLs firmadas    |
-
-
-#### EP-10 — CI / Logs / Monitoreo
-| Story ID | Título                            |
-| :------: | :-------------------------------- |
-|   TS-05  | Pipeline CI básico (lint + tests) |
-|   TS-10  | Logs y monitoreo accesible        |
-
-
-#### EP-11 — Landing / Marketing / Productos
-| Story ID | Título                                          |
-| :------: | :---------------------------------------------- |
-|   US-20  | Ver resumen de beneficios (Landing)             |
-|   US-21  | Visualizar testimonios (Landing)                |
-|   US-23  | Conocer la propuesta de valor (Hero)            |
-|   US-24  | Navegar por beneficios (scroll y accesibilidad) |
-|   US-25  | Barra de navegación con anclas                  |
-|   US-26  | Acceder al registro o inicio desde landing      |
-|   US-27  | Navegar desde el footer                         |
-
-
-#### EP-12 — Responsive / Internacionalización (App & Landing)
-
-| Story ID | Título                                            |
-| :------: | :------------------------------------------------ |
-|   US-22  | Acceder desde distintos dispositivos (responsive) |
-|   US-28  | Selector de idioma en landing                     |
 
 ### 3.3. Impact Mapping
 A continuación se visualiza el **Impact Map** del proyecto **ResiCare**, donde se muestra la relación entre el *Business Goal* definido, los **User Personas** identificados, los **Impactos** esperados en su comportamiento, los **Deliverables** que como negocio digital podemos ofrecer y las **User Stories** asociadas que permitirán implementar las funcionalidades necesarias en la aplicación web y la landing page. Este mapa busca asegurar la alineación entre los objetivos estratégicos y el desarrollo de la solución digital.
@@ -1156,52 +1163,72 @@ A continuación se visualiza el **Impact Map** del proyecto **ResiCare**, donde 
 
 ### 3.4. Product Backlog
 
-| # Orden |  User Story Id  | Título                                            | Descripción                                                                                                                     |  Story Points (1/2/3/5/8) |
-| :------ | :-------------- | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------ | :-------------------------|
-|    01   | US-20           | Ver resumen de beneficios (Landing)               | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar.                                 |  3                        |
-|    02   | US-21           | Visualizar testimonios (Landing)                  | Como visitante, quiero leer testimonios de usuarios para confiar en la app.                                                     |  2                        |
-|    03   | US-22           | Acceder desde distintos dispositivos (responsive) | Como visitante, quiero que la landing se vea bien en cualquier dispositivo para explorarla cómodamente.                         |  3                        |
-|    04   | US-23           | Conocer la propuesta de valor (Hero)              | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia.                                                |  2                        |
-|    05   | US-24           | Navegar por beneficios (scroll y accesibilidad)   | Como visitante, quiero navegar por la sección de beneficios para conocer ventajas.                                              |  3                        |
-|    06   | US-25           | Barra de navegación con anclas                    | Como visitante, quiero usar la barra superior para moverme a secciones de la landing rápidamente.                               |  2                        |
-|    07   | US-26           | Acceder al registro o inicio desde landing        | Como visitante, quiero iniciar sesión o registrarme desde la barra superior.                                                    |  8                        |
-|    08   | US-27           | Navegar desde el footer                           | Como visitante, quiero que los enlaces del pie de página funcionen para acceder a info adicional.                               |  1                        |
-|    09   | US-28           | Selector de idioma en landing                     | Como visitante internacional, quiero cambiar idioma de la landing para entender la información.                                 |  3                        |
-|    10   | US-01           | Registro con validación universitaria             | Como estudiante quiero registrarme usando mi documento y correo universitario para que mi afiliación sea validada rápidamente.  |  5                        |
-|    11   | US-02           | Inicio de sesión seguro                           | Como usuario quiero iniciar sesión de forma segura para acceder a mi panel.                                                     |  3                        |
-|    12   | US-03           | Recuperación de contraseña                        | Como usuario quiero recuperar mi contraseña vía correo/OTP para restaurar acceso.                                               |  2                        |
-|    13   | US-04           | Ver y descargar póliza                            | Como usuario quiero ver y descargar mi póliza en PDF para compartirla o archivarla.                                             |  3                        |
-|    14   | US-05           | Selección y compra de plan                        | Como estudiante quiero elegir entre plan Básico y Premium y pagar en línea para activar cobertura.                              |  5                        |
-|    15   | US-06           | Upgrade/downgrade de plan                         | Como usuario quiero cambiar entre planes para ajustar mi cobertura.                                                             |  2                        |
-|    16   | US-07           | Contratación digital con documentos               | Como usuario quiero subir mi DNI y constancia universitaria para validar afiliación automáticamente.                            |  2                        |
-|    17   | US-08           | Iniciar reclamo por chat (foto + texto)           | Como usuario quiero abrir un reclamo desde el chat subiendo foto y descripción para rapidez.                                    |  5                        |
-|    18   | US-09           | Validación automática de reclamos menores         | Como usuario quiero que reclamos sencillos sean evaluados automáticamente para respuesta rápida.                                |  5                        |
-|    19   | US-10           | Escalamiento y comunicación con ajustador         | Como usuario quiero que reclamos complejos se escalen a un ajustador y tenga comunicación clara.                                |  3                        |
-|    20   | US-11           | Historial y estado de reclamos                    | Como usuario quiero ver el historial y estado de mis reclamos para seguimiento.                                                 |  3                        |
-|    21   | US-12           | Simulador de devolución (cliente)                 | Como usuario quiero simular cuánto recibiría en caso de reclamo para tomar decisiones.                                          |  3                        |
-|    22   | US-13           | Panel de prevenciones y recordatorios             | Como usuario quiero recibir alertas de prevención y recordatorios para reducir riesgos.                                         |  3                        |
-|    23   | US-14           | Teleconsulta on-demand                            | Como usuario quiero solicitar una teleconsulta rápida para atención médica menor.                                               |  5                        |
-|    24   | US-15           | Agenda y registro de teleconsultas                | Como usuario quiero ver mis citas y registro de consultas para historial médico básico.                                         |  3                        |
-|    25   | US-16           | Cobertura de viaje corto (activar/confirmar)      | Como usuario quiero activar protección para viajes interurbanos antes de partir.                                                |  5                        |
-|    26   | US-17           | Reporte rápido de pérdida en traslado             | Como usuario quiero reportar pérdida de equipaje en traslado con prueba y ubicación aproximada.                                 |  3                        |
-|    27   | US-18           | Notificaciones push y correo                      | Como usuario quiero recibir notificaciones sobre estados de reclamos, pagos y consultas.                                        |  2                        |
-|    28   | US-19           | Compartir póliza con padres/tutores               | Como usuario quiero compartir mi póliza con mi padre/tutor para que estén informados.                                           |  2                        |
-|    29   | US-29           | FAQ y centro de ayuda                             | Como usuario quiero acceso rápido a preguntas frecuentes y tutoriales para usar la app.                                         |  2                        |
-|    30   | US-30           | Descargar certificado de cobertura                | Como usuario quiero descargar un certificado de cobertura para trámites o acreditación.                                         |  2                        |
-|    31   | US-31           | Compartir evidencia múltiple                      | Como usuario quiero subir varias fotos o archivos en un reclamo para respaldar mi caso.                                         |  3                        |
-|    32   | US-32           | Chat histórico por reclamo                        | Como usuario quiero ver el historial de mensajes relacionados a cada reclamo.                                                   |  2                        |
-|    33   | US-33           | Evaluación al cierre del reclamo                  | Como usuario quiero calificar la resolución del reclamo para retroalimentación.                                                 |  2                        |
-|34| US-34 | Registro de objeto para ser asegurado|Como usuario quiero registrar los objetos que aseguro en la plataforma para que queden vinculados a mi póliza.|3|
-|    35   | TS-01           | Arquitectura backend modular y simple             | Definir arquitectura backend modular (monolito modular o microservicios ligeros) para usuarios, reclamos y pagos.               |  5                        |
-|    36   | TS-02           | Modelado de base de datos relacional (Postgres)   | Diseñar esquema de BD para usuarios, pólizas, reclamos, evidencias y auditoría con migraciones.                                 |  5                        |
-|    37   | TS-03           | API REST documentada y protegida (OpenAPI)        | Desarrollar endpoints REST para auth, póliza, reclamos y evidencias con documentación mínima.                                   |  5                        |
-|    38   | TS-04           | Integración SSO universitario (opcional)          | Implementar opción para autenticación con credenciales universitarias (SSO) si la universidad lo permite.                       |  5                        |
-|    39   | TS-05           | Pipeline CI básico (lint + tests)                 | Configurar pipeline en GitHub Actions/GitLab CI que corra lint y tests unitarios antes de merge.                                |  5                        |
-|    40   | TS-06           | Almacenamiento de imágenes con URLs firmadas      | Implementar almacenamiento (S3/MinIO) con URLs firmadas y expiración para evidencias.                                           |  3                        |
-|    41   | TS-07           | Motor de reglas liviano (JSON)                    | Implementar motor de reglas JSON para validaciones automáticas (fecha, tamaño imagen, metadatos).                               |  5                        |
-|    42   | TS-08           | Sistema de notificaciones básico                  | Implementar servicio para push/email con templates que se conecte a eventos de la app.                                          |  5                        |
-|    43   | TS-09           | Pagos: integración simple y seguras (webhooks)    | Integrar pasarela de pagos con tokenización y manejo de webhooks básicos.                                                       |  5                        |
-|    44   | TS-10           | Logs y monitoreo accesible                        | Implementar logging estructurado y métricas básicas (errores, latencia) con dashboard simple.                                   |  3                        |
+
+
+
+
+
+
+
+
+
+
+### 3.4. Product Backlog
+| # Orden | User Story ID | Título                                     | Descripción                                                                        | Story Points |
+| ------: | :------------ | :----------------------------------------- | :--------------------------------------------------------------------------------- | :----------: |
+|      01 | **US-01**     | Registro con validación universitaria      | Permitir registro de usuarios verificando correo institucional y datos académicos. |       5      |
+|      02 | **US-02**     | Inicio de sesión seguro                    | Habilitar login con protección JWT, sesión persistente y logout seguro.            |       5      |
+|      03 | **US-03**     | Recuperación de contraseña                 | Permitir recuperación vía correo/OTP para reestablecer acceso.                     |       3      |
+|      04 | **US-19**     | Compartir póliza con padres/tutores        | Un usuario puede otorgar acceso seguro a tutores para visualizar pólizas.          |       3      |
+|      05 | **TS-04**     | Integración SSO universitario *(opcional)* | Login directo mediante SSO de universidades autorizadas.                           |       8      |
+|      06 | **US-04**     | CRUD Users API (relación con pólizas)      | Gestión completa de usuarios con campos asociados a pólizas.                       |       5      |
+|      07 | **US-30**     | Descargar certificado de cobertura         | Permitir descarga de certificado PDF con datos firmados.                           |       3      |
+|      08 | **TS-09**     | Integración de pagos con webhooks          | Soporte de pagos asegurados y eventos automáticos.                                 |       8      |
+|      09 | **US-05**     | CRUD Claims (Reclamos)                     | Gestión completa de reclamos desde creación a resolución.                          |       5      |
+|      10 | **US-11**     | Historial y estado de reclamos             | Visualización del progreso y estados del reclamo.                                  |       3      |
+|      11 | **US-31**     | Evidencia múltiple en reclamo              | Adjuntar varias imágenes/documentos en un reclamo.                                 |       5      |
+|      12 | **US-32**     | Chat histórico por reclamo                 | Localizar y listar chat asociado al reclamo con UI.                                |       5      |
+|      13 | **US-33**     | Evaluación al cierre                       | Usuario puede calificar atención al resolver un reclamo.                           |       2      |
+|      14 | **US-34**     | Registro de objetos asegurados             | Registro, gestión y clasificación de bienes protegidos.                            |       5      |
+|      15 | **TS-07**     | Motor de reglas JSON                       | Reglas automáticas para procesos de reclamos y pólizas.                            |       8      |
+|      16 | **US-09**     | CRUD Teleconsultas                         | Registrar y gestionar teleconsultas médicas.                                       |       5      |
+|      17 | **US-14**     | Teleconsulta on-demand                     | Solicitar consulta médica inmediata.                                               |       5      |
+|      18 | **US-15**     | Agenda de teleconsultas                    | Programación de teleconsultas con horarios.                                        |       5      |
+|      19 | **US-36**     | UI Teleconsultas integrada a backend       | Consumir endpoints para teleconsultas en frontend.                                 |       3      |
+|      20 | **US-16**     | Cobertura de viaje corto                   | Activación temporal de cobertura interurbana.                                      |       3      |
+|      21 | **US-17**     | Reporte de pérdida en traslado             | Registro rápido de incidentes durante transporte.                                  |       3      |
+|      22 | **US-08**     | CRUD Recordatorios                         | Creación y gestión de recordatorios programados.                                   |       3      |
+|      23 | **US-13**     | Panel de prevenciones                      | Visualizar sugerencias preventivas para evitar incidentes.                         |       2      |
+|      24 | **US-18**     | Notificaciones push y correo               | Envío de alertas automáticas vía email y notificaciones push.                      |       5      |
+|      25 | **US-35**     | UI de recordatorios conectada a backend    | Mostrar y gestionar recordatorios desde interfaz.                                  |       3      |
+|      26 | **TS-08**     | Sistema base de notificaciones             | Módulo general de envío y eventos de notificación.                                 |       5      |
+|      27 | **US-12**     | Simulador de reembolso                     | Estimar compensación según daño/valor asegurado.                                   |       3      |
+|      28 | **US-29**     | FAQ y Centro de ayuda                      | Preguntas frecuentes con soporte autoatendido.                                     |       2      |
+|      29 | **TS-01**     | Arquitectura backend modular               | Modularizar servicios (users, claims, teleconsultas...).                           |       5      |
+|      30 | **TS-02**     | Modelado DB relacional                     | Diseño DB + migraciones + relaciones base.                                         |       3      |
+|      31 | **TS-03**     | API REST documentada + segura              | OpenAPI swagger expuesto con seguridad aplicada.                                   |       3      |
+|      32 | **TS-06**     | Almacenamiento con URLs firmadas           | Upload seguro de archivos (evidencia / perfiles).                                  |       5      |
+|      33 | **US-06**     | CRUD Profiles                              | Gestión de perfiles (foto, info médica, contacto).                                 |       3      |
+|      34 | **US-10**     | Deploy Backend + Swagger público           | Deploy productivo con exposición de documentación.                                 |       2      |
+|      35 | **TS-05**     | Pipeline CI básico                         | Test + Lint + build automático en push.                                            |       3      |
+|      36 | **TS-10**     | Logs y monitoreo                           | Trazabilidad, errores y métricas visibles.                                         |       3      |
+|      37 | **US-20**     | Ver resumen de beneficios (Landing)        | Mostrar beneficios clave para captar usuarios.                                     |       3      |
+|      38 | **US-21**     | Visualizar testimonios (Landing)           | Mostrar testimonios reales de confianza.                                           |       2      |
+|      39 | **US-22**     | Responsive multipantalla                   | Navegación adaptable a móviles, tablets y desktop.                                 |       3      |
+|      40 | **US-23**     | Propuesta de valor (Hero)                  | Mensaje claro del servicio y CTA inicial.                                          |       2      |
+|      41 | **US-24**     | Scroll interactivo accesible               | Navegación fluida y accesible en la landing.                                       |       2      |
+|      42 | **US-25**     | Barra de navegación con anclas             | Jump links para bloques principales de la landing.                                 |       1      |
+|      43 | **US-27**     | Navegación desde footer                    | Acceso a secciones desde la parte inferior.                                        |       1      |
+|      44 | **US-28**     | Selector de idioma                         | Landing disponible en EN / ES.                                                     |       2      |
+
+
+
+
+
+
+
+
+
 
 
 ## Capítulo IV: Product Design
@@ -2627,38 +2654,35 @@ En este Sprint, el equipo se enfocó en desarrollar los módulos clave del siste
 En este sprint estamos encargardos y propuestos de realizar un API Restful mediante la implementación del backend en C# & .Net.
 A continuación se listara la tabla con las stories relacionadas y llevadas a cabo para completar en este tercer sprint.
 
-| **Story ID** | **Story Title**                           | **Task ID** | **Task Title**                               | **Description**                                                                           | **Estimation (Hrs)** | **Assigned To** | **Status**  |
-| :----------- | :---------------------------------------- | :---------- | :------------------------------------------- | :---------------------------------------------------------------------------------------- | :------------------: | :-------------- | :---------- |
-| **US-01**    | Registro con validación universitaria     | W-38        | Endpoint de registro (POST /api/users)       | Implementar registro con validación de correo institucional y verificación de documentos. |           3          | Héctor Ríos     | Done        |
-|              |                                           | W-39        | Validación de afiliación y pruebas           | Probar validaciones de correo/DNI y activación de cuenta; documentar en Swagger.          |           2          | Héctor Ríos     | Done        |
-| **US-02**    | Inicio de sesión seguro                   | W-40        | Endpoint /login y /logout con JWT            | Crear autenticación con tokens JWT y refresco de sesión.                                  |           3          | Héctor Ríos     | Done        |
-|              |                                           | W-41        | Middleware de autorización por rol           | Restringir acceso a rutas según rol (Admin, User); pruebas de seguridad.                  |           2          | Héctor Ríos     | Done        |
-| **US-03**    | Recuperación de contraseña                | W-42        | Flujo de recuperación OTP                    | Implementar solicitud y validación OTP para reset de contraseña.                          |          2.5         | Héctor Ríos     | Done        |
-|              |                                           | W-43        | Endpoint reset-password + correo             | Configurar envío de correo con OTP y actualización segura de contraseña.                  |           2          | Héctor Ríos     | Done        |
-| **US-10**    | Escalamiento y comunicación con ajustador | W-44        | Endpoint de asignación de ajustador          | Crear método para escalar reclamos complejos y asignar ajustador.                         |           3          | Jude Hermoza    | Done        |
-|              |                                           | W-45        | Notificación de seguimiento al usuario       | Implementar mensajes push/email de seguimiento al estado del reclamo.                     |           2          | Jude Hermoza    | Done        |
-| **US-16**    | Cobertura de viaje corto                  | W-46        | Endpoint de activación de cobertura          | Crear servicio para activar protección de viaje interurbano.                              |           3          | Carlo Ramírez   | Done        |
-|              |                                           | W-47        | Validación de reglas de cobertura            | Implementar condiciones según tipo de viaje y persistencia en BD.                         |           2          | Carlo Ramírez   | Done        |
-| **US-18**    | Notificaciones push y correo              | W-48        | Servicio de notificaciones push/email        | Crear servicio que reciba eventos y envíe notificaciones de reclamos/teleconsultas.       |           3          | Jude Hermoza    | Done        |
-|              |                                           | W-49        | Configurar plantillas y pruebas de envío     | Diseñar templates HTML y probar notificaciones en entorno de desarrollo.                  |           2          | Jude Hermoza    | Done        |
-| **US-19**    | Compartir póliza con padres/tutores       | W-50        | Endpoint de compartir póliza                 | Desarrollar endpoint para enviar acceso seguro (read-only) a tutores.                     |          2.5         | José Pariona    | Done        |
-|              |                                           | W-51        | Control de permisos y revocación             | Implementar revocación de acceso y registro de acciones en BD.                            |           2          | José Pariona    | Done        |
-| **US-29**    | FAQ y centro de ayuda                     | W-52        | Crear estructura FAQ en frontend             | Implementar pantalla FAQ con preguntas dinámicas desde JSON.                              |           2          | Jude    | Done        |
-|              |                                           | W-53        | Integrar soporte por correo en FAQ           | Añadir formulario de contacto y respuesta automática de acuse.                            |           2          |  Hector    | Done        |
-| **US-30**    | Descargar certificado de cobertura        | W-54        | Endpoint de descarga PDF de certificado      | Generar certificado PDF con datos de vigencia y firma digital.                            |           3          | Héctor Ríos     | Done        |
-|              |                                           | W-55        | Integrar botón de descarga en UI             | Conectar frontend con servicio PDF y verificar descarga segura.                           |           2          | José Pariona    | Done        |
-| **US-32**    | Chat histórico por reclamo                | W-56        | Endpoint de mensajes por reclamo             | Desarrollar API para listar mensajes relacionados a cada reclamo.                         |           3          | Jude Hermoza    | Done        |
-|              |                                           | W-57        | Visualización de chat en frontend            | Mostrar historial de mensajes en interfaz de detalle de reclamo.                          |           2          | Hector    | In-Progress |
-| **TS-01**    | Arquitectura backend modular y simple     | W-58        | Refactorizar estructura modular del backend  | Separar módulos de usuarios, reclamos y teleconsultas con rutas propias.                  |           3          | Héctor Ríos     | Done        |
-|              |                                           | W-59        | Implementar inyección de dependencias básica | Organizar servicios y repositorios para facilitar mantenimiento.                          |           2          | Héctor Ríos     | Done        |
-| **TS-02**    | Modelado de base de datos relacional      | W-60        | Crear esquema y migraciones MySQL            | Modelar tablas de usuarios, reclamos, teleconsultas, notificaciones.                      |           3          | Héctor Ríos     | Done        |
-|              |                                           | W-61        | Poblar datos de prueba y validar relaciones  | Insertar datos dummy y probar consultas JOIN.                                             |           2          | Héctor Ríos     | Done        |
-| **TS-03**    | API REST documentada y protegida          | W-62        | Documentar endpoints en Swagger              | Generar documentación OpenAPI para usuarios, reclamos y teleconsultas.                    |           2          | Héctor Ríos     | Done        |
-|              |                                           | W-63        | Verificar protección de rutas y tokens       | Probar acceso autenticado y control de errores 401/403.                                   |           2          | Héctor Ríos     | Done        |
-| **TS-08**    | Sistema de notificaciones básico          | W-64        | Configurar servicio de correo y push         | Conectar servicio SMTP y notificaciones push para eventos clave.                          |          2.5         | Jude Hermoza    | Done        |
-|              |                                           | W-65        | Pruebas unitarias de envío de notificaciones | Simular eventos de reclamos y verificar envío correcto.                                   |           2          | Jude Hermoza    | Done        |
-| **TS-10**    | Logs y monitoreo accesible                | W-66        | Implementar logging estructurado             | Añadir logger con niveles INFO/ERROR y timestamps.                                        |           2          | Héctor Ríos     | Done        |
-|              |                                           | W-67        | Configurar monitoreo en Render Dashboard     | Validar logs de errores y métricas de rendimiento.                                        |           2          | Héctor Ríos     | Done        |
+
+
+| Story ID  | Story Title                          | Task ID | Task Title                                           | Description                                                                            | Estimation (Hrs) | Assigned To   | Status |
+| --------- | ------------------------------------ | ------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------- | ---------------: | ------------- | ------ |
+| **US-04** | CRUD Users API                       | W-101   | Implementación GET/POST/GET{id}/ALL                  | Desarrollo de endpoints Users con retorno JSON y validación mínima.                    |                4 | Héctor Ríos   | Done   |
+|           |                                      | W-102   | Integración de modelo User + respuesta REST          | Mapeo DTO, estructura request/response y pruebas de estados HTTP.                      |                3 | Jude Hermoza  | Done   |
+| **US-05** | CRUD Claims (Reclamos)               | W-103   | Implementación POST/GET/LIST/DELETE                  | Creación del módulo Claims incluyendo adjuntos, userId y estados.                      |                5 | Jude Hermoza  | Done   |
+|           |                                      | W-104   | Serialización + validaciones de Claim en Swagger     | Definición de JSON Schema, incidentDate, documentos y estado inicial.                  |                3 | José Pariona  | Done   |
+| **US-06** | CRUD Profiles                        | W-105   | Endpoints Profiles GET/POST/GET{id}/PATCH/DELETE     | Creación de perfil con bio, dni, teléfono, foto credencial y residencia.               |                4 | Carlo Ramírez | Done   |
+|           |                                      | W-106   | Gestión JSON Schema + documentación API              | Definición de campos, respuestas esperadas y ejemplos en Swagger.                      |                2 | Héctor Ríos   | Done   |
+| **US-07** | CRUD Registered Objects              | W-107   | Implementación POST/GET{id}/LIST + delete/patch      | Registro de objetos asegurados con precio, numeroSerie, fotos.                         |                5 | Héctor Ríos   | Done   |
+|           |                                      | W-108   | Validaciones + persistencia con created/updated date | JSON Schema + timestamps + testing de integración.                                     |                3 | Jude Hermoza  | Done   |
+| **US-08** | CRUD Reminders (Recordatorios)       | W-109   | Endpoints GET/POST/PATCH/DELETE                      | Registro de recordatorios con fecha, notas, tipo, userId.                              |                4 | José Pariona  | Done   |
+|           |                                      | W-110   | Integración Upcoming Reminders + documentación       | GET /api/reminders/upcoming y definición paramétrica.                                  |                3 | Carlo Ramírez | Done   |
+| **US-09** | CRUD Teleconsultas                   | W-111   | Implementación POST/GET/PUT/DELETE                   | Reserva de teleconsultas con fecha, hora, descripción y service.                       |                5 | Jude Hermoza  | Done   |
+|           |                                      | W-112   | Endpoint GET by service + pruebas con filtros        | Búsqueda por categoría médica, validación de datos.                                    |                3 | Héctor Ríos   | Done   |
+| **US-10** | Backend desplegado en producción     | W-113   | Docker + hosting + variables de entorno              | Contenerización, derpliegue y conexión con base de datos remota.                       |                6 | Héctor Ríos   | Done   |
+|           |                                      | W-114   | Pipeline + verificación uptime                       | Pruebas post-deploy, logs, tiempos de respuesta, integración DNS.                      |                4 | Carlo Ramírez | Done   |
+| **TS-06** | Swagger 3.0 completo + documentación | W-115   | Definición de Schemas + Ejemplos request/response    | Estructura OpenAPI con Claims, Users, Objects, Teleconsultations, Reminders, Profiles. |                4 | José Pariona  | Done   |
+|           |                                      | W-116   | Activación UI Swagger + pruebas endpoints reales     | Testing con TryItOut, responses 200/201/400/409 visibles y auditadas.                  |                3 | Héctor Ríos   | Done   |
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2929,31 +2953,25 @@ https://trello.com/b/c2UoXoEI/sprint-backlog-4
 En este sprint se implementaron funcionales relacionadas a pólizas, planes, validación documental y mejoras técnicas de backend.  
 A continuación se detalla la tabla con las User Stories y Technical Stories completadas durante el sprint.
 
-| **Story ID** | **Story Title**                                | **Task ID** | **Task Title**                                     | **Description**                                                                                                                                                      | **Estimation (Hrs)** | **Assigned To**   | **Status** |
-|--------------|------------------------------------------------|-------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------|------------|
-| **US-04**    | Ver y descargar póliza                         | W-68      | Endpoint de obtención de póliza (GET /api/policy) | Implementar servicio que retorna póliza activa del usuario, incluyendo detalles y validaciones de vigencia.                                                         | 3                     | Héctor Ríos       | Done       |
-|              |                                                | W-69       | Generación PDF de póliza                           | Crear generador PDF con datos dinámicos (usuario, plan, fechas, firma digital). Integración con descarga segura.                                                    | 2                     | José Pariona       | Done       |
-|              |                                                | W-70       | Integración UI botón “Descargar póliza”           | Conectar frontend a endpoint PDF y validar comportamiento para pólizas caducadas.                                                                                   | 2                     | Jude Hermoza       | Done       |
-| **US-05**    | Selección y compra de plan                     | W-71       | Endpoint compra de plan (POST /api/plans/purchase) | Implementar compra en línea para Plan Básico y Premium, validación de pago y activación inmediata.                                                                  | 3                     | Héctor Ríos       | Done       |
-|              |                                                | W-72       | Validación pasarela + estados de pago              | Gestionar transacciones fallidas, pendientes y exitosas; registrar resultado en BD.                                                                                  | 2                     | Carlo Patricio       | Done       |
-| **US-06**    | Upgrade/downgrade de plan                      | W-73       | Endpoint upgrade/downgrade (PATCH /api/plans)      | Implementar cambio de plan, reglas de restricción para downgrade y prorrateo en transición.                                                                          | 3                     | Héctor Ríos       | Done       |
-|              |                                                | W-74       | Ajuste de beneficios y persistencia                | Actualizar beneficios del usuario y registrar histórico de cambios de plan.                                                                                         | 2                     | José Pariona       | Done       |
-| **US-07**    | Contratación digital con documentos            | W-75       | Validación automática de DNI y constancia          | Procesar imágenes, validar legibilidad, tipo y requisitos; retorno de aprobación o solicitud de reenvío.                                                             | 3                     | Héctor Ríos       | Done       |
-|              |                                                | W-76       | Endpoint de carga documental (POST /api/documents) | Recibir archivos, almacenarlos y asociarlos al usuario. Reglas de formato, tamaño y calidad.                                                                        | 2                     | Jude Hermoza       | Done       |
-| **US-24**    |   Navegar por beneficios (scroll y accesibilidad)    | W-77      | Implementación UI de navegación accesible en beneficios | Desarrollar scroll fluido, puntos de foco accesible, navegación por teclado y mejoras de experiencia visual en la sección de beneficios.   | 4                     | Equipo Backend     | Done       |
-|              |                                                | W-78       | Pruebas de accesibilidad + QA de navegación              | Ejecutar pruebas de accesibilidad (WCAG), verificar contraste, orden de tabulación, navegación por teclado y respuesta visual adecuada.                                                                          | 2                     | Héctor Ríos       | Done       |
-| **US-26**    | Acceder al registro o inicio desde landing      | W-79       | Implementación del flujo de acceso desde landing |Conectar botones “Iniciar sesión” y “Registrarme” a sus rutas respectivas. Validar navegación desde home hacia módulos de autenticación.                               | 3                     | José Pariona       | Done       |
-|              |                                                | W-80       | Validaciones UX + manejo de estados en navegación         | Asegurar comportamiento consistente: estado cargando, manejo de errores y retorno correcto después del login o el registro.                                                            | 2                     | Jude Hermoza       | Done       |
-| **TS-04**    | Arquitectura backend limpia y modular          | W-81      | Refactorización modular avanzada                   | Mejorar separación de capas: controllers, services, repositories, DTOs y validadores.                                                                                | 3                     | Héctor Ríos       | Done       |
-|              |                                                | W-82       | Optimización de servicios transversales            | Unificar lógica compartida: manejo de archivos, autenticación, serialización y logs básicos.                                                                         | 2                     | Héctor Ríos       | Done       |
-| **TS-05**    | Modelado extendido de base de datos            | W-83       | Nuevas migraciones (pólizas, planes, documentos)   | Agregar tablas faltantes según Sprint 4: pólizas, historial de planes, documentos, transacciones.                                                                    | 3                     | José Pariona       | Done       |
-|              |                                                | W-84       | Poblar datos de prueba + validación relacional     | Insertar registros dummy y validar consistencia con JOIN, FK y relaciones 1–N & N–1.                                                                                 | 2                     | Héctor Ríos       | Done       |
-| **TS-06**    | API REST documentada y asegurada               | W-85       | Documentación en Swagger – Sprint 4                | Añadir todos los endpoints nuevos (policies, plans, documents) y actualizar ejemplos de request/response.                                                            | 2                     | Héctor Ríos       | Done       |
-|              |                                                | W-86       | Protección de rutas + pruebas JWT                  | Verificar expiración, refresh, control de roles y manejo de errores 401/403.                                                                                         | 2                     | Carlo Patricio       | Done       |
-| **TS-07**    | Sistema de notificaciones básico               | W-87       | Configurar envío de correo para pólizas/planes     | Notificar compra de plan, cambio de plan, carga documental y disponibilidad de póliza en PDF.                                                                       | 2.5                   | José Pariona       | Done       |
-|              |                                                | W-88      | Pruebas unitarias de notificaciones                | Simular eventos y comprobar envíos exitosos mediante logs y herramientas de desarrollo.                                                                              | 2                     | Jude Hermoza       | Done       |
-| **TS-09**    | Logs y monitoreo accesible                     | W-89      | Implementar logging estructurado (Sprint 4)         | Ampliar logs de APIs críticas: compra de planes, descarga de pólizas y validación de documentos.                                                                     | 2                     | Héctor Ríos       | Done       |
-|              |                                                | W-90       | Dashboard de monitoreo (errores + rendimiento)     | Revisar métricas en entorno de despliegue, capturar fallos y detectar comportamientos anómalos.                                                                     | 2                     | Héctor Ríos       | Done       |
+
+| Story ID  | Story Title                                     | Task ID | Task Title                                              | Description                                                     | Estimation (Hrs) | Assigned To    | Status |
+| --------- | ----------------------------------------------- | ------- | ------------------------------------------------------- | --------------------------------------------------------------- | ---------------- | -------------- | ------ |
+| **US-24** | Navegar por beneficios (scroll y accesibilidad) | W-77    | Implementación UI de navegación accesible en beneficios | Scroll fluido, foco accesible y mejoras visuales en beneficios. | 4                | Equipo Backend | Done   |
+| US-24     | Navegar por beneficios (scroll y accesibilidad) | W-78    | Pruebas de accesibilidad + QA de navegación             | Pruebas WCAG, contraste, tabulación y navegación por teclado.   | 2                | Héctor Ríos    | Done   |
+| US-24     | Navegar por beneficios (scroll y accesibilidad) | W-89    | Adición de atributos ARIA en componentes                | Roles, labels y ARIA para accesibilidad en tarjetas y UI.       | 2                | Jude Hermoza   | Done   |
+| **US-26** | Acceder al registro o inicio desde landing      | W-79    | Implementación del flujo de acceso                      | Conectar botones desde landing hacia login/registro.            | 3                | José Pariona   | Done   |
+| US-26     | Acceder al registro o inicio desde landing      | W-80    | Validaciones UX + manejo de estados                     | Manejo de loading, errores y retorno post login/registro.       | 2                | Jude Hermoza   | Done   |
+| US-26     | Acceder al registro o inicio desde landing      | W-90    | Actualización/redirección Landing page                  | Ajuste de contenido y routing posterior al login.               | 2                | Carlo Patricio | Done   |
+| **TS-04** | Arquitectura backend limpia y modular           | W-81    | Refactorización modular avanzada                        | Separación en controllers, services, repositories y DTOs.       | 3                | Héctor Ríos    | Done   |
+| TS-04     | Arquitectura backend limpia y modular           | W-82    | Optimización de servicios transversales                 | Unificación de lógica compartida (archivos, auth, logs).        | 2                | Héctor Ríos    | Done   |
+| **TS-06** | API REST documentada y asegurada                | W-85    | Documentación en Swagger Sprint 4                       | Incorporar endpoints (policies, plans, documents).              | 2                | Héctor Ríos    | Done   |
+| TS-06     | API REST documentada y asegurada                | W-86    | Protección de rutas + JWT testing                       | Roles, expiración, refresh y códigos 401/403.                   | 2                | Carlo Patricio | Done   |
+| **TS-08** | Implementación de ACL y autorización            | W-91    | Implementación sistema ACL                              | Roles, permisos y control de acceso en endpoints críticos.      | 4                | Héctor Ríos    | Done   |
+| TS-08     | Implementación de ACL y autorización            | W-92    | Middleware de autorización y excepciones                | Validación de permisos + manejo centralizado de errores.        | 3                | Carlo Patricio | Done   |
+| **TS-09** | Calculadora de reembolso mejorada               | W-93    | Mejora del algoritmo de reembolso                       | Optimización para planes, topes y coaseguros.                   | 3                | José Pariona   | Done   |
+| TS-09     | Calculadora de reembolso mejorada               | W-94    | Validación y testing edge cases                         | Pruebas unitarias para montos máximos y casos límite.           | 2.5              | Héctor Ríos    | Done   |
+| **TS-10** | Globalización y traducciones backend            | W-95    | Implementación i18n en backend                          | Soporte para mensajes ES/EN en API.                             | 3                | José Pariona y Carlo Ramirez  | Done   |
+| TS-10     | Globalización y traducciones backend            | W-96    | Adición de traducciones y validaciones                  | Traducciones para errores y responses.                          | 2                | Jude Hermoza   | Done   |
 
 
 ##### 5.2.4.4 Development Evidence for Sprint Review
