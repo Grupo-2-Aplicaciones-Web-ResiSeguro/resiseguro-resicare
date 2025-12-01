@@ -177,18 +177,62 @@ Aqui se pueden aprecion todos los commits hechos en la TB2 evidenciando el traba
 
 **Insights Readme**
 
-Informe:
+**Informe:**
 <p align="center">
   <img src="./assets/insightssprint4final.png" alt="swagerendpoints" width="800">
 </p>
 
+<br>
 
-**Network Readme**
-Informe:
+**Landing:**
+<br>
 <p align="center">
-  <img src="./assets/networksprint4final.png" alt="swagerendpoints" width="800">
+  <img src="./assets/insightslandingfinal.png" alt="swagerendpoints" width="800">
 </p>
 
+<br>
+
+**Frontend:**
+<br>
+
+<p align="center">
+  <img src="./assets/insightsfrontendfinal.png" alt="swagerendpoints" width="800">
+</p>
+
+<br>
+
+**Backend:**
+<br>
+
+<p align="center">
+  <img src="./assets/insightsbackendfinal.png" alt="swagerendpoints" width="800">
+</p>
+
+<br>
+
+**Network Readme**
+**Informe:**
+<p align="center">
+  <img src="./assets/networksprint4final.png" alt="swagerendpoints" width="800">
+</p> 
+
+**Landing:**
+<br>
+<p align="center">
+  <img src="./assets/networklandingfinal.png" alt="swagerendpoints" width="800">
+</p> 
+<br>
+
+**Frontend:**
+<p align="center">
+  <img src="./assets/networkfrontendfinal.png" alt="swagerendpoints" width="800">
+</p> 
+<br>
+**Backend:**
+<p align="center">
+  <img src="./assets/networkbackendfinal.png" alt="swagerendpoints" width="800">
+</p> 
+<br> 
 
 # Tabla de Contenidos
 
@@ -3392,6 +3436,33 @@ Durante el Sprint 4, el equipo de desarrollo trabajó de manera colaborativa par
   <img src="./assets/insightssprint4final.png" alt="swagerendpoints" width="800">
 </p>
 
+<br>
+
+**Landing:**
+<br>
+<p align="center">
+  <img src="./assets/insightslandingfinal.png" alt="swagerendpoints" width="800">
+</p>
+
+<br>
+
+**Frontend:**
+<br>
+
+<p align="center">
+  <img src="./assets/insightsfrontendfinal.png" alt="swagerendpoints" width="800">
+</p>
+
+<br>
+
+**Backend:**
+<br>
+
+<p align="center">
+  <img src="./assets/insightsbackendfinal.png" alt="swagerendpoints" width="800">
+</p>
+
+<br>
 
 ## 5.3 Validation interviews
 
