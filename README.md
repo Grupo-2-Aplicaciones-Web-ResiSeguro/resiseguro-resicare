@@ -3033,7 +3033,7 @@ Uso actualizado de excepciones por middelware
 <br>
 Ingreso al registro desde la landing page:
 <p align="center">
-  <img src="./assets/landingexecutionevidencefinal1.jpg" alt="SwaggerAuth" width="600">
+  <img src="./assets/landingecutionevidencefinal1.jpg" alt="SwaggerAuth" width="600">
 </p>
 <p align="center">
   <img src="./assets/landingexecutionevidencefinal2.jpg" alt="SwaggerAuth" width="600">
@@ -3245,7 +3245,7 @@ Ingreso al registro desde la landing page:
 **LANDING PAGE**
 <br>
 Para despegar la landing page, se utiliza GitHub Pages:
-  <img src = "/assets/landingdeployfinal1" width = "450">
+  <img src = "/assets/landingdeployfinal1.jpg" width = "450">
   <br>
 Para crear la Organización en Github seguimos los siguientes pasos:
   <img src = "./assets/github1.png" width = "500">
