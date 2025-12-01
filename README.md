@@ -2999,6 +2999,24 @@ A continuación se detalla la tabla con las User Stories y Technical Stories com
 <br>
 Uso de atributos aria y conrrección de la calculadora
 <br>
+
+<p align="center">
+  <img src="./assets/backendexecutionevidencefinal1.jpg" alt="SwaggerAuth" width="600">
+</p>
+
+<p align="center">
+  <img src="./assets/frontendexecutionevidencefinal4.jpg" alt="SwaggerAuth" width="600">
+</p>
+<p align="center">
+  <img src="./assets/frontendexecutionevidencefinal5.jpg" alt="SwaggerAuth" width="600">
+</p>
+<br>
+
+**BackEnd:**
+<br>
+Uso actualizado de excepciones por middelware
+<br>
+
 <p align="center">
   <img src="./assets/frontendexecutionevidencefinal1.jpg" alt="SwaggerAuth" width="600">
 </p>
@@ -3009,24 +3027,8 @@ Uso de atributos aria y conrrección de la calculadora
   <img src="./assets/frontendexecutionevidencefinal3.jpg" alt="SwaggerAuth" width="600">
 </p>
 <p align="center">
-  <img src="./assets/frontendexecutionevidencefinal4.jpg" alt="SwaggerAuth" width="600">
-</p>
-<p align="center">
-  <img src="./assets/frontendexecutionevidencefinal5.jpg" alt="SwaggerAuth" width="600">
-</p>
-<p align="center">
   <img src="./assets/frontendexecutionevidencefinal6.jpg" alt="SwaggerAuth" width="600">
 </p>
-<br>
-
-**BackEnd:**
-<br>
-Uso actualizado de excepciones por middelware
-<br>
-<p align="center">
-  <img src="./assets/backendexecutionevidencefinal1.jpg" alt="SwaggerAuth" width="600">
-</p>
-
 <br>
 
 **Landing:**
