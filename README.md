@@ -2463,7 +2463,7 @@ Link: https://trello.com/invite/b/68c60b3efa155e0e9894f3ac/ATTI6482172f02c299d15
 Durante la realización de este sprint se logró elaborar los CRUDS correspondientes a las vistas correspondientes a las stories. Donde se incluyen opciones de creación y edición de elementos, así como sus información correspondiente, brindando así una nueva perspectiva del producto que se está desarrollando. En este Sprint, nuestro equipo ha conseguido completar y desplegar la Landing Page y el Front End. A continuación, se mostrará los screens sacasdos desde la web: 
 Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/resicare-landing-page/
 <br>
-Link del Front End desplegada: https://resicare-frontend.vercel.app/
+Link del Front End desplegada: https://resicare-frontend-psi.vercel.app/
 <br>
 **Landing  Page:**
 <p align="center">
@@ -2570,7 +2570,7 @@ Durante este sprint, se avanzó significativamente en la implementación de los 
 
 Link de la Landing Page desplegada: https://grupo-2-aplicaciones-web-resiseguro.github.io/resicare-landing-page/ 
 <br>
-Link del Front End desplegada: https://resicare-frontend.vercel.app/
+Link del Front End desplegada: https://resicare-frontend-psi.vercel.app/
 <br>
 
 <p align="center">
@@ -3279,7 +3279,7 @@ Link de la Landing Page desplegada:  https://grupo-2-aplicaciones-web-resiseguro
 
 **FRONTEND**
 <br>
-Link del Front End desplegada: https://resicare-frontend.vercel.app/
+Link del Front End desplegada: https://resicare-frontend-psi.vercel.app/
 <br>
 
 <p align="center">
