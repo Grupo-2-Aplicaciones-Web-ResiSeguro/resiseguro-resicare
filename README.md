@@ -7,7 +7,7 @@
 </h1>
 
 <h3 align="center">
-    Carrera: Ingeniería de Software
+    Carrera: Ingeniería de Softwarehttps://youtu.be/Lt0WTiBTCa8?si=A4pyNX0MHF2Rx-6i
     <br> <br>
     Curso: 1ASI0730 - Aplicaciones Web
     <br> <br>
@@ -3710,6 +3710,21 @@ Esta estructura permitirá escalar los bounded contexts de forma independiente (
 
 - Adoptar buenas prácticas de accesibilidad (contraste de colores, etiquetas, navegación con teclado). Añadir feedback visual en acciones críticas (confirmaciones, loaders, toasts).
 
+VIDEO ABOUT THE TEAM:
+
+<p align="center">
+  <img src="./assets/videoabouttheproduct.png" alt="contributorsfrontend" width="800">
+</p>
+
+**Link del VIDEO ABOUT THE TEAM:**
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119257_upc_edu_pe/IQAAyUwiRND9RLzubTJfFbJmAeMTEPWSiWkSfBhs30Mid7c?e=fNvReV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<br>
+
+**Link de Youtube incrustado en la Landing Page:**
+<br>
+https://youtu.be/Lt0WTiBTCa8?si=A4pyNX0MHF2Rx-6i
+Duracion: 7 minutos con 58 segundos 
 ## 7. Bibliografía
 
 Insurama. (s. f.). Todos tus dispositivos protegidos. https://insurama.pe/
@@ -3719,3 +3734,14 @@ Pacífico Seguros. (s. f.). Seguros : Pacífico Perú. Recuperado de https://www
 PAC&ds_rl=1273039&ds_rl=1275782&gad_campaignid=1618912959
 
 ## 8. Anexos
+
+
+**VIDEO ABOUT THE PRODUCT:**
+<br>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119257_upc_edu_pe/IQCWWAU44HdDTb1oefYNjzKDAW3eLLM37EQ4Y3zP0X1mp1Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ut4FgR
+<br>
+**VIDEO ABOUT THE TEAM:**
+<br>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119257_upc_edu_pe/IQAAyUwiRND9RLzubTJfFbJmAeMTEPWSiWkSfBhs30Mid7c?e=fNvReV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
