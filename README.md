@@ -2994,6 +2994,51 @@ A continuación se detalla la tabla con las User Stories y Technical Stories com
 
 ##### 5.2.4.5 Execution Evidence for Sprint Review
 
+
+**FrontEnd:**
+<br>
+Uso de atributos aria y conrrección de la calculadora
+<br>
+<p align="center">
+  <img src="./assets/frontendexecutionevidencefinal1.jpg" alt="SwaggerAuth" width="600">
+</p>
+<p align="center">
+  <img src="./assets/frontendexecutionevidencefinal2.jpg" alt="SwaggerAuth" width="600">
+</p>
+<p align="center">
+  <img src="./assets/frontendexecutionevidencefinal3.jpg" alt="SwaggerAuth" width="600">
+</p>
+<p align="center">
+  <img src="./assets/frontendexecutionevidencefinal4.jpg" alt="SwaggerAuth" width="600">
+</p>
+<p align="center">
+  <img src="./assets/frontendexecutionevidencefinal5.jpg" alt="SwaggerAuth" width="600">
+</p>
+<p align="center">
+  <img src="./assets/frontendexecutionevidencefinal6.jpg" alt="SwaggerAuth" width="600">
+</p>
+<br>
+
+**BackEnd:**
+<br>
+Uso actualizado de excepciones por middelware
+<br>
+<p align="center">
+  <img src="./assets/backendexecutionevidencefinal1.jpg" alt="SwaggerAuth" width="600">
+</p>
+
+<br>
+
+**Landing:**
+<br>
+Ingreso al registro desde la landing page:
+<p align="center">
+  <img src="./assets/landingexecutionevidencefinal1.jpg" alt="SwaggerAuth" width="600">
+</p>
+<p align="center">
+  <img src="./assets/landingexecutionevidencefinal2.jpg" alt="SwaggerAuth" width="600">
+</p>
+
 ##### 5.2.4.6 Services Documentation Evidence for Sprint Review
 
 ### Auth / Users
@@ -3200,7 +3245,7 @@ A continuación se detalla la tabla con las User Stories y Technical Stories com
 **LANDING PAGE**
 <br>
 Para despegar la landing page, se utiliza GitHub Pages:
-  <img src = "/assets/hostweb.png" width = "450">
+  <img src = "/assets/landingdeployfinal1" width = "450">
   <br>
 Para crear la Organización en Github seguimos los siguientes pasos:
   <img src = "./assets/github1.png" width = "500">
@@ -3214,7 +3259,8 @@ Para crear la Organización en Github seguimos los siguientes pasos:
 </p>
 
 Para nuestro proyecto se creo 1 repositorio de nombre **Landing-Page**, el cual usamos para subir la landing page y desarrollar continuamente el informe del proyecto.
-Link de la Landing Page desplegada: 
+Link de la Landing Page desplegada:  https://grupo-2-aplicaciones-web-resiseguro.github.io/resicare-landing-page/
+
 
 <br>
 
