@@ -177,7 +177,18 @@ Aqui se pueden aprecion todos los commits hechos en la TB2 evidenciando el traba
 
 **Insights Readme**
 
+Informe:
+<p align="center">
+  <img src="./assets/insightssprint4final.png" alt="swagerendpoints" width="800">
+</p>
+
+
 **Network Readme**
+Informe:
+<p align="center">
+  <img src="./assets/networksprint4final.png" alt="swagerendpoints" width="800">
+</p>
+
 
 # Tabla de Contenidos
 
@@ -3370,7 +3381,16 @@ Backend:
 
 
 ##### 5.2.4.8 Team Collaboration Insights during Sprint
+<br>
+Durante el Sprint 4, el equipo de desarrollo trabajó de manera colaborativa para implementar las funcionalidades clave de las versiones finales tanto Landing Page, Informe, Frontend y Backend. A través de reuniones periódicas en Discord, se lograron coordinar de manera eficiente las tareas asignadas a cada miembro del equipo. A continuación, se presenta un resumen de las actividades y la colaboración del equipo. 
+<br>
 
+**Informe:**
+<br>
+
+<p align="center">
+  <img src="./assets/insightssprint4final.png" alt="swagerendpoints" width="800">
+</p>
 
 
 ## 5.3 Validation interviews
