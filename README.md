@@ -3597,27 +3597,35 @@ Arleth Alessandra Pantoja brinda su perspectiva sobre la plataforma web ResiCare
 ## Site o App a Evaluar
 
 **Nombre:** ResiCare  
+**Grupo que evaluo:** Grupo1
 **Objetivo:** Identificar problemas de usabilidad en el sistema web de gestión residencial usando la **Lista Heurística de Nielsen**.
 
 ---
 
 ## Tareas a Evaluar
 
-1. Inicio de sesión y navegación general.
-2. Creación de reclamos (Claims) y teleconsultas.
-3. Visualización y edición de perfiles, objetos y recordatorios.
+1. Registro de un nuevo usuario residente.
+2. Inicio de sesión y cierre de sesión.
+3. Cambio de idioma de la interfaz (English / Español).
+4. Navegación general desde el dashboard.
+5. Visualización y edición del perfil del usuario.
+6. Creación y revisión de reclamos (Claims).
+7. Gestión de recordatorios.
+8. Uso del simulador de seguro / calculadora de plan.
+9. Reserva de una teleconsulta.
 
 ---
 
-## Problemas Detectados (Versión Reducida)
+## Tabla Resumen de Problemas
 
-| # | Problema Detectado | Heurística Violada | Severidad |
-|---|---|---|---|
-| 1 | **Falta de orientación en formularios** (Claims, Teleconsultas): no se indica qué información se espera ni qué sucede al enviarlos. | **Coincidencia con el mundo real / Ayuda y documentación** | **3** |
-| 2 | **Interfaz poco dinámica y sin elementos interactivos** que mantengan el interés del usuario. | **Estética y diseño minimalista / Flexibilidad y eficiencia de uso** | **2** |
-| 3 | **Dificultad para reconocer la sección activa** en el panel lateral, lo que genera desorientación. | **Visibilidad del estado del sistema** | **2** |
+| # | Problema | Escala de severidad | Heurística / Principio violado(a) |
+|---|----------|---------------------|-----------------------------------|
+| 1 | Texto blanco sobre fondo claro en campos de registro y perfil; título “My profile” con texto oscuro sobre fondo oscuro. | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 2 | Opciones de Historial de reclamos, Prevenciones y recordatorios, Simulador de reembolso y Teleconsulta casi ilegibles (texto blanco sobre fondo blanco). | 4 | Usability: Visibilidad y legibilidad de la información |
+| 3 | No se distingue claramente qué botones son clickeables en los formularios. | 2 | Usability: Reconocimiento antes que recuerdo |
 
 ---
+
 
 ## Escala de Severidad
 
@@ -3630,43 +3638,41 @@ Arleth Alessandra Pantoja brinda su perspectiva sobre la plataforma web ResiCare
 
 ---
 
-## Análisis Heurístico Detallado
+## Descripción de Problemas
 
-###  Problema #01: Falta de orientación en formularios (Claims y Teleconsultas)
+### PROBLEMA #1: Contraste insuficiente en formularios y título “My profile”
 **Severidad:** 3  
-**Heurística violada:** Coincidencia con el mundo real / Ayuda y documentación
+**Heurística violada:** Inclusive Design – Proporciona experiencias comparables
 
-**Descripción:**  
-Los formularios no brindan ejemplos ni aclaraciones sobre el tipo de información esperada, ni muestran mensajes claros al completar o enviar. Esto puede generar incertidumbre y errores de ingreso.
+**Problema:**  
+En los formularios de registro y edición de perfil se utilizan campos con texto blanco sobre fondos muy claros, lo que reduce el contraste y dificulta la lectura de la información. Además, en la pantalla de perfil el título **“My profile”** aparece con texto oscuro sobre un fondo oscuro del encabezado, por lo que el título casi no se distingue. En ambos casos, el usuario debe esforzarse para leer y verificar su información, afectando la accesibilidad y la experiencia general.
 
 **Recomendación:**  
-Agregar placeholders con ejemplos (“Describe el incidente…”), marcar campos obligatorios, mostrar validaciones en tiempo real y mensajes claros tras el envío.
+Ajustar los colores de texto y fondo para garantizar un contraste suficiente (por ejemplo, siguiendo las recomendaciones WCAG AA), usando texto claro sobre fondo oscuro o texto oscuro sobre fondo claro de forma consistente, y revisar específicamente el encabezado de “My profile” para que el título sea claramente legible.
 
 ---
 
-### Problema #02: Interfaz poco dinámica e interacción limitada
-**Severidad:** 2  
-**Heurística violada:** Estética y diseño minimalista / Flexibilidad y eficiencia de uso
+### PROBLEMA #2: Opciones de navegación casi ilegibles en secciones clave
+**Severidad:** 4  
+**Heurística violada:** Usability – Visibilidad y legibilidad de la información
 
-**Descripción:**  
-El entrevistado destacó que la interfaz es clara y funcional, pero **sugirió incorporar elementos visuales o interactivos** que hagan la experiencia más dinámica (por ejemplo, animaciones suaves o imágenes complementarias). Esto indica que la aplicación cumple con la funcionalidad, pero carece de estímulos visuales que mejoren la percepción de modernidad y fluidez.
+**Problema:**  
+Los botones u opciones de **Historial de reclamos, Prevenciones y recordatorios, Simulador de reembolso y Teleconsulta** muestran texto blanco sobre un fondo muy claro o blanco, lo que los hace casi ilegibles. Esto provoca que el usuario no identifique claramente estas funcionalidades, pudiendo pasar desapercibidas o interpretarse como elementos inactivos, lo que limita el acceso a secciones importantes de la app.
 
 **Recomendación:**  
-Incluir **pequeñas animaciones o microinteracciones** (feedback visual en botones, transiciones suaves), así como **imágenes o íconos ilustrativos** que acompañen las acciones principales sin sobrecargar la interfaz. Esto mantiene la claridad visual mientras aumenta el compromiso del usuario.
+Rediseñar estos botones para asegurar un contraste adecuado entre texto y fondo, aplicando un estilo coherente con el resto de la interfaz (por ejemplo, un color sólido de fondo con texto en alto contraste) y verificando la legibilidad en distintas resoluciones y dispositivos.
 
 ---
 
-###  Problema #03: Dificultad para reconocer la sección activa
+### PROBLEMA #3: Falta de indicación visual clara de botones clickeables
 **Severidad:** 2  
-**Heurística violada:** Visibilidad del estado del sistema
+**Heurística violada:** Usability – Reconocimiento antes que recuerdo
 
-**Descripción:**  
-El menú lateral no resalta con suficiente contraste la sección donde se encuentra el usuario, lo que genera confusión durante la navegación.
+**Problema:**  
+En los formularios de la aplicación, varios botones tienen un estilo muy similar al del texto normal u otros elementos no interactivos. No hay una señal visual suficientemente clara que indique que esos elementos son botones clickeables (por ejemplo, no se diferencian por color, borde o forma). Como resultado, el usuario no puede reconocer de inmediato qué puede presionar y qué no, y debe aprenderlo por prueba y error, incrementando la carga cognitiva.
 
 **Recomendación:**  
-Usar un color o marcador activo, título de sección visible y breadcrumbs simples para orientar al usuario.
-
-
+Definir un estilo visual consistente y distintivo para todos los botones (forma, color, borde, relleno, efecto *hover*, cambio de cursor), de modo que se reconozcan al instante como elementos clickeables. Esto permite que el usuario identifique las acciones disponibles sin necesidad de recordar reglas internas del sistema ni experimentar con cada elemento.
 
 ## 5.4 Video About-the-Product
 
