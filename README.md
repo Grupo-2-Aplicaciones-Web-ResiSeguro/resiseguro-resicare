@@ -3594,10 +3594,11 @@ Arleth Alessandra Pantoja brinda su perspectiva sobre la plataforma web ResiCare
 
 ### 5.3.3 Evaluaciones según heurísticas
 
+#### Grupo que evaluo: Grupo 1
+
 ## Site o App a Evaluar
 
-**Nombre:** ResiCare  
-**Grupo que evaluo:** Grupo1
+**Nombre:** ResiCare
 **Objetivo:** Identificar problemas de usabilidad en el sistema web de gestión residencial usando la **Lista Heurística de Nielsen**.
 
 ---
